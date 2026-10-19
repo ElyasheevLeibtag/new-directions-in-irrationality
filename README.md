@@ -86,18 +86,4 @@ local inputs. Do not use `-O`, `-OO` or `PYTHONOPTIMIZE`, which disable
 assertions. See [REPRODUCING.md](REPRODUCING.md) for individual commands,
 outputs, environments and verification limits.
 
-## Package status
 
-The package includes three Lean source snapshots (256 `.lean` files),
-with exact upstream revisions and dependency pins. Their statements and
-explicit prime-number-theorem assumptions are documented in the
-[Lean guide](lean/README.md). They have not been independently rebuilt here.
-The public paper repository is [ElyasheevLeibtag/new-directions-in-irrationality](https://github.com/ElyasheevLeibtag/new-directions-in-irrationality).
-The Zenodo DOI and reuse license remain to be finalized. This package is
-ready for a Zenodo draft; no DOI is invented.
-See [RELEASE_NOTES.md](RELEASE_NOTES.md) and [LICENSE_STATUS.md](LICENSE_STATUS.md).
-
-The manuscript in `manuscript/` is an unmodified source snapshot. The package
-does not silently replace or endorse its wording, historical references or
-formal-verification claims. The input archive hashes and curation decisions
-are recorded in [provenance/README.md](provenance/README.md).
