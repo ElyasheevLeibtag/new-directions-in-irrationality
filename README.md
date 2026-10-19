@@ -23,6 +23,33 @@ computational ingredients; it is not a complete formal verification of the
 paper. Exact identities, exhaustive finite certificates and finite examples
 are distinguished in the notebooks.
 
+## Lean source revisions and recorded dates
+
+The Lean files are unchanged copies of the following original revisions.
+The full commit identifiers and dependency pins are recorded in
+[the upstream revision record](provenance/lean_upstreams.json); individual
+file hashes are in [the source map](provenance/lean_file_origins.json).
+
+| Original project / public source copy | Original commit | Recorded commit date (UTC) |
+|---|---|---|
+| [meijerg_zeta3_zeta4](lean/meijerg_zeta3_zeta4/) | `639a790897ec` | 13 October 2026, 19:40:07 |
+| [zeta2_four_trajectory_matrices](lean/zeta2_four_trajectory_matrices/) | `a0e8ac417cdd` | 13 October 2026, 08:59:32 |
+| [zetas_irr](lean/zetas_irr/) | `d9d52233b153` | 13 October 2026, 08:51:30 |
+
+These dates are the timestamps recorded in the original Git commits. They
+identify the selected source revisions; they are not independently certified
+proof-completion dates or evidence of public availability on those dates.
+Git allows commit dates to be specified by their creator; see the
+[Git documentation](https://git-scm.com/docs/git-commit#_commit_information).
+
+This paper repository was first published on **19 October 2026**. The three
+original RamanujanMachine repositories and their histories remain private.
+This public repository contains attributed source snapshots, not GitHub
+forks or imported copies of the full upstream histories. All Lean source
+files, Lake configuration files and pinned dependency manifests needed for
+the documented build procedures are included. See the [Lean guide](lean/README.md)
+for the exact theorem statements, assumptions and build status.
+
 ## Reading the supplement
 
 Start with [the notebook guide](python/00_guide.ipynb), then follow the three
