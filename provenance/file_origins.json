@@ -1,0 +1,1032 @@
+{
+  ".gitignore": {
+    "status": "new_release_material"
+  },
+  "CITATION.cff": {
+    "status": "new_release_material"
+  },
+  "COVERAGE.md": {
+    "status": "new_release_material"
+  },
+  "LICENSE_STATUS.md": {
+    "status": "new_release_material"
+  },
+  "MANUSCRIPT_ALIGNMENT.md": {
+    "status": "new_release_material"
+  },
+  "README.md": {
+    "status": "new_release_material"
+  },
+  "RELEASE_NOTES.md": {
+    "status": "new_release_material"
+  },
+  "REPRODUCING.md": {
+    "status": "new_release_material"
+  },
+  "VERIFICATION.md": {
+    "status": "new_release_material"
+  },
+  "additional/README.md": {
+    "status": "new_release_material"
+  },
+  "additional/analytic/verify_4f3_meijerg_coboundary.py": {
+    "status": "adapted",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/RotemCodes/verify_4f3_meijerg_coboundary .py"
+  },
+  "additional/analytic/verify_5f4_meijerg_recessive.py": {
+    "status": "adapted",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/RotemCodes/verify_5f4_meijerg_recessive (1).py"
+  },
+  "additional/gregory/gregory_certificate.json": {
+    "status": "new_release_material"
+  },
+  "additional/gregory/verify_gregory.py": {
+    "status": "new_release_material"
+  },
+  "additional/pi_integrals/README.txt": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/certificates/pi_integrals/README.txt"
+  },
+  "additional/pi_integrals/pi_I_axis_certificate.json": {
+    "status": "unchanged_copy",
+    "sha256": "f070820107a70364e60db85b8734d691a76506bc2cb63d5bde4bd8f10bb67b7c",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_axis_certificate.json"
+      }
+    ]
+  },
+  "additional/pi_integrals/pi_I_axis_certificate.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_axis_certificate.py"
+  },
+  "additional/pi_integrals/pi_I_axis_original.py": {
+    "status": "unchanged_copy",
+    "sha256": "a7917e25485211b550b8a877107f2be55982dee1adb9dedb85a8fc8f193de0ef",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_axis_original.py"
+      }
+    ]
+  },
+  "additional/pi_integrals/pi_I_initial_check.json": {
+    "status": "unchanged_copy",
+    "sha256": "0e261fb7ae7827731e4e6ebe9ca609b864f5b2db11fb628c9d807e84ef16990d",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_initial_check.json"
+      }
+    ]
+  },
+  "additional/pi_integrals/pi_I_initial_check.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_initial_check.py"
+  },
+  "additional/pi_integrals/pi_I_uniqueness_check.json": {
+    "status": "unchanged_copy",
+    "sha256": "2532b1476d6a3c6a5900fc150d3956113ced201a023c21a3bd23a2798d98605f",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_uniqueness_check.json"
+      }
+    ]
+  },
+  "additional/pi_integrals/pi_I_uniqueness_check.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "New_Directions_In_Irrationality___Focused.zip",
+    "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_I_uniqueness_check.py"
+  },
+  "additional/pi_integrals/pi_K_seed_check.json": {
+    "status": "unchanged_copy",
+    "sha256": "67e42f3237b017651fc7a760c3f5680b44b0588acd2d68ae66d9c373efab24ac",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_K_seed_check.json"
+      }
+    ]
+  },
+  "additional/pi_integrals/pi_K_seed_check.py": {
+    "status": "unchanged_copy",
+    "sha256": "c717d5ad2350ec4e504da4891335e1a5117ab4aef0dfb67a99b60b45b1d9afb4",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/pi_integrals/pi_K_seed_check.py"
+      }
+    ]
+  },
+  "additional/recoveries/recovery_zeta5_readout_check.json": {
+    "status": "unchanged_copy",
+    "sha256": "a3089f2d4e05612b57f992059e02c6e5e74939d822d0471c60d93ae3c83dcb85",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/recoveries/recovery_zeta5_readout_check.json"
+      }
+    ]
+  },
+  "additional/recoveries/recovery_zeta5_readout_check.py": {
+    "status": "unchanged_copy",
+    "sha256": "26a6fb1339532b5318ad3745e5a73a8cfb12d02f0ecc9ad0fd0dbe4c8b448b0e",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/certificates/recoveries/recovery_zeta5_readout_check.py"
+      }
+    ]
+  },
+  "lean/README.md": {
+    "status": "new_release_material"
+  },
+  "manuscript/README.md": {
+    "status": "new_release_material"
+  },
+  "manuscript/RECOMMENDED_CHANGES.patch": {
+    "status": "new_release_material"
+  },
+  "manuscript/figures/cmf_figure.pdf": {
+    "status": "unchanged_copy",
+    "sha256": "65198e7a99ecf2c1dad73456d96a16217829f4284ff4205b79ca732c45ff1525",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/cmf_figure.pdf"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/catalan.png": {
+    "status": "unchanged_copy",
+    "sha256": "df9e3e90eb08f3032e98b023ad596451a8c48e3912fb4d5aafe79b7e0c55dc33",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/catalan.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/cbrt_e.png": {
+    "status": "unchanged_copy",
+    "sha256": "67a1fe97658bae98490c5d5bfd433e23ae62c2429c115fc8e6d6ac05e3e493e8",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/cbrt_e.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/e.png": {
+    "status": "unchanged_copy",
+    "sha256": "4be76491f7bc9d4f5d76f8c53581c51fb60f8cb42df899d1064afcf6d84de833",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/e.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/e_squared.png": {
+    "status": "unchanged_copy",
+    "sha256": "34c8c65077d83c5ec813ae7707b086f0a40df6b21829f00aa9f28109bee8a02b",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/e_squared.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/euler_gamma.png": {
+    "status": "unchanged_copy",
+    "sha256": "ce0f44f1740b818bf8aa2f02b484cba6892ee5685f08bad93748cc23c4b4c56a",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/euler_gamma.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/log2.png": {
+    "status": "unchanged_copy",
+    "sha256": "6c3d135b9ece4a19a60db8c2e6f2bd43ad5a3ec18c066a2fb323cdb3d994c622",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/log2.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/log3.png": {
+    "status": "unchanged_copy",
+    "sha256": "7ca1a09dfdb0e937cc491e4008be31fac02e6685e32e486e0b020a0427ee2faa",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/log3.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/pi.png": {
+    "status": "unchanged_copy",
+    "sha256": "4c5aa427f465da2c33b2d28f8763f0bbc138d7cae961bcff6f9708bdfa9094f5",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/pi.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/pi_sqrt3.png": {
+    "status": "unchanged_copy",
+    "sha256": "3421f2d713c6ae81a70d65aae0394bf7c63a7667fed06db2f1fb6f415626ece9",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/pi_sqrt3.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/sqrt_e.png": {
+    "status": "unchanged_copy",
+    "sha256": "92a933a1699cb13acb612c040533ff74ab5c6b73da26181a6bcdceaae0441d5d",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/sqrt_e.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/zeta2.png": {
+    "status": "unchanged_copy",
+    "sha256": "b486dea0df340044b7618d13c441c77fef43f11e40755ae1ca512712140d1018",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/zeta2.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/zeta2_zeta3.png": {
+    "status": "unchanged_copy",
+    "sha256": "178b0164f0ea4a947029b05e6b3feff5992f29a37b4588b99e6974ab5574335f",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/zeta2_zeta3.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_convergence_figs/zeta3.png": {
+    "status": "unchanged_copy",
+    "sha256": "3229728c73012e345eedca0af83a7aa630ed18d6bd18077190a4e4dc6075b4cd",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_convergence_figs/zeta3.png"
+      }
+    ]
+  },
+  "manuscript/figures/delta_vs_M_three_bands_paper.pdf": {
+    "status": "unchanged_copy",
+    "sha256": "72dd83d6d182960b2f45f9bb0fd18948520c353eb1433c170d6140ee603a4a09",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/figures/delta_vs_M_three_bands_paper.pdf"
+      }
+    ]
+  },
+  "manuscript/main.tex": {
+    "status": "unchanged_copy",
+    "sha256": "5b8493bd9e81c9e07a3bc9257fc7e0540d69b17d8f01f1b76b3e861d8f6160e7",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/main.tex"
+      }
+    ]
+  },
+  "manuscript/preamble.sty": {
+    "status": "unchanged_copy",
+    "sha256": "1e9a5daa8509001c5ff0ef69ac1ae26083030e285a94c0fc73e8942e21013468",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/preamble.sty"
+      }
+    ]
+  },
+  "manuscript/references.bib": {
+    "status": "unchanged_copy",
+    "sha256": "45d1bce3b740de0a996e62659d99284e4855368b6882aeb60368c468b0aa6623",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/references.bib"
+      }
+    ]
+  },
+  "provenance/README.md": {
+    "status": "new_release_material"
+  },
+  "provenance/input_archives.json": {
+    "status": "new_release_material"
+  },
+  "provenance/manuscript_changes.json": {
+    "status": "new_release_material"
+  },
+  "python/00_guide.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/00_guide.ipynb"
+  },
+  "python/NOTATION_AND_SCOPE.md": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/NOTATION_AND_SCOPE.md"
+  },
+  "python/PAPER_REFERENCES.md": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/PAPER_REFERENCES.md"
+  },
+  "python/README.md": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/README.md"
+  },
+  "python/VERIFICATION.md": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/VERIFICATION.md"
+  },
+  "python/final_bounds.py": {
+    "status": "unchanged_copy",
+    "sha256": "f276c9a60e52ffb8431989c62395699672829afdb226a7aa2af4b9589d7edca6",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/final_bounds.py"
+      }
+    ]
+  },
+  "python/joint/01_matrices_sums_and_minors.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/joint/01_matrices_sums_and_minors.ipynb"
+  },
+  "python/joint/02_recurrence_and_divisor.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/joint/02_recurrence_and_divisor.ipynb"
+  },
+  "python/joint/03_rates_and_conclusion.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/joint/03_rates_and_conclusion.ipynb"
+  },
+  "python/joint/PROVENANCE.json": {
+    "status": "unchanged_copy",
+    "sha256": "5039d60d396b362c5e0a9674cd54a921ad19ebd4d1e7b39cb0ef1a80334a4a9d",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/PROVENANCE.json"
+      }
+    ]
+  },
+  "python/joint/certificates.py": {
+    "status": "unchanged_copy",
+    "sha256": "1d00add6e28fa76e2c019bccd2c663ed98ad5e313f27df9569deab00c077a978",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/certificates.py"
+      }
+    ]
+  },
+  "python/joint/common.py": {
+    "status": "unchanged_copy",
+    "sha256": "0b3769a2f8d7d56aa6c25190dfce6739bd911c835c28d95e9122c26d007b0be3",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/common.py"
+      }
+    ]
+  },
+  "python/joint/data/dual_companion.json": {
+    "status": "unchanged_copy",
+    "sha256": "dcb26d91d8dba1db14a80f0f191bdd370ebfca03ecf92022f41c35208f22809b",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/data/dual_companion.json"
+      }
+    ]
+  },
+  "python/joint/data/dual_matrices_zeta3_4.json": {
+    "status": "unchanged_copy",
+    "sha256": "1c54a883d09b97f75e2a2e98631a05c81bdda15d9c1ac5937eb6861900cd9686",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/data/dual_matrices_zeta3_4.json"
+      }
+    ]
+  },
+  "python/joint/data/input_sha256.json": {
+    "status": "unchanged_copy",
+    "sha256": "18da4acb7d531f631840a50376d6334347d420735506df2fea65d62c25eef6b7",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/data/input_sha256.json"
+      }
+    ]
+  },
+  "python/joint/data/matrices_for_zeta3_4.json": {
+    "status": "unchanged_copy",
+    "sha256": "e29ceedcd808c151529ffbc69bd9e657ba6fd355373718adb274117678c0789c",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/data/matrices_for_zeta3_4.json"
+      }
+    ]
+  },
+  "python/joint/data/python_source_provenance.json": {
+    "status": "unchanged_copy",
+    "sha256": "a9dd5cb2c0576b9cfc9536e3aa07f17b2d27920077d6dd7d3bdb470fdf5e8fc6",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/data/python_source_provenance.json"
+      }
+    ]
+  },
+  "python/joint/density.py": {
+    "status": "unchanged_copy",
+    "sha256": "71a698a8ba845a69caa88650ccc6739a9892b386a573f81acff31b9cc9b9df4e",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/density.py"
+      }
+    ]
+  },
+  "python/joint/readouts.py": {
+    "status": "unchanged_copy",
+    "sha256": "2edbc25c307dcf8d5350611604d601960fb5543bcfdce1eadf56a65cc3e30288",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/readouts.py"
+      }
+    ]
+  },
+  "python/joint/results/density_cells.csv": {
+    "status": "unchanged_copy",
+    "sha256": "e13f3f823c8a1120705cfd239626236291e5ad9c5fcdcf43c2aa12aca125d3b0",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/results/density_cells.csv"
+      }
+    ]
+  },
+  "python/joint/results/density_certificate.json": {
+    "status": "unchanged_copy",
+    "sha256": "02ea18ea6686a21326c13615132cc534ca810884fbf485bfabc2bc8e24037ca8",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/results/density_certificate.json"
+      }
+    ]
+  },
+  "python/joint/results/density_finite_primes.csv": {
+    "status": "unchanged_copy",
+    "sha256": "3308c7c8c82700dbe776edc2f6d2e521c199be5f3162bb738048ce5ec19588af",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/results/density_finite_primes.csv"
+      }
+    ]
+  },
+  "python/joint/results/joint_paper_bounds.json": {
+    "status": "unchanged_copy",
+    "sha256": "3800b46e690603bf2ac8f5ecdac051b5e381515871bb76a4c440c4db8d1d0786",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/joint/results/joint_paper_bounds.json"
+      }
+    ]
+  },
+  "python/joint/results/telescoping_certificate.json": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/joint/results/telescoping_certificate.json"
+  },
+  "python/paper_references.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/paper_references.py"
+  },
+  "python/pure_zeta3/01_pure_zeta3_approximants_and_rates.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/pure_zeta3/01_pure_zeta3_approximants_and_rates.ipynb"
+  },
+  "python/pure_zeta3/02_pure_zeta3_divisor_and_measure.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/pure_zeta3/02_pure_zeta3_divisor_and_measure.ipynb"
+  },
+  "python/pure_zeta3/PROVENANCE.json": {
+    "status": "unchanged_copy",
+    "sha256": "cf66c06dfcfb16f91c08c1718fb4e7a52ae234fa83076ba7a07a9ad4bec25e3c",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/PROVENANCE.json"
+      }
+    ]
+  },
+  "python/pure_zeta3/approximants.py": {
+    "status": "unchanged_copy",
+    "sha256": "2f28068dd3b9bed4a21e6221d857e64d89608f852b3537bfafe7eaf288013dbb",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/approximants.py"
+      }
+    ]
+  },
+  "python/pure_zeta3/chambers.py": {
+    "status": "unchanged_copy",
+    "sha256": "ab8dbb6bbc7e43d44b3ed63f1a9e0723ee40b3896cbb5d4e9409d660e4c52f11",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/chambers.py"
+      }
+    ]
+  },
+  "python/pure_zeta3/data/chamber_reference.json": {
+    "status": "unchanged_copy",
+    "sha256": "bbb7a307adb05270b57ca4684d7ee9851916fe5a53c04acd2c64799dd936136c",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/data/chamber_reference.json"
+      }
+    ]
+  },
+  "python/pure_zeta3/data/spectral_reference.json": {
+    "status": "unchanged_copy",
+    "sha256": "3a683aad5cb50e022827adf6bae55551206e4e3ae29627f64f168f4bd7c3a77c",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/data/spectral_reference.json"
+      }
+    ]
+  },
+  "python/pure_zeta3/rates.py": {
+    "status": "unchanged_copy",
+    "sha256": "e83b32a0672b4df2d477761ef85e49babf82817188a282535237f680614814e3",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/rates.py"
+      }
+    ]
+  },
+  "python/pure_zeta3/same_sums.py": {
+    "status": "unchanged_copy",
+    "sha256": "097f1775c78edbf3b4f3da64bdd52bc96adec47e3ef4ae581ac1e25c6d8e97cf",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/pure_zeta3/same_sums.py"
+      }
+    ]
+  },
+  "python/reference/arithmetic_appendices_snapshot.tex": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/reference/arithmetic_appendices_snapshot.tex"
+  },
+  "python/reference/full_paper_snapshot.tex": {
+    "status": "unchanged_copy",
+    "sha256": "5b8493bd9e81c9e07a3bc9257fc7e0540d69b17d8f01f1b76b3e861d8f6160e7",
+    "sources": [
+      {
+        "archive": "New_Directions_In_Irrationality___Focused.zip",
+        "member": "New_directions_in_irrationality/main.tex"
+      }
+    ]
+  },
+  "python/reference/numbering_convention.txt": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/reference/numbering_convention.txt"
+  },
+  "python/reference/paper_labels.json": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/reference/paper_labels.json"
+  },
+  "python/reference/paper_snapshot_provenance.json": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/reference/paper_snapshot_provenance.json"
+  },
+  "python/reference/proof_section_snapshot.tex": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/reference/proof_section_snapshot.tex"
+  },
+  "python/requirements.txt": {
+    "status": "unchanged_copy",
+    "sha256": "cfe0c8b0ae403515bb65579fe3bd6b877388771160ae9f2c02cc838039cfb4f6",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/requirements.txt"
+      }
+    ]
+  },
+  "python/run_notebooks.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/run_notebooks.py"
+  },
+  "python/verification/execution_report.json": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/verification/execution_report.json"
+  },
+  "python/verify_bundle.py": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/verify_bundle.py"
+  },
+  "python/zeta2/01_zeta2_cmf_and_closed_forms.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/01_zeta2_cmf_and_closed_forms.ipynb"
+  },
+  "python/zeta2/02_zeta2_prime_arithmetic.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/02_zeta2_prime_arithmetic.ipynb"
+  },
+  "python/zeta2/03_zeta2_rates_and_measure.ipynb": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/03_zeta2_rates_and_measure.ipynb"
+  },
+  "python/zeta2/README.md": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/README.md"
+  },
+  "python/zeta2/SOURCE_MANIFEST.json": {
+    "status": "unchanged_copy",
+    "sha256": "19b682a2ef09f3b64e150ef3047767906de2e90840289ca1f66c48962e9b9031",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/SOURCE_MANIFEST.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/analytic/analytic_certificates.json": {
+    "status": "unchanged_copy",
+    "sha256": "780114fa354ffd623acb13be0e1eea15182436fc4bdf7ed5b6ee44fc5a57471a",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/analytic/analytic_certificates.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/analytic/certify_analytic_rates.py": {
+    "status": "unchanged_copy",
+    "sha256": "e0527cbbc4e374421e51b31ea18d41ffccba2a148609689e893819d0498be019",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/analytic/certify_analytic_rates.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/chamber_certificate.json": {
+    "status": "unchanged_copy",
+    "sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/chamber_certificate.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/chamber_certificate.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/chamber_certificate.py": {
+    "status": "unchanged_copy",
+    "sha256": "ad7979786a3d02ca3baacf895f7f0846bc9d56c76e145e02a1c7991c7e46c26a",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/chamber_certificate.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/check_fifth_shell.py": {
+    "status": "unchanged_copy",
+    "sha256": "5e0db84a6d5e24a7ab8c5b4c89c5ef15a8ff0eb221232a70a0b2f23aacbca577",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/check_fifth_shell.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/check_finite_formula.py": {
+    "status": "unchanged_copy",
+    "sha256": "c0f0624cd2f02c5e33461dd7ad71b25d3740d977bc559fad1f377f15490a8b07",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/check_finite_formula.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/check_local_kernel.json": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/certificates/check_local_kernel.json"
+  },
+  "python/zeta2/certificates/check_local_kernel.py": {
+    "status": "unchanged_copy",
+    "sha256": "0dac6da60abc74536bbde948c04ea1653142219524de4c41208bf93443811b2e",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/check_local_kernel.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/check_main_shell.py": {
+    "status": "unchanged_copy",
+    "sha256": "9ce92148c510f22c764cae4600258c5caae895c9bf321696a10a5f26909d39e9",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/check_main_shell.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/check_shell_independent.py": {
+    "status": "unchanged_copy",
+    "sha256": "1f028c0c41f156c8a6f064c486791ece7b993e77686a51231e7e9587450a3dc5",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/check_shell_independent.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/core.py": {
+    "status": "unchanged_copy",
+    "sha256": "6bb4325acbd316508223351c60ca88a4c3a66424c9e5e8c1412c421e0052fdb3",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/core.py"
+      }
+    ]
+  },
+  "python/zeta2/certificates/fifth_shell_checks.json": {
+    "status": "unchanged_copy",
+    "sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/check_fifth_shell.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/fifth_shell_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/finite_formula_checks.json": {
+    "status": "unchanged_copy",
+    "sha256": "50485d79ad0d9593682599e833c7f583c3380d2e5262cd5c502f60c4a20ea098",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/finite_formula_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/independent_checks.json": {
+    "status": "unchanged_copy",
+    "sha256": "1545a1b4b6e97bea9abf9004a4b3c621d6159904edd29c4650c82b3c7c867f4e",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/independent_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/main_shell_checks.json": {
+    "status": "unchanged_copy",
+    "sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/check_main_shell.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/main_shell_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/rate_certificate.json": {
+    "status": "unchanged_copy",
+    "sha256": "097d020ad0d1fd89d6d49191221035bd27b1338379729e66eb3cffe49b798c7b",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/rate_certificate.json"
+      }
+    ]
+  },
+  "python/zeta2/certificates/rate_certificate.py": {
+    "status": "unchanged_copy",
+    "sha256": "fff5049e7130015bf2e1c5b6f05fffd1119cea0b86738d65e3ff4097a5e61c3d",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/rate_certificate.py"
+      }
+    ]
+  },
+  "python/zeta2/companion.py": {
+    "status": "unchanged_copy",
+    "sha256": "acd66af843a7f699495bb4518ae7b1deba14e26753a792740afbd1be8372fc62",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/companion.py"
+      }
+    ]
+  },
+  "python/zeta2/dual_pairing.py": {
+    "status": "unchanged_copy",
+    "sha256": "7db78ba369b985d2aca96b8509a58afa115dbaa2b8ac0da4c82d2c72137bfdf6",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/dual_pairing.py"
+      }
+    ]
+  },
+  "python/zeta2/generated/certify_analytic_rates.log": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/generated/certify_analytic_rates.log"
+  },
+  "python/zeta2/generated/chamber_certificate.log": {
+    "status": "unchanged_copy",
+    "sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/chamber_certificate.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/chamber_certificate.json"
+      }
+    ]
+  },
+  "python/zeta2/generated/check_fifth_shell.log": {
+    "status": "unchanged_copy",
+    "sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/check_fifth_shell.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/fifth_shell_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/generated/check_finite_formula.log": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/generated/check_finite_formula.log"
+  },
+  "python/zeta2/generated/check_local_kernel.log": {
+    "status": "adapted_or_regenerated",
+    "source_archive": "pythonCompanionSection6.zip",
+    "member": "cmf_python_companion_v2/zeta2/generated/check_local_kernel.log"
+  },
+  "python/zeta2/generated/check_main_shell.log": {
+    "status": "unchanged_copy",
+    "sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/check_main_shell.log"
+      },
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/certificates/main_shell_checks.json"
+      }
+    ]
+  },
+  "python/zeta2/generated/check_shell_independent.log": {
+    "status": "unchanged_copy",
+    "sha256": "49a92c075b3824435903fbfd902a76a1acae3fea3e69aa3faf2024142adb7735",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/check_shell_independent.log"
+      }
+    ]
+  },
+  "python/zeta2/generated/rate_certificate.log": {
+    "status": "unchanged_copy",
+    "sha256": "45d7bb76f04f76367bb6792ffcb1e9b22aa4f0e49291401e90f6f05231728afe",
+    "sources": [
+      {
+        "archive": "pythonCompanionSection6.zip",
+        "member": "cmf_python_companion_v2/zeta2/generated/rate_certificate.log"
+      }
+    ]
+  },
+  "requirements.txt": {
+    "status": "new_release_material"
+  },
+  "run_all.py": {
+    "status": "new_release_material"
+  },
+  "verification/environment.txt": {
+    "status": "new_release_material"
+  },
+  "verification/full_run.json": {
+    "status": "new_release_material"
+  },
+  "verification/pi_I_axis_certificate.log": {
+    "status": "new_release_material"
+  },
+  "verification/pi_I_initial_check.log": {
+    "status": "new_release_material"
+  },
+  "verification/pi_I_uniqueness_check.log": {
+    "status": "new_release_material"
+  },
+  "verification/pi_K_seed_check.log": {
+    "status": "new_release_material"
+  },
+  "verification/recovery_zeta5_readout_check.log": {
+    "status": "new_release_material"
+  },
+  "verification/section6_notebooks.log": {
+    "status": "new_release_material"
+  },
+  "verification/verify_4f3_meijerg_coboundary.log": {
+    "status": "new_release_material"
+  },
+  "verification/verify_5f4_meijerg_recessive.log": {
+    "status": "new_release_material"
+  },
+  "verification/verify_gregory.log": {
+    "status": "new_release_material"
+  },
+  "verify_release.py": {
+    "status": "new_release_material"
+  }
+}

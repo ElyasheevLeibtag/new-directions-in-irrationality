@@ -1,0 +1,75 @@
+{
+  "source_archive": "meijerg_zeta3_zeta4-main.zip",
+  "paper_references": {
+    "app:zeta3-measure": "Appendix B.4",
+    "thm:z23-measures": "Theorem 6.16 (Irrationality measures)",
+    "lem:z34-limits": "Lemma 6.7",
+    "lem:z34-selected-error": "Lemma 6.8"
+  },
+  "source_files": [
+    {
+      "path": "work/meijerg5255_arithmetic/arithmetic/partial_fractions.py",
+      "sha256": "ee37deefb127f4d5261ab2b3b8eb69300030026aaafd4c81bd06f8351d4b0d5c",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/profiles/exact_chambers.py",
+      "sha256": "b6498c6b3e6100f86bd3e545a34d6b2414df279d556e357dca88f6f4b1554f30",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/arithmetic/high_kernel.py",
+      "sha256": "2ae9aab7acbd74c4664699396635bc0e344a945361ebd7d2ee8c739d3b5e8072",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/arithmetic/shell_chamber_certificate.py",
+      "sha256": "c2bec9499e78de2454d395173d78cf77ffac0c84d883fcae39c0b645503e1f91",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/arithmetic/all_shell_cells.py",
+      "sha256": "7423f133561c581b1adac9d57cfbd35c51fe5cd76f2d55939b01b24a4ace1caa",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_improved/arithmetic/second_order_certificate.py",
+      "sha256": "cdac1beb6024e10622535cf69f0623655e9b00a07c8fab2bb41fb541d99a0bc3",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_improved/arithmetic/second_order_trace.tex",
+      "sha256": "6f3e97339a3a6c3592ac1f0118e121e8ec07eaace3c769daaaa93a7dd073384c",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_improved/residuals/infinite_density.py",
+      "sha256": "99e331af48f85861232e7042352d881b59fd9244a8f0f24ea65c6048ac4dccd8",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/rates/certify_spectral_constants.py",
+      "sha256": "f08a80eeb54668d6f4fab849fbc97f2bd689a40b501a7c21ff56473c8a592934",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "work/meijerg5255_arithmetic/rates/spectral_rates.py",
+      "sha256": "923e90261b09ecb7b275b947cfc86499d7c62e1eda2df5278f863bbf9e186ab8",
+      "use": "source arithmetic/proof reference adapted into this Python companion"
+    },
+    {
+      "path": "lean/Meijer5255/Blueprint_5255.lean",
+      "sha256": "e2d38e8be5c16b01206bb16bf6bbaaaa544e32d1f6eb34b5b9bf0f5fb6b3ce3d",
+      "use": "read-only background, never executed or modified"
+    }
+  ],
+  "adaptations": [
+    "Removed archive-specific paths, exploratory scripts, cached large walk matrices, and stale output-status assertions.",
+    "Renamed arithmetic helper functions and added mathematical docstrings and notebook explanations.",
+    "Kept exact Fraction/fmpq arithmetic, exhaustive chambers, exact regression fixtures, and rigorous infinite-tail enclosures.",
+    "Corrected the misuse of the truncated 12.163953 as an upper bound by using the certified combined growth bound 65.451536565866.",
+    "Revision 2026-10-18: added the all-index gamma-reflection proof and independent same_sums.py coefficient diagnostics; no Lean changes."
+  ],
+  "execution_scope": "Independent notebooks require only the Python modules and data in this folder; no notebook-generated file is an input to the other notebook.",
+  "formalization": "Supplied Lean is background only. No Lean code is included, changed, or executed."
+}

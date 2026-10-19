@@ -1,0 +1,367 @@
+%\usepackage[english]{babel}			 % u.a. correct hyphenation -, --
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm, heightrounded, marginparwidth=2.5cm, marginparsep=6mm]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath} 
+\usepackage{mdframed}
+\usepackage{mathrsfs}	
+\usepackage{amstext}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{enumitem}	
+\usepackage{extpfeil}
+\usepackage{tracefnt}
+% Enumeration
+\usepackage{float}
+\usepackage[all]{xy}    				% Commutative diagrams
+\usepackage{mathdots}   				% Variously oriented dots
+\usepackage{mathtools}
+\usepackage{aliascnt}   				% Single enumeration of all theorem environments
+\usepackage{esint}					% Contains \fint
+\usepackage{tikz}  
+\usepackage{tikz-cd}
+\usetikzlibrary{matrix}	% Vector images
+\usetikzlibrary{positioning,arrows.meta}
+% Figure colours: a new trajectory, and the recovered construction it improves on.
+\definecolor{trajnew}{HTML}{2A78D6}
+\definecolor{trajold}{HTML}{EB6834}
+% Further recovered zeta(2) constructions, in the plot's categorical order.
+\definecolor{trajrv}{HTML}{1BAF7A}
+\definecolor{trajhata}{HTML}{EDA100}
+\definecolor{trajbeukers}{HTML}{E87BA4}
+\usepackage{caption}
+\captionsetup[figure]{font=small}
+\usepackage{hyperref}
+\usepackage{csquotes}
+% Theorems
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newtheorem{mthm}{Theorem}
+\theoremstyle{plain}
+  \newtheorem*{cor*}{Corollary}
+  \newtheorem*{conj*}{Conjecture}
+  \newtheorem*{thm*}{Theorem}
+  \newtheorem*{lem*}{Lemma}
+  \newtheorem*{klem*}{Key Lemma}
+  \newtheorem*{claim*}{Claim}
+  \newtheorem*{mclaim*}{Main Claim}
+
+\theoremstyle{plain}
+
+  \newtheorem{thmx}{Theorem}
+  \renewcommand{\thethmx}{\Alph{thmx}}
+  \providecommand{\thmxautorefname}{Theorem}
+
+  % All numbered theorem-like environments share the counter thm (7.1, 7.2, ...).
+  \newtheorem{thm}{Theorem}[section]
+  \providecommand{\thmautorefname}{Theorem}
+
+  \newaliascnt{conj}{thm}
+  \newtheorem{conj}[conj]{Conjecture}
+  \aliascntresetthe{conj}
+  \providecommand{\conjautorefname}{Conjecture}
+
+  \newaliascnt{proposition}{thm}
+  \newtheorem{proposition}[proposition]{Proposition}
+  \aliascntresetthe{proposition}
+  \providecommand{\propositionautorefname}{Proposition}
+
+  \newaliascnt{corollary}{thm}
+  \newtheorem{corollary}[corollary]{Corollary}
+  \aliascntresetthe{corollary}
+  \providecommand{\corollaryautorefname}{Corollary}
+
+\theoremstyle{definition}
+  \newaliascnt{example}{thm}
+  \newtheorem{example}[example]{Example}
+  \aliascntresetthe{example}
+  \providecommand{\exampleautorefname}{Example}
+
+  \newaliascnt{remark}{thm}
+  \newtheorem{remark}[remark]{Remark}
+  \aliascntresetthe{remark}
+  \providecommand{\remarkautorefname}{Remark}
+\theoremstyle{plain}
+
+
+\makeatletter
+
+\patchcmd{\@settitle}
+  {\uppercasenonmath\@title}
+  {}{}{}
+
+\patchcmd{\@setauthors}
+  {\centering\footnotesize}
+  {\centering\large}
+  {}{}
+
+% Preserve original capitalization of author names
+\patchcmd{\@setauthors}
+  {\MakeUppercase{\authors}}
+  {\authors}{}{}
+
+% Article-style headings: numbered, bold, left-aligned, on their own lines.
+\renewcommand{\section}{%
+  \@startsection{section}{1}{\z@}%
+  {-3.5ex \@plus -1ex \@minus -.2ex}%
+  {2.3ex \@plus .2ex}%
+  {\normalfont\Large\bfseries}%
+}
+\renewcommand{\subsection}{%
+  \@startsection{subsection}{2}{\z@}%
+  {-3.25ex \@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\large\bfseries}%
+}
+\renewcommand{\subsubsection}{%
+  \@startsection{subsubsection}{3}{\z@}%
+  {-3.25ex \@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\normalsize\bfseries}%
+}
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{\z@}%
+  {3.25ex \@plus 1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}%
+}
+% Number followed by a space, without amsart's trailing period.
+\renewcommand{\@seccntformat}[1]{\csname the#1\endcsname\quad}
+\renewcommand{\@@and}{}
+
+\let\original@setauthors\@setauthors
+\renewcommand{\@setauthors}{%
+  \original@setauthors
+  \begin{center}
+    \footnotesize
+    \textsuperscript{1} Technion--Israel Institute of Technology, Haifa, Israel \\[3pt]
+    \textsuperscript{2} Ghent University, Ghent, Belgium
+  \end{center}
+}
+\makeatother
+
+
+  
+  \newaliascnt{qu}{thm}
+  \newtheorem{qu}[qu]{Question}
+  \aliascntresetthe{qu}
+  \providecommand{\quautorefname}{Question}
+  
+  \newaliascnt{lem}{thm}
+  \newtheorem{lem}[lem]{Lemma}
+  \aliascntresetthe{lem}
+  \providecommand{\lemautorefname}{Lemma}
+  
+  \newaliascnt{klem}{thm}
+  \newtheorem{klem}[klem]{Key Lemma}
+  \aliascntresetthe{klem}
+  \providecommand{\klemautorefname}{Key Lemma}
+
+  \newaliascnt{cor}{thm}
+  \newtheorem{cor}[cor]{Corollary}
+  \aliascntresetthe{cor}
+  \providecommand{\corautorefname}{Corollary}
+
+  \newaliascnt{prop}{thm}  
+  \newtheorem{prop}[prop]{Proposition}
+  \aliascntresetthe{prop}
+  \providecommand{\propautorefname}{Proposition}
+
+\theoremstyle{definition}
+  \newaliascnt{defn}{thm}
+  \newtheorem{defn}[defn]{Definition}
+  \aliascntresetthe{defn}
+  \providecommand{\defnautorefname}{Definition}
+  
+  \newtheorem*{defcont}{Definition \continuation}
+  \newcommand{\continuation}{??}
+  \newenvironment{continuedef}[1]
+    {\renewcommand{\continuation}{\ref{#1}}\defcont[cont.]}
+    {\enddefcont}
+  
+    \newaliascnt{nnot}{thm}
+  \newtheorem{nnot}[nnot]{Notation}
+  \aliascntresetthe{nnot}  \providecommand{\nnotautorefname}{Notation}
+  
+  \newaliascnt{exmpl}{thm}
+  \newtheorem{exmpl}[exmpl]{Example}
+  \aliascntresetthe{exmpl}
+  \providecommand{\exmplautorefname}{Example}
+  
+\theoremstyle{definition}
+  \newaliascnt{rem}{thm}
+  \newtheorem{rem}[rem]{Remark}
+  \aliascntresetthe{rem}
+  \providecommand{\remautorefname}{Remark}
+
+  \newaliascnt{con}{thm}
+  \newtheorem{con}[con]{Construction}
+  \aliascntresetthe{con}
+  \providecommand{\conautorefname}{Construction}
+  
+% Blackboard letters
+\newcommand{\bbA}{\mathbb{A}}
+\newcommand{\bbB}{\mathbb{B}}
+\newcommand{\bbC}{\mathbb{C}}
+\newcommand{\bbD}{\mathbb{D}}
+\newcommand{\bbE}{\mathbb{E}}
+\newcommand{\bbF}{\mathbb{F}}
+\newcommand{\bbG}{\mathbb{G}}
+\newcommand{\bbH}{\mathbb{H}}
+\newcommand{\bbI}{\mathbb{I}}
+\newcommand{\bbJ}{\mathbb{J}}
+\newcommand{\bbK}{\mathbb{K}}
+\newcommand{\bbL}{\mathbb{L}}
+\newcommand{\bbM}{\mathbb{M}}
+\newcommand{\bbN}{\mathbb{N}}
+\newcommand{\bbO}{\mathbb{O}}
+\newcommand{\bbP}{\mathbb{P}}
+\newcommand{\bbQ}{\mathbb{Q}}
+\newcommand{\bbR}{\mathbb{R}}             
+\newcommand{\bbS}{\mathbb{S}}
+\newcommand{\bbT}{\mathbb{T}}
+\newcommand{\bbU}{\mathbb{U}}
+\newcommand{\bbV}{\mathbb{V}}
+\newcommand{\bbW}{\mathbb{W}}
+\newcommand{\bbX}{\mathbb{X}}
+\newcommand{\bbY}{\mathbb{Y}}
+\newcommand{\bbZ}{\mathbb{Z}}      
+\newcommand{\bbone}{\mathbb{1}} 
+
+% Calligraphic letters
+\newcommand{\clA}{\mathcal{A}}
+\newcommand{\clB}{\mathcal{B}}
+\newcommand{\clC}{\mathcal{C}}
+\newcommand{\clD}{\mathcal{D}}
+\newcommand{\clE}{\mathcal{E}}
+\newcommand{\clF}{\mathcal{F}}
+\newcommand{\clG}{\mathcal{G}}
+\newcommand{\clH}{\mathcal{H}}
+\newcommand{\clI}{\mathcal{I}}
+\newcommand{\clJ}{\mathcal{J}}
+\newcommand{\clK}{\mathcal{K}}
+\newcommand{\clL}{\mathcal{L}}
+\newcommand{\clM}{\mathcal{M}}
+\newcommand{\clN}{\mathcal{N}}
+\newcommand{\clO}{\mathcal{O}}
+\newcommand{\clP}{\mathcal{P}}
+\newcommand{\clQ}{\mathcal{Q}}
+\newcommand{\clR}{\mathcal{R}}             
+\newcommand{\clS}{\mathcal{S}}
+\newcommand{\clT}{\mathcal{T}}
+\newcommand{\clU}{\mathcal{U}}
+\newcommand{\clV}{\mathcal{V}}
+\newcommand{\clW}{\mathcal{W}}
+\newcommand{\clX}{\mathcal{X}}
+\newcommand{\clY}{\mathcal{Y}}
+\newcommand{\clZ}{\mathcal{Z}}  
+
+% Fraktur letters
+\newcommand{\frA}{\mathfrak{A}}
+\newcommand{\frB}{\mathfrak{B}}
+\newcommand{\frC}{\mathfrak{C}}
+\newcommand{\frD}{\mathfrak{D}}
+\newcommand{\frE}{\mathfrak{E}}
+\newcommand{\frF}{\mathfrak{F}}
+\newcommand{\frG}{\mathfrak{G}}
+\newcommand{\frH}{\mathfrak{H}}
+\newcommand{\frI}{\mathfrak{I}}
+\newcommand{\frJ}{\mathfrak{J}}
+\newcommand{\frK}{\mathfrak{K}}
+\newcommand{\frL}{\mathfrak{L}}
+\newcommand{\frM}{\mathfrak{M}}
+\newcommand{\frN}{\mathfrak{N}}
+\newcommand{\frO}{\mathfrak{O}}
+\newcommand{\frP}{\mathfrak{P}}
+\newcommand{\frQ}{\mathfrak{Q}}
+\newcommand{\frR}{\mathfrak{R}}             
+\newcommand{\frS}{\mathfrak{S}}
+\newcommand{\frT}{\mathfrak{T}}
+\newcommand{\frU}{\mathfrak{U}}
+\newcommand{\frV}{\mathfrak{V}}
+\newcommand{\frW}{\mathfrak{W}}
+\newcommand{\frX}{\mathfrak{X}}
+\newcommand{\frY}{\mathfrak{Y}}
+\newcommand{\frZ}{\mathfrak{Z}}
+
+% Script letters
+\newcommand{\scA}{\mathscr{A}}
+\newcommand{\scB}{\mathscr{B}}
+\newcommand{\scC}{\mathscr{C}}
+\newcommand{\scD}{\mathscr{D}}
+\newcommand{\scE}{\mathscr{E}}
+\newcommand{\scF}{\mathscr{F}}
+\newcommand{\scG}{\mathscr{G}}
+\newcommand{\scH}{\mathscr{H}}
+\newcommand{\scI}{\mathscr{I}}
+\newcommand{\scJ}{\mathscr{J}}
+\newcommand{\scK}{\mathscr{K}}
+\newcommand{\scL}{\mathscr{L}}
+\newcommand{\scM}{\mathscr{M}}
+\newcommand{\scN}{\mathscr{N}}
+\newcommand{\scO}{\mathscr{O}}
+\newcommand{\scP}{\mathscr{P}}
+\newcommand{\scQ}{\mathscr{Q}}
+\newcommand{\scR}{\mathscr{R}}             
+\newcommand{\scS}{\mathscr{S}}
+\newcommand{\scT}{\mathscr{T}}
+\newcommand{\scU}{\mathscr{U}}
+\newcommand{\scV}{\mathscr{V}}
+\newcommand{\scW}{\mathscr{W}}
+\newcommand{\scX}{\mathscr{X}}
+\newcommand{\scY}{\mathscr{Y}}
+\newcommand{\scZ}{\mathscr{Z}}   
+\newcommand{\kay}{\mathscr{k}}
+\newcommand{\CP}{\mathrm{P}^1(\bbC)}
+
+% Operators
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Alt}{Alt}
+\DeclareMathOperator{\Char}{char}
+\DeclareMathOperator{\CR}{cr}
+\DeclareMathOperator{\dd}{d}
+\DeclareMathOperator{\EE}{E}
+\DeclareMathOperator{\ev}{ev}
+\DeclareMathOperator{\Gr}{Gr}    
+\DeclareMathOperator{\id}{id}          
+\DeclareMathOperator{\HH}{H}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\Ind}{Ind}
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\KK}{{\rm K}}
+\DeclareMathOperator{\lk}{lk}
+\DeclareMathOperator{\LL}{{\rm L}}
+\DeclareMathOperator{\mquot}{\setminus \!\! \setminus}
+\DeclareMathOperator{\Prob}{Prob}
+\DeclareMathOperator{\res}{res}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\Span}{span} 
+\DeclareMathOperator{\stab}{Stab}
+\DeclareMathOperator{\St}{st}
+\DeclareMathOperator{\Sub}{Sub}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\tr}{tr}
+
+% Matrix groups
+\DeclareMathOperator{\GL}{GL}         % general linear group
+\DeclareMathOperator{\SL}{SL}         % special linear group
+\DeclareMathOperator{\PGL}{PGL}   
+\DeclareMathOperator{\PSL}{PSL}       % projective special linear group
+\DeclareMathOperator{\OO}{O}               % orthogonal group
+\DeclareMathOperator{\SO}{SO}             % special orthogonal group
+\DeclareMathOperator{\PSO}{PSO}
+\DeclareMathOperator{\UU}{U}               % unitary group
+\DeclareMathOperator{\SU}{SU}             % special unitary group
+\DeclareMathOperator{\Sp}{Sp}              % symplectic group
+
+
+%Heypergeometrics
+% Define a custom command for the generalized hypergeometric function
+\newcommand{\pFq}[3]{{}_pF_q\left[ \begin{array}{c} #1 \\ #2 \end{array} ;#3 \right]}
+\newcommand{\PFQ}[5]{{}_{#1}F_{#2}\left[ \begin{array}{c} #3 \\ #4 \end{array} ;#5 \right]}
+
+
+
+\newcommand{\pv}[2]{\bigl(\begin{smallmatrix}#1\\#2\end{smallmatrix}\bigr)}
+\newcommand{\lbl}[1]{{\scriptstyle #1=}}

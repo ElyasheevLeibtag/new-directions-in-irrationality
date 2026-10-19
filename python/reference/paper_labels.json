@@ -1,0 +1,744 @@
+{
+  "sec:introduction": {
+    "kind": "Section",
+    "number": "1",
+    "title": "Introduction",
+    "display": "Section 1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:intro-zeta34": {
+    "kind": "Theorem",
+    "number": "1",
+    "title": "",
+    "display": "Theorem 1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:intro-zeta23": {
+    "kind": "Theorem",
+    "number": "2",
+    "title": "",
+    "display": "Theorem 2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:preliminaries": {
+    "kind": "Section",
+    "number": "2",
+    "title": "Preliminaries",
+    "display": "Section 2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:diophantine-approximation": {
+    "kind": "Section",
+    "number": "2.1",
+    "title": "Diophantine Approximations",
+    "display": "Section 2.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:delta": {
+    "kind": "Definition",
+    "number": "2.1",
+    "title": "Approximation exponent",
+    "display": "Definition 2.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:irrationality-measure": {
+    "kind": "Definition",
+    "number": "2.2",
+    "title": "Irrationality measure",
+    "display": "Definition 2.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:mu-from-delta": {
+    "kind": "Remark",
+    "number": "2.3",
+    "title": "Approximation exponents and irrationality measures",
+    "display": "Remark 2.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:linear-cocycles": {
+    "kind": "Section",
+    "number": "2.2",
+    "title": "Linear Recurrences, Cocycles, and Dual Limits",
+    "display": "Section 2.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:weak-pp": {
+    "kind": "Definition",
+    "number": "2.4",
+    "title": "Weak Poincar\\'e--Perron type",
+    "display": "Definition 2.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:separated-spectrum": {
+    "kind": "Remark",
+    "number": "2.5",
+    "title": "",
+    "display": "Remark 2.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:dual-convergence": {
+    "kind": "Theorem",
+    "number": "2.6",
+    "title": "Dual convergence",
+    "display": "Theorem 2.6",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "cor:dual-rank-one": {
+    "kind": "Corollary",
+    "number": "2.7",
+    "title": "Dual ratios",
+    "display": "Corollary 2.7",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:nonvanishing": {
+    "kind": "Lemma",
+    "number": "2.8",
+    "title": "Nonvanishing",
+    "display": "Lemma 2.8",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:coboundary": {
+    "kind": "Section",
+    "number": "2.3",
+    "title": "Coboundary Equivalence",
+    "display": "Section 2.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:coboundary": {
+    "kind": "Definition",
+    "number": "2.9",
+    "title": "Coboundary equivalence",
+    "display": "Definition 2.9",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def: companion form": {
+    "kind": "Definition",
+    "number": "2.10",
+    "title": "",
+    "display": "Definition 2.10",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:dual-pairing-prelim": {
+    "kind": "Section",
+    "number": "2.3.1",
+    "title": "Dual Pairings",
+    "display": "Section 2.3.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:dual-pairing": {
+    "kind": "Definition",
+    "number": "2.11",
+    "title": "Dual pairing",
+    "display": "Definition 2.11",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:minors": {
+    "kind": "Lemma",
+    "number": "2.12",
+    "title": "Minors of dual solutions",
+    "display": "Lemma 2.12",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:cmfs": {
+    "kind": "Section",
+    "number": "3",
+    "title": "Conservative Matrix Fields",
+    "display": "Section 3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:CMF": {
+    "kind": "Definition",
+    "number": "3.1",
+    "title": "Conservative matrix field (CMF)",
+    "display": "Definition 3.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:trajectory": {
+    "kind": "Definition",
+    "number": "3.2",
+    "title": "Trajectory",
+    "display": "Definition 3.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:cmf-initial-limit": {
+    "kind": "Proposition",
+    "number": "3.3",
+    "title": "Initial-value limit",
+    "display": "Proposition 3.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:cmf-parameters": {
+    "kind": "Section",
+    "number": "3.2",
+    "title": "Coboundaries and Directions",
+    "display": "Section 3.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "def:cmf-coboundary": {
+    "kind": "Definition",
+    "number": "3.4",
+    "title": "Coboundary equivalence of CMFs",
+    "display": "Definition 3.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:parallel-trajectories": {
+    "kind": "Proposition",
+    "number": "3.5",
+    "title": "Integral shifts and parallel trajectories",
+    "display": "Proposition 3.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "cor:angular-search": {
+    "kind": "Corollary",
+    "number": "3.6",
+    "title": "Reduction to directions",
+    "display": "Corollary 3.6",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:dfinite-cmf-construction": {
+    "kind": "Section",
+    "number": "3.3",
+    "title": "D-finite Functions for Generating CMFs",
+    "display": "Section 3.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:holonomic-cmf": {
+    "kind": "Section",
+    "number": "3.3",
+    "title": "D-finite Functions for Generating CMFs",
+    "display": "Section 3.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:recovery": {
+    "kind": "Section",
+    "number": "4",
+    "title": "Embedding Known Results as CMF Trajectories",
+    "display": "Section 4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:zeta2-recovery": {
+    "kind": "Section",
+    "number": "4.1",
+    "title": "Example Embeddings: Beukers' and Zudilin's \\texorpdfstring{$\\zeta(2)$}{ζ(2)} Constructions",
+    "display": "Section 4.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:all-classical-recovery": {
+    "kind": "Section",
+    "number": "4.2",
+    "title": "Embedding Classical Constructions in a CMF",
+    "display": "Section 4.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:initial-point": {
+    "kind": "Section",
+    "number": "4.3",
+    "title": "Connecting Different Constants Through CMF Representations",
+    "display": "Section 4.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:methodology": {
+    "kind": "Section",
+    "number": "5",
+    "title": "New Directions in Irrationality",
+    "display": "Section 5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:new-cmf-selection": {
+    "kind": "Section",
+    "number": "5.1",
+    "title": "A Systematic Search for Formulas in Ap\\'ery's Garden",
+    "display": "Section 5.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:changing-traj": {
+    "kind": "Section",
+    "number": "5.2",
+    "title": "Improving Irrationality Measure by Changing CMF Trajectory",
+    "display": "Section 5.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:proof_strategy": {
+    "kind": "Section",
+    "number": "6",
+    "title": "Proving The Irrationality Exponent Using CMFs",
+    "display": "Section 6",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:cmf1": {
+    "kind": "Theorem",
+    "number": "6.1",
+    "title": "CMF Theorem 1",
+    "display": "Theorem 6.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:cmf2": {
+    "kind": "Theorem",
+    "number": "6.2",
+    "title": "CMF Theorem 2",
+    "display": "Theorem 6.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "cmf proof stratergy": {
+    "kind": "Section",
+    "number": "6.1",
+    "title": "The CMF proof scheme",
+    "display": "Section 6.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:finding-dual": {
+    "kind": "Remark",
+    "number": "6.3",
+    "title": "Finding the dual",
+    "display": "Remark 6.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:z34": {
+    "kind": "Section",
+    "number": "6.2",
+    "title": "Linear Independence of\n\\texorpdfstring{$1,\\zeta(3),\\zeta(4)$}{1, ζ(3), ζ(4)}",
+    "display": "Section 6.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:z34": {
+    "kind": "Theorem",
+    "number": "6.4",
+    "title": "",
+    "display": "Theorem 6.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:z34-type-one": {
+    "kind": "Remark",
+    "number": "6.5",
+    "title": "Linear forms from the dual solution",
+    "display": "Remark 6.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-connection": {
+    "kind": "Lemma",
+    "number": "6.6",
+    "title": "",
+    "display": "Lemma 6.6",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z34-limits": {
+    "kind": "Lemma",
+    "number": "6.7",
+    "title": "",
+    "display": "Lemma 6.7",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z34-selected-error": {
+    "kind": "Lemma",
+    "number": "6.8",
+    "title": "",
+    "display": "Lemma 6.8",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-q-iv": {
+    "kind": "Lemma",
+    "number": "6.9",
+    "title": "Denominator sum presentation",
+    "display": "Lemma 6.9",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-p-iv": {
+    "kind": "Lemma",
+    "number": "6.10",
+    "title": "Numerator sum presentation",
+    "display": "Lemma 6.10",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-int": {
+    "kind": "Lemma",
+    "number": "6.11",
+    "title": "Integer normalization",
+    "display": "Lemma 6.11",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem: dual sum": {
+    "kind": "Lemma",
+    "number": "6.12",
+    "title": "Dual sum presentation",
+    "display": "Lemma 6.12",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-dual": {
+    "kind": "Lemma",
+    "number": "6.13",
+    "title": "A second presentation",
+    "display": "Lemma 6.13",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:z34-divisor": {
+    "kind": "Lemma",
+    "number": "6.14",
+    "title": "Common divisor",
+    "display": "Lemma 6.14",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z34-nonvanishing": {
+    "kind": "Lemma",
+    "number": "6.15",
+    "title": "",
+    "display": "Lemma 6.15",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:z23": {
+    "kind": "Section",
+    "number": "6.3",
+    "title": "A Bound for the Irrationality Measures of\n\\texorpdfstring{$\\zeta(2)$ and $\\zeta(3)$}{ζ(2) and ζ(3)}",
+    "display": "Section 6.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:z23-measures": {
+    "kind": "Theorem",
+    "number": "6.16",
+    "title": "Irrationality measures",
+    "display": "Theorem 6.16",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z2-connection": {
+    "kind": "Lemma",
+    "number": "6.17",
+    "title": "",
+    "display": "Lemma 6.17",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z2-limits": {
+    "kind": "Lemma",
+    "number": "6.18",
+    "title": "",
+    "display": "Lemma 6.18",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z2-selected-error": {
+    "kind": "Lemma",
+    "number": "6.19",
+    "title": "",
+    "display": "Lemma 6.19",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:zeta2-int": {
+    "kind": "Lemma",
+    "number": "6.20",
+    "title": "Integer normalization",
+    "display": "Lemma 6.20",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z2-growth": {
+    "kind": "Lemma",
+    "number": "6.21",
+    "title": "Arithmetic growth",
+    "display": "Lemma 6.21",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:other_implications": {
+    "kind": "Section",
+    "number": "7",
+    "title": "Additional CMF Implications: Harmonic-Weighted Gregory Series",
+    "display": "Section 7",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:hh-main": {
+    "kind": "Theorem",
+    "number": "7.1",
+    "title": "",
+    "display": "Theorem 7.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:hh-comparison": {
+    "kind": "Remark",
+    "number": "7.2",
+    "title": "Comparison with general criteria",
+    "display": "Remark 7.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "subsec:hh-proof": {
+    "kind": "Section",
+    "number": "7.1",
+    "title": "Proof of Theorem~\\ref{thm:hh-main}",
+    "display": "Section 7.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:dual-pade": {
+    "kind": "Lemma",
+    "number": "7.3",
+    "title": "CMF ratios of the dual walk are Hermite--Pad\\'e approximants",
+    "display": "Lemma 7.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-mobius": {
+    "kind": "Lemma",
+    "number": "7.4",
+    "title": "",
+    "display": "Lemma 7.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:hh-rodrigues": {
+    "kind": "Proposition",
+    "number": "7.5",
+    "title": "",
+    "display": "Proposition 7.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:hh-rate": {
+    "kind": "Proposition",
+    "number": "7.6",
+    "title": "",
+    "display": "Proposition 7.6",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-integers": {
+    "kind": "Lemma",
+    "number": "7.7",
+    "title": "",
+    "display": "Lemma 7.7",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-nondeg": {
+    "kind": "Lemma",
+    "number": "7.8",
+    "title": "",
+    "display": "Lemma 7.8",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "prop:hh-gap": {
+    "kind": "Proposition",
+    "number": "7.9",
+    "title": "",
+    "display": "Proposition 7.9",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "rem:hh-other-families": {
+    "kind": "Remark",
+    "number": "7.10",
+    "title": "Further application",
+    "display": "Remark 7.10",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:outlook": {
+    "kind": "Section",
+    "number": "8",
+    "title": "Discussion and Outlook",
+    "display": "Section 8",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:appendix-history": {
+    "kind": "Appendix",
+    "number": "A",
+    "title": "Additional CMF Constructions, Embeddings, and Numerical Data",
+    "display": "Appendix A",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:full-results": {
+    "kind": "Appendix",
+    "number": "A.1",
+    "title": "Additional CMF recoveries",
+    "display": "Appendix A.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:special-cmf-constructions": {
+    "kind": "Appendix",
+    "number": "A.2",
+    "title": "Constructing the special CMFs",
+    "display": "Appendix A.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:special-cmfs": {
+    "kind": "Appendix",
+    "number": "A.2",
+    "title": "Constructing the special CMFs",
+    "display": "Appendix A.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:auxiliary-moment-fields": {
+    "kind": "Appendix",
+    "number": "A.2.3",
+    "title": "Recurrence-based moment extensions: the common construction",
+    "display": "Appendix A.2.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:cmf-recoveries": {
+    "kind": "Appendix",
+    "number": "A.3",
+    "title": "Embedding initial values and numerical evaluation",
+    "display": "Appendix A.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:appendix-extractions": {
+    "kind": "Appendix",
+    "number": "A.3.1",
+    "title": "Experimental approximations",
+    "display": "Appendix A.3.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:pi-build-recovery": {
+    "kind": "Appendix",
+    "number": "A.4",
+    "title": "The integral CMF for \\texorpdfstring{$\\pi$}{pi} and its recoveries",
+    "display": "Appendix A.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "sec:pi-integral-data": {
+    "kind": "Appendix",
+    "number": "A.4.1",
+    "title": "Integral coordinates for \\texorpdfstring{$\\pi$}{pi}",
+    "display": "Appendix A.4.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:equal-accuracy-plots": {
+    "kind": "Appendix",
+    "number": "A.4.5",
+    "title": "Comparison at equal accuracy",
+    "display": "Appendix A.4.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "Appendex: proof calculations": {
+    "kind": "Appendix",
+    "number": "B",
+    "title": "Exact Calculations from Section~\\ref{sec:proof_strategy}",
+    "display": "Appendix B",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:zeta34-proof": {
+    "kind": "Appendix",
+    "number": "B.1",
+    "title": "Subsection~\\ref{subsec:z34} Proofs",
+    "display": "Appendix B.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z34-recessive": {
+    "kind": "Lemma",
+    "number": "B.1",
+    "title": "",
+    "display": "Lemma B.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:z34-recessive": {
+    "kind": "Lemma",
+    "number": "B.1",
+    "title": "",
+    "display": "Lemma B.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:zeta2-proof": {
+    "kind": "Appendix",
+    "number": "B.2",
+    "title": "Subsection~\\ref{subsec:z23} Proofs",
+    "display": "Appendix B.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:z2-recessive": {
+    "kind": "Lemma",
+    "number": "B.2",
+    "title": "",
+    "display": "Lemma B.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:z2-recessive": {
+    "kind": "Lemma",
+    "number": "B.2",
+    "title": "",
+    "display": "Lemma B.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:z2-blocks": {
+    "kind": "Appendix",
+    "number": "B.3",
+    "title": "The block decomposition for \\texorpdfstring{$\\zeta(2)$}{zeta(2)}",
+    "display": "Appendix B.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:zeta3-measure": {
+    "kind": "Appendix",
+    "number": "B.4",
+    "title": "The arithmetic of the pure\n\\texorpdfstring{$\\zeta(3)$}{zeta(3)} approximations",
+    "display": "Appendix B.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:gregory-series": {
+    "kind": "Appendix",
+    "number": "C",
+    "title": "Exact Calculations for Harmonic-Weighted Gregory Series Irrationality Proof",
+    "display": "Appendix C",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-matrix": {
+    "kind": "Appendix",
+    "number": "C.1",
+    "title": "The trajectory matrix",
+    "display": "Appendix C.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-approx": {
+    "kind": "Appendix",
+    "number": "C.2",
+    "title": "Proofs for the Explicit Approximants",
+    "display": "Appendix C.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-unique": {
+    "kind": "Lemma",
+    "number": "C.1",
+    "title": "",
+    "display": "Lemma C.1",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-rate": {
+    "kind": "Appendix",
+    "number": "C.3",
+    "title": "Proof of Proposition~\\ref{prop:hh-rate}",
+    "display": "Appendix C.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-arith": {
+    "kind": "Appendix",
+    "number": "C.4",
+    "title": "Proofs of Lemma~\\ref{lem:hh-nondeg} and Proposition~\\ref{prop:hh-gap}",
+    "display": "Appendix C.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-roots": {
+    "kind": "Lemma",
+    "number": "C.2",
+    "title": "",
+    "display": "Lemma C.2",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-other": {
+    "kind": "Appendix",
+    "number": "C.5",
+    "title": "Other Irrationality Criteria",
+    "display": "Appendix C.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:hh-fr": {
+    "kind": "Theorem",
+    "number": "C.3",
+    "title": "",
+    "display": "Theorem C.3",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "thm:hh-kaw": {
+    "kind": "Theorem",
+    "number": "C.4",
+    "title": "",
+    "display": "Theorem C.4",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "lem:hh-dilog": {
+    "kind": "Lemma",
+    "number": "C.5",
+    "title": "",
+    "display": "Lemma C.5",
+    "number_source": "derived from source and project numbering convention"
+  },
+  "app:hh-exp": {
+    "kind": "Appendix",
+    "number": "C.6",
+    "title": "Experimental Exponents",
+    "display": "Appendix C.6",
+    "number_source": "derived from source and project numbering convention"
+  }
+}

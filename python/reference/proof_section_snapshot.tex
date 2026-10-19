@@ -1,0 +1,652 @@
+\section{Proving The Irrationality Exponent Using CMFs}
+%\section{Arithmetic bounds for \texorpdfstring{$\zeta(2)$}{zeta(2)}}
+\label{sec:proof_strategy}
+
+In this section we prove the main results of the paper. We first state the theorems using the CMF framework, then explain how to ''read'' these theorems and prove them using the CMF.
+\begin{theorem}[CMF Theorem 1]
+    \label{thm:cmf1}
+    
+    The CMF data
+    \begin{equation*}
+ \boxed{
+ \mathcal M={}_5F_4(1),\qquad
+ s_{\mathrm Z_{3,4}}=(0,0,1,1,1; 1,1,1,1),\qquad
+ t_{\mathrm Z_{3,4}}=(-14,-15,13,14,12;1,2,3,4).
+ }
+\end{equation*}
+    proves that for any rational numbers $A,B$, not both zero, the constant $A\zeta(3)+B\zeta(4)$ has $\delta>0.015$, and is therefore irrational. Moreover, for $B=0$ we approximate the irrational number $\zeta(3)$ and can improve the exponent to $\delta>0.226$.
+\end{theorem}
+\begin{theorem}[CMF Theorem 2]
+    \label{thm:cmf2}
+    
+    The CMF data
+    \begin{equation*}
+ \boxed{
+ \mathcal M={}_4F_3(1),\qquad
+ s_{\mathrm Z_{2}}=(0,1,1,1; 1,1,1),\qquad
+ t_{\mathrm Z_{2}}=(-11,10,9,11;2,1,3).
+ }
+\end{equation*}
+    proves that constant $\zeta(2)$ has $\delta>0.2757$.
+\end{theorem}
+
+The CMF data $(\mathcal M,s_0,t_0)$ provides a trajectory matrix, see \ref{def:trajectory}.
+\[
+M(n)=\mathcal M_{t_0}(s_0+nt_0)
+\]
+whose walk produces the approximations. To show that they give a positive approximation exponent, we use the CMF structure to prove four things: (i) the limit is the intended constant, (ii) the error decays at an explicit exponential rate, (iii) the numerators and denominators share a common factor large enough to beat the growth of the denominators.
+
+We show the CMF structure lends itself to proving the claims above in the following way.
+
+\subsection{The CMF proof scheme}
+\label{cmf proof stratergy}
+We identify $M(n)$, through a dual pairing, see Definition~\ref{def:dual-pairing}, with a trajectory of a
+special-function CMF $\mathcal Q=\mathcal Q(G)$ defined by a $D$-finite
+function $G$:
+\[
+  \boxed{\;(\mathcal M,\ s_0,\ t_0)_F\;}
+  \quad\xleftrightarrow[\ \text{dual pairing}\ ]{\ K(n),\ c(n)\ }\quad
+  \boxed{\;(\mathcal Q,\ s_1,\ t_1)_D\;}
+\]
+We then use this identification to prove the four claims as follows.
+
+\paragraph{Identifying the constant.}
+\label{par: constant}
+We show the function state 
+\[\mathcal G_n=(G_n,\theta G_n,\dots,\theta^{r'-1}G_n)\]
+along the trajectory $s_1+nt_1$ is the recessive solution to the system. 
+Hence, by Theorem~\ref{thm:dual-convergence} the dual walk then converges projectively to the initial state $\mathcal G_0$. The dual pairing then relates these constants to the forward walk.
+
+\paragraph{The rate of convergence.}
+The exponential growth rates are simply given by the eigenvalues of $Q(\infty)$, the matrix at infinity. Since the CMF limits are ratios of solutions, we can normalize the matrix $Q(n)$ to solve the characteristic polynomial at infinity.
+
+\paragraph{Controlling the arithmetic growth.}\label{par: arithmetic control}
+To bound the growth of the reduced denominators, we write the approximants as ratios of integers after an explicit normalization, and divide out a large common factor. For this, we aim to present the solutions in closed form, so that the primes dividing each term can be counted. The main tool is Legendre's formula
+\[
+v_p(m!)=\sum_{i\ge1}\lfloor m/p^i\rfloor.
+\]
+For primes $p^2>m$, only the first term survives, and the $p$-adic valuation of a binomial coefficient $\binom ab$ is given by the floor function 
+\[
+\lfloor a/p\rfloor-\lfloor b/p\rfloor-\lfloor(a-b)/p\rfloor.
+\] 
+Binomial coefficients of this kind appear in these hypergeometric constructions. 
+A sum is divisible by $p^e$ if every term is, so minimizing over the terms gives a step function $\gamma(n/p)$ that bounds the valuation of the sum, then $\mathcal D_n=\prod_pp^{\,\gamma(n/p)}$ is a common divisor, and by the prime number theorem $\frac1n\log\mathcal D_n\to\int_0^\infty\gamma(x)\,x^{-2}\,dx$.
+The closed forms are found from the structure of the construction and proved by the recurrence argument: the companion form of $M(n)$ gives the recurrence for the solution, and the closed forms satisfy it and agree at the initial values.
+
+A single presentation usually misses divisibility that comes from cancellation between terms. One therefore expresses the same approximants in alternative forms, counts primes in each, and keeps for each prime the best count. 
+The summands of the alternative presentations are
+not necessarily integers, but they still bound the valuations from below.
+The CMF gives three ways to present the same terms:
+\begin{enumerate}
+\item \emph{Parameter symmetries.} The classical permutation-group method
+\cite{Hata90,rhin1996permutation,rhinViola2001,zudilin2014zeta2} uses the symmetries of the hypergeometric or integral representation, which rewrite the same numbers with different terms.
+\item \emph{The dual presentation.} Beyond these symmetries, the dual pairing expresses the approximants as minors of dual solutions.
+\item \emph{Walk decompositions.} A trajectory matrix lives in a CMF, so by conservation its walk can be replaced by the product along any lattice path with the same endpoints. Decomposing the path into blocks exposes the factors added by each block, and the decomposition can be adapted to the initial condition or to individual primes. This use of conservation goes back to \cite{David2023CMF}.
+\end{enumerate}
+
+\paragraph{Irrationality exponent.}
+\label{par: delta}
+From the three steps above we get rational numbers $ p_n,q_n\in \mathbb Q$, and real numbers $0<h,g$ satisfying
+\[
+  \Bigl|\alpha-\frac{p_n}{q_n}\Bigr|\le e^{-(g-o(1))n},
+  \qquad
+|\widetilde{q}_n|\le e^{(h+o(1))n}
+\]
+where $\widetilde{q}_n$ represents the reduced denominators.
+Moreover, $p_n,q_n$ are both solutions to a holonomic recurrence given by the companion form of $M(n)$, see \ref{def: companion form}. The error term $L_n=\alpha q_n-p_n$ satisfies the same recurrence, and we use Lemma~\ref{lem:nonvanishing} to show that the approximations are nontrivial. 
+
+By the definition in Section~\ref{subsec:diophantine-approximation}, this gives the approximation exponent:
+\[
+  \delta=\frac gh-1,
+\]
+so $\alpha$ is irrational when $g>h$, and $\mu(\alpha)\le\frac{g}{g-h}$. 
+%=====================================================================
+\begin{remark}[Finding the dual]\label{rem:finding-dual}
+The dual CMF comes from the adjoint of the differential equation defining $\mathcal M$. For the hypergeometric CMFs here, its solutions are Meijer $G$-functions with related parameters.
+\end{remark}
+\subsection{Linear Independence of
+\texorpdfstring{$1,\zeta(3),\zeta(4)$}{1, ζ(3), ζ(4)}}
+\label{subsec:z34}
+We use the CMF proof method to prove the following theorem.
+
+\begin{theorem}\label{thm:z34}
+The numbers $1$, $\zeta(3)$ and $\zeta(4)$ are linearly independent over $\mathbb Q$.
+\end{theorem}
+
+We follow the scheme of Section~\ref{cmf proof stratergy}, with the dual
+pairing
+
+{\setlength{\fboxsep}{2pt}%
+\[
+  \boxed{\bigl({}_5F_4(1),\lbl{s_0}\pv{0,0,1,1,1}{1,1,1,1},
+         \lbl{t_0}\pv{-14,-15,13,14,12}{1,2,3,4}\bigr)}
+  \xleftrightarrow{K(n),c(n)}
+  \boxed{\bigl(G^{5,2}_{5,5}(1),\lbl{s_1}\pv{0,0,1,1,2}{0,0,0,0,0},
+         \lbl{t_1}\pv{-16,-17,11,12,10}{-2,-1,0,1,2}\bigr)}
+\]}
+Along the two trajectories we have the functions, their states, and their
+initial values:
+\[
+\begin{aligned}
+  F_n&={}_5F_4(s_0+n\,t_0;\,1),
+  &\qquad
+  G_n&=G^{5,2}_{5,5}(1;\,s_1+n\,t_1),\\[2pt]
+  \mathcal F_n&=\bigl(F_n,\ \theta F_n,\ \theta^2F_n,\ \theta^3F_n\bigr),
+  &\qquad
+  \mathcal G_n&=\bigl(G_n,\ \theta G_n,\ \theta^2G_n\bigr),\\[2pt]
+  \mathcal F_0&=\bigl(1,\ 0,\ 0,\ 0\bigr),
+  &\qquad
+  \mathcal G_0&=\bigl(1-2\zeta(3)+3\zeta(4),\ \ 1-2\zeta(3),\ \ 1\bigr).
+\end{aligned}
+\]
+The trajectory matrix of the dual is block upper triangular,
+\[
+  \mathcal Q_{t_1}(s_1+n\,t_1)=\begin{pmatrix}Q(n)&*\\0&-1\end{pmatrix},
+  \qquad
+  \mathcal G_{n+1}=\mathcal G_n\,Q(n).
+\]
+\begin{remark}[Linear forms from the dual solution]\label{rem:z34-type-one}
+The recessive dual solution already gives linear forms: 
+\[
+  \mathcal G_n=\zeta(4)\mathbf a_n+\zeta(3)\mathbf b_n+\mathbf d_n ,
+\]
+and after clearing denominators, each coordinate is an integer linear form in $1,\zeta(3),\zeta(4)$ tending to $0$.
+This form alone does not prove linear independence: it decays at rate about $26$ while its coefficients grow at rate about $87$, so Nesterenko's criterion \cite{Nesterenko85} gives only
+\[
+\dim_{\mathbb Q}\langle1,\zeta(3),\zeta(4)\rangle\ge1.3\]
+implying the irrationality of one of $\zeta(3),\zeta(4)$.
+\end{remark}
+
+\begin{lemma}\label{prop:z34-connection}
+The trajectory matrix $M(n)$ and the block $Q(n)$ are related by a dual
+pairing,
+\[
+  M(n)\,K(n+1)=c(n)\,K(n)\,Q^\vee(n),
+\]
+and $e_0=K(n)\,h_n$ for
+\[
+h_n=\bigl(1,\,10n+1,\,(10n+1)^2\bigr)^{\mathsf T}/\prod_{j=8}^{12}(jn+1).\]
+\end{lemma}
+
+\begin{proof}
+Exact verification is in the supplementary material. We record the value at the starting point,
+$K(0)=\left(\begin{smallmatrix}0&0&1\\0&0&0\\-1&2&-1\\-2&2&0\end{smallmatrix}\right)$,
+which is used below.
+\end{proof}
+
+% ---------------------------------------------------------------------
+\paragraph{Identifying the limit.}
+\label{subsubsec:z34-constants}
+
+Define the initial conditions
+\[
+  \rho_q=(12,0,0,0),\qquad \rho_{p,3}=(0,0,-6,3),\qquad
+  \rho_{p,4}=(0,0,0,-2),
+\]
+\begin{lemma}\label{lem:z34-limits}
+Let
+\[
+  q_n=\rho_q\,\Phi_M(n)\,e_0,\qquad
+    p_{s,n}=\rho_{p,s}\,\Phi_M(n)\,e_0\qquad(s=3,4).
+\]
+Then the ratios converge:
+\[
+  \lim_{n\to\infty}\frac{p_{s,n}}{q_n}=\zeta(s)\qquad(s=3,4).
+\]
+\end{lemma}
+
+\begin{proof}
+The state $\mathcal G_n$ is the recessive solution of $Q(n)$ (Appendix~\ref{app:zeta34-proof}).  The Dual Convergence Theorem~\ref{thm:dual-convergence} applies, therefore
+\[
+  \lim_{n\to\infty}\frac{p_{s,n}}{q_n}
+  =\frac{\rho_{p,s}\,K(0)\,\mathcal G_0^{\mathsf T}}{\rho_q\,K(0)\,\mathcal G_0^{\mathsf T}}
+  =\frac{12\,\zeta(s)}{12}=\zeta(s).
+\]
+\end{proof}
+
+%
+\paragraph{The rate of convergence.}
+\label{subsubsec:z34-error}
+
+\begin{lemma}\label{lem:z34-selected-error}
+For $(A,B)\in\mathbb Q^2\setminus\{(0,0)\}$,
+\[
+  \Bigl|A\zeta(3)+B\zeta(4)-\frac{Ap_{3,n}+Bp_{4,n}}{q_n}\Bigr|
+  \le e^{-(g-o(1))n},\qquad g>112.8075 .
+\]
+\end{lemma}
+
+\begin{proof}
+See Appendix \ref{app:zeta34-proof}
+\end{proof}
+%
+\paragraph{Controlling the arithmetic growth.}
+\label{par: gcd z34}
+The symbolic verifications and exact computations supporting this arithmetic argument are provided in the supplementary material.
+
+Finding an integer form for the denominators is straightforward.
+\[
+q_n=12F_n = 12\sum_{k=0}^{14n}t_{n,k},\qquad  
+t_{n,k}=\frac{(-14n)_k(-15n)_k(1+12n)_k(1+13n)_k(1+14n)_k}{k!\,(1+n)_k(1+2n)_k(1+3n)_k(1+4n)_k}.
+\]
+\begin{lemma}[Denominator sum presentation]\label{prop:z34-q-iv}
+Let $C_n$ be the expression
+\[
+C_n=\binom{12n}{10n}\binom{13n}{10n}
+       \binom{14n}{10n}\binom{15n}{n}
+\]
+Then
+\[
+ \mathbf q_n=\frac{1}{12} C_nq_n
+ =\sum_{k=0}^{14n}B_{n,k}, \qquad B_{n,k}=t_{n,k}C_{n}\in\mathbb Z_{>0}
+\]
+\end{lemma}
+\begin{proof}
+    The binomial factor $C_n$ clears the denominators of the summands $t_{n,k}$.
+\end{proof}
+For $s=3,4$ let
+\begin{equation*}%\label{eq:z34-bold-p}
+  \mathbf p_{s,n}=\sum_{k=-n}^{15n}
+  \Bigl(B_{n,k}H^{(s)}_{4n+k}-\frac1{s-1}\,B'_{n,k}H^{(s-1)}_{4n+k}\Bigr),
+\end{equation*}
+where $B'_{n,k}$ is the derivative of $B_{n,k}$ in $k$
+(Appendix~\ref{app:zeta34-proof}).
+
+\begin{lemma}[Numerator sum presentation]\label{prop:z34-p-iv}
+For $s=3,4$ and all $n\ge0$, $\mathbf p_{s,n}=\frac{C_n}{12}\,p_{s,n}$.
+\end{lemma}
+
+\begin{proof}
+This is by the recurrence argument. Both sides satisfy the recurrence given by the companion form of $M(n)$, and they agree at $n=0,1,2$, the exact certificate in the supplied notebook.
+\end{proof}
+
+\begin{lemma}[Integer normalization]\label{prop:z34-int} With $D_n=6d_{19n}^4$,
+\[
+D_n(\mathbf q_n,\mathbf p_{3,n},\mathbf p_{4,n})\in\mathbb Z^3.
+\]
+\end{lemma}
+\begin{proof}
+$B_{n,k}\in\mathbb Z$ and $d_{16n}B'_{n,k}\in\mathbb Z$, and the harmonic indices in $\mathbf p_{s,n}$ lie in $[3n,19n]$, so $d_{19n}^rH^{(r)}_j\in\mathbb Z$. For a detailed calculation, see the supplementary notebook.
+\end{proof}
+
+We can now see how much cancellation is needed to pass the irrationality threshold.
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\small
+\begin{tabular}{llr}
+\toprule
+& source & rate\\
+\midrule
+growth of $\mathbf q_n=\sum_kB_{n,k}$ & Stirling, largest term & $\sigma<65.4516$\\
+normalization $D_n=6d_{19n}^4$ & prime number theorem & $76$\\
+\midrule
+growth of $D_n\mathbf q_n$ & sum of the two & $<141.4516$\\
+rate of convergence $g$ &  asymptotics & $>112.8075$\\
+\midrule
+\textbf{common divisor needed} & difference & $\boldsymbol{>28.6441}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+To account for more cancellations, we present these integers via the Dual representation. This gives an alternative expression for the same integer quantities.
+
+Looking at the dual CMF $\mathcal{Q}$, write the initial state as
+\[\mathcal G_0=\zeta(4)\,\mathbf a_0+\zeta(3)\,\mathbf b_0+\mathbf d_0,\] with the rational vectors
+\[
+  \mathbf a_0=(3,0,0),\qquad \mathbf b_0=(-2,-2,0),\qquad \mathbf d_0=(1,1,1),
+\]
+
+The kernel of $G^{5,2}_{5,5}$ along the trajectory is the rational function
+\[
+  R_n(s)=(-1)^n\,\frac{(1+2n-s)_{14n}\,(1+n-s)_{16n}}
+  {(s)_{11n+1}\,(s+n)_{11n+1}\,(s+2n)_{8n+2}} .
+\]
+%We define
+%\[
+%  B^\ast_{n,j}=\binom{16n+j}%{14n}\binom{17n+j}{16n}\binom{11n}{j}\binom{11n}{j- n}\binom{8n+1}{j-2n},
+  %\qquad
+  %N^\ast_n=\frac{(11n)!^2\,(8n+1)!}{(14n)!\,(16n)!},
+%\]
+%and $B^{\ast\prime}_{n,j}$, the derivative in $j$ (as for $B'_{n,k}$, with the sign $(-1)^j$ held fixed). 
+%
+%These play for $R_n$ the role that $B_{n,k}$ and $C_n$ play for the hypergeometric terms: at each triple pole $s=-j$, the two leading Laurent coefficients of $R_n$ are $(-1)^jB^\ast_{n,j}/N^\ast_n$ and minus its derivative in $j$.
+
+\begin{lemma}[Dual sum presentation]
+\label{lem: dual sum}
+Let $J_n=\max(12n,10n+1)$ and define
+\[
+  (-s)^kR_n(s)
+  =\sum_{j=0}^{J_n}\sum_{i=1}^3
+    \frac{c^{(k)}_{n,j,i}}{(s+j)^i}.
+\]
+    For $k=0,1,2$ define
+\begin{align*}
+  \mathbf a_{n,k}&=3\sum_jc^{(k)}_{n,j,3},\\
+  \mathbf b_{n,k}&=2\sum_jc^{(k)}_{n,j,2},\\
+  \mathbf d_{n,k}&=-\sum_j\sum_{i=1}^3i\,c^{(k)}_{n,j,i}\,H^{(i+1)}_{2n+j}.
+\end{align*}
+Then for all $n\ge0$,
+\[
+  \mathbf a_n=\mathbf a_0\,\Phi_Q(n),\qquad \mathbf b_n=\mathbf b_0\,\Phi_Q(n),\qquad
+  \mathbf d_n=\mathbf d_0\,\Phi_Q(n).
+\]
+\end{lemma}
+\begin{proof}
+    We use the recurrence trick again. We show that both sides satisfy the same order-three recurrence. We first compute the recurrence for the $k$-th coefficients via companion forms coming from the trajectory matrix $Q(n)$. The exact certificate in the supplied notebook.
+\end{proof}
+
+
+\begin{lemma}[A second presentation]\label{prop:z34-dual}
+% closed form instead of the numbers
+Let 
+\[
+\tilde u_n=(1,10n+1,(10n+1)^2)
+\]
+and 
+ \[
+  \Lambda_n=\frac{(8n)!\,(9n)!^2\,(11n)!^3\,(12n)!^3\,(13n)!^2}
+                 {6\,(16n)!^2\,(17n)!^2\,(18n)!^2\,(19n)!}.
+\]
+Then
+\[
+  \mathbf q_n=\Lambda_n\det\begin{pmatrix}\mathbf b_n\\\mathbf a_n\\\tilde u_n\end{pmatrix},\quad
+  \mathbf p_{3,n}=-\Lambda_n\det\begin{pmatrix}\mathbf d_n\\\mathbf a_n\\\tilde u_n\end{pmatrix},\quad
+  \mathbf p_{4,n}=\Lambda_n\det\begin{pmatrix}\mathbf d_n\\\mathbf b_n\\\tilde u_n\end{pmatrix}.
+\]
+\end{lemma}
+\begin{proof}
+The proof follows from the Minors Lemma \ref{lem:minors} and is direct linear algebra calculations carried out in the supplementary notebook.
+\end{proof}
+%
+We now count primes in the forward and the dual presentations, keeping for each prime the larger count, as described in Section~\ref{par: arithmetic control}.
+
+\begin{lemma}[Common divisor]\label{prop:z34-divisor}
+The integers $6d_{19n}^{4}\,(\mathbf q_n,\mathbf p_{3,n},\mathbf p_{4,n})$ have a common divisor $\mathcal D_n$ such that
+\[
+\liminf_{n\to\infty}\frac1n\log\mathcal D_n\ge30.3467.
+\]
+
+\end{lemma}
+
+\begin{proof}
+We use Legendre's formula to count the primes in each presentation, and keep for each prime the larger count. The resulting rates are:
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\small
+\begin{tabular}{lr}
+\toprule
+count & rate\\
+\midrule
+needed  & $>28.6441$\\
+\midrule
+forward presentation alone & $<26.29$\\
+dual presentation alone & $<18.25$\\
+\midrule
+\textbf{both, best per prime} & $\boldsymbol{\ge30.3467}$\\
+margin & $>1.70$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Note that neither presentation alone reaches the threshold.
+The exact evaluations, including tail bounds for the individual counts and the resulting density certificate, are provided in the supplementary material.
+\end{proof}
+
+\paragraph{Nonvanishing.}
+
+\begin{lemma}\label{lem:z34-nonvanishing}
+For $(A,B)\in\mathbb Q^2\setminus\{(0,0)\}$ and $\alpha=A\zeta(3)+B\zeta(4)$, the errors
+\[
+  L_n=\alpha\,q_n-Ap_{3,n}-Bp_{4,n}
+\]
+do not vanish at three consecutive indices.
+\end{lemma}
+
+\begin{proof}
+The sequences $q_n,p_{3,n},p_{4,n}$, and hence $L_n$, satisfy the recurrence given by the companion form of $M(n)$. The $3\times3$ matrix of their values at $n=0,1,2$ is invertible, and the recurrence can be run backwards at every index $n\ge0$. Since
+\[
+\alpha\rho_q-A\rho_{p,3}-B\rho_{p,4}\ne0,
+\] Lemma~\ref{lem:nonvanishing} gives the claim.
+\end{proof}
+\paragraph{Proof of Theorem \ref{thm:intro-zeta34}.}
+
+We now conclude with a proof of the main theorem.
+\begin{proof}[Proof of Theorem \ref{thm:z34}]
+Without loss of generality, we may assume $A, B$ to be integers. Let $\alpha=A\zeta(3)+B\zeta(4)$ and consider the approximations 
+\[
+r_n=(Ap_{3,n}+Bp_{4,n})/q_n,
+\] 
+with the integer representatives
+\[
+  \widetilde q_n=\frac{D_n\mathbf q_n}{\mathcal D_n},\qquad
+  \widetilde p_n=\frac{D_n(A\mathbf p_{3,n}+B\mathbf p_{4,n})}{\mathcal D_n},
+  \qquad D_n=6d_{19n}^4 .
+\]
+The four claims hold:
+\begin{enumerate}
+\item the limit is $\alpha$ (Lemma~\ref{lem:z34-limits}).
+\item the rate of convergence is $g>112.8075$
+  (Lemma~\ref{lem:z34-selected-error}).
+\item the representatives are integers, and they grow at rate
+  $h<141.4516-30.3467<111.105$ 
+  (Lemma~\ref{prop:z34-divisor}).
+\item the errors cannot vanish at three consecutive indices
+  (Lemma~\ref{lem:z34-nonvanishing}).
+\end{enumerate}
+The approximation exponent (Definition~\ref{def:delta}) is $\delta=\frac gh-1>0.015$. Hence $\alpha$ is irrational, and $\mu(\alpha)\le1+\frac1\delta<66.3$ (Remark~\ref{rem:mu-from-delta}).
+\end{proof}
+
+
+\subsection{A Bound for the Irrationality Measures of
+\texorpdfstring{$\zeta(2)$ and $\zeta(3)$}{ζ(2) and ζ(3)}}
+\label{subsec:z23}
+We use the CMF proof method to prove the following theorem.
+
+\begin{theorem}[Irrationality measures]\label{thm:z23-measures}
+The irrationality measures (Definition~\ref{def:irrationality-measure}) of
+$\zeta(2)$ and $\zeta(3)$ satisfy
+\[
+  \mu\bigl(\zeta(2)\bigr)<4.62675,
+  \qquad
+  \mu\bigl(\zeta(3)\bigr)<5.4197 .
+\]
+\end{theorem}
+
+% ---------------------------------------------------------------------
+
+For $\zeta(2)$ we follow the scheme of Section~\ref{cmf proof stratergy},
+with the dual pairing
+{\setlength{\fboxsep}{2pt}%
+\[
+  \boxed{\bigl({}_4F_3(1),\lbl{s_0}\pv{0,1,1,1}{1,1,1},
+         \lbl{t_0}\pv{-11,10,9,11}{2,1,3}\bigr)}
+  \xleftrightarrow{K(n),c(n)}
+  \boxed{\bigl(G^{4,1}_{4,4}(-1),\lbl{s_1}\pv{0,1,1,2}{0,0,0,0},
+         \lbl{t_1}\pv{-11,10,9,11}{0,2,1,3}\bigr)}
+\]}
+Along the two trajectories we have the functions, their states, and their
+initial values:
+\[
+\begin{aligned}
+  F_n&={}_4F_3(s_0+n\,t_0;\,1),
+  &\qquad
+  G_n&=G^{4,1}_{4,4}(-1;\,s_1+n\,t_1),\\[2pt]
+  \mathcal F_n&=\bigl(F_n,\ \theta F_n,\ \theta^2F_n\bigr),
+  &\qquad
+  \mathcal G_n&=\bigl(G_n,\ \theta G_n,\ \theta^2G_n\bigr),\\[2pt]
+  \mathcal F_0&=\bigl(1,\ 0,\ 0\bigr),
+  &\qquad
+  \mathcal G_0&=\bigl(\zeta(2)-\zeta(3)-1,\ \ \zeta(2)-1,\ \ -1\bigr),
+\end{aligned}
+\]
+
+
+\begin{lemma}\label{lem:z2-connection}
+The trajectory matrices $M(n)$ and $Q(n)$ are related by a dual pairing,
+\[
+  M(n)\,K(n+1)=c(n)\,K(n)\,Q^\vee(n),
+\]
+with $K(n)\in\operatorname{GL}_3(\mathbb Q(n))$ and $c(n)\in\mathbb Q(n)$.
+\end{lemma}
+
+\begin{proof}
+Exact verification is in the supplementary material. We record the value at the starting point,
+$K(0)=\left(\begin{smallmatrix}0&0&-1\\-1&2&-1\\-2&2&0\end{smallmatrix}\right)$,
+which is used below.
+\end{proof}
+
+% ---------------------------------------------------------------------
+\paragraph{Identifying the limit.}
+Define the initial conditions
+\[
+  \rho_q=(2,0,0),\qquad \rho_{p}=(0,2,-1).
+\]
+\begin{lemma}\label{lem:z2-limits}
+Let
+\[
+  q_n=\rho_q\Phi_M(n)e_0,\qquad
+  p_{n}=\rho_{p}\Phi_M(n)e_0
+\]
+Then the ratios converge:
+\[
+  \lim_{n\to\infty}\frac{p_{n}}{q_n}=\zeta(2).
+\]
+\end{lemma}
+
+\begin{proof}
+The state $\mathcal G_n$ is the recessive solution of $Q(n)$
+(Appendix~\ref{app:zeta2-proof}).
+The Dual Convergence Theorem~\ref{thm:dual-convergence} applies
+therefore
+\[
+  \lim_{n\to\infty}\frac{p_{n}}{q_n}
+  =\frac{\rho_{p}\,K(0)\,\mathcal G_0^{\mathsf T}}{\rho_q\,K(0)\,\mathcal G_0^{\mathsf T}}
+  =\zeta(2).
+\]
+\end{proof}
+
+
+% ---------------------------------------------------------------------
+\paragraph{The rate of convergence.}
+
+\begin{lemma}\label{lem:z2-selected-error}
+\[
+  \Bigl|\zeta(2)-\frac{p_{n}}{q_n}\Bigr|
+  \le e^{-(g-o(1))n},\qquad g>62.636575 .
+\]
+\end{lemma}
+
+\begin{proof}
+See Appendix \ref{app:z2-error}
+\end{proof}
+
+
+
+
+\paragraph{Controlling the arithmetic growth.}
+\label{subsubsec:zeta2-blocks}
+To bound the growth rate of the reduced denominators, we find a closed form for the approximants, as we did for $\zeta(3)$ and $\zeta(4)$ in Section~\ref{par: gcd z34}, the technical part is then to count the primes dividing its terms. 
+This counting is carried out by exact computation, summarized in Appendix~\ref{app:z2-blocks}, with the certificates and the Lean formalization in the supplementary material.
+
+Here, instead of finding a closed form for $p_n$ directly, we use the conservation of the CMF: The walk can be replaced by a product along a different lattice path. We decompose the walk such that for each path the product collapses into an explicit binomial sum. This closed form is used for counting primes. The details are in Appendix~\ref{app:z2-blocks}, and the whole argument is formalized in Lean~4, assuming only the prime number theorem \cite{demoura2021lean4}, see the supplementary material.
+
+By conservation, the walk equals the product along the path of four blocks (Appendix~\ref{app:z2-blocks}).:
+\[
+\begin{array}{c|c|c}
+\text{block}&\text{step}&\text{number of steps}\\\hline
+A&(0,1,1,1;\,0,0,0)&3n\\
+B&(0,0,0,0;\,2,1,3)&n\\
+C&(0,7,6,8;\,0,0,0)&n\\
+D&(-1,0,0,0;\,0,0,0)&11n
+\end{array}
+\]
+
+\begin{lemma}[Integer normalization]\label{prop:zeta2-int}
+Let 
+\[
+C_n=\prod_{u=9,10,11}\binom{un}{8n},\qquad \mathcal D^{\mathrm{car}}_n=\prod_{\sqrt{50n}<p\le13n}p^{\phi(n/p)}
+\] 
+and let $\mathcal D^{\mathrm{sh}}_n$ be the product of the primes $p>\sqrt{50n}$ in the six shells of Appendix~\ref{app:z2-blocks}. Then for every $n\ge1$,
+\[
+  \frac{C_n\,d_{12n}\,d_{13n}}{\mathcal D_n}\,(p_n,q_n)\in\mathbb Z^2,
+  \qquad \mathcal D_n=\mathcal D^{\mathrm{car}}_n\,\mathcal D^{\mathrm{sh}}_n .
+\]
+\end{lemma}
+
+\begin{proof}
+From the closed form, Legendre's formula on its binomial terms gives the carry divisor, and cancellation over $\mathbb F_p$ gives one more factor for each shell prime (Appendix~\ref{app:z2-blocks}).
+\end{proof}
+
+\begin{lemma}[Arithmetic growth]\label{lem:z2-growth}
+The numbers
+\[
+  \widetilde q_n=\frac{C_n\,d_{12n}\,d_{13n}\,q_n}{\mathcal D_n},\qquad
+  \widetilde p_n=\frac{C_n\,d_{12n}\,d_{13n}\,p_n}{\mathcal D_n}
+\]
+are integers, and $|\widetilde q_n|\le e^{(h+o(1))n}$ with $h<49.0986393$.
+\end{lemma}
+
+\begin{proof}
+The sequence $C_nq_n$ grows at rate less than $38.168733$, and $d_{12n}d_{13n}$ contributes $25$.
+By the prime number theorem, $\mathcal D^{\mathrm{car}}_n$ has growth rate $\gamma=\int_{1/13}^\infty\phi(x)\,x^{-2}\,dx>12.128427$ and $\mathcal D^{\mathrm{sh}}_n$ has growth rate $\frac{233}{120}$, the total length of the six shells divided by $n$ (Appendix~\ref{app:z2-blocks}). Hence
+\[
+  h<38.168733+25-\Bigl(12.128427+\frac{233}{120}\Bigr)<49.098639 .
+\]
+\end{proof}
+% ---------------------------------------------------------------------
+\paragraph{Proof of Theorem~\ref{thm:z23-measures}.}
+
+We now conclude with a proof of the measure bounds.
+\begin{proof}[Proof of Theorem~\ref{thm:z23-measures}]
+\emph{The case $\zeta(2)$.} Consider the approximations $r_n=p_n/q_n$,
+with the integer representatives
+\[
+  \widetilde q_n=\frac{C_nd_{12n}d_{13n}q_n}{G_nH_n},\qquad
+  \widetilde p_n=\frac{C_nd_{12n}d_{13n}p_n}{D^{\mathrm{car}}_nD^{\mathrm{sh}}_n}.
+\]
+The four claims hold:
+\begin{enumerate}
+\item the limit is $\zeta(2)$ (Lemma~\ref{lem:z2-limits}).
+\item the rate of convergence is $g>62.636575$
+  (Lemma~\ref{lem:z2-selected-error}).
+\item the representatives are integers, and they grow at rate
+  $h<38.168733+10.929906=49.098639$
+  (Lemmas~\ref{prop:zeta2-int} and~\ref{lem:z2-growth}).
+\item The errors can not vanish since $\zeta(2)$ is irrational.
+\end{enumerate}
+The approximation exponent (Definition~\ref{def:delta}) is
+$\delta=\frac gh-1>0.2757$, and therefore
+\[
+  \mu\bigl(\zeta(2)\bigr)\le1+\frac1\delta=\frac{g}{g-h}
+  <\frac{62.636575}{13.537936}<4.62675 .
+\]
+
+\emph{The case $\zeta(3)$.} Take $A=1$, $B=0$ in the construction of
+Section~\ref{subsec:z34}, and consider the approximations
+$r_n=p_{3,n}/q_n=P_{3,n}/Q_n$, with the integer representatives
+\[
+  \widetilde q_n=\frac{6\,C'_n\,d_{19n}^3\,Q_n}{\mathcal D'_n},\qquad
+  \widetilde p_n=\frac{6\,C'_n\,d_{19n}^3\,P_{3,n}}{\mathcal D'_n},
+\]
+where $\mathcal D'_n$ is the common divisor of
+Appendix~\ref{app:zeta3-measure}. The four claims hold:
+\begin{enumerate}
+\item the limit is $\zeta(3)$ (Lemma~\ref{lem:z34-limits}).
+\item the rate of convergence is $g>112.8075$
+  (Lemma~\ref{lem:z34-selected-error}).
+\item the representatives are integers, and they grow at rate
+  $h<53.287584+30\log\frac32+57-30.458547<91.992990$
+  (Appendix~\ref{app:zeta3-measure}).
+\item The errors can not vanish since $\zeta(3)$ is irrational.
+\end{enumerate}
+The approximation exponent is $\delta=\frac gh-1>0.2262$, and therefore
+\[
+  \mu\bigl(\zeta(3)\bigr)\le1+\frac1\delta=\frac{g}{g-h}
+  <\frac{112.8075}{20.81451}<5.4197 .
+\qedhere
+\]
+\end{proof}
+%%%
+%%%
+% old %%
+%%%%%
+%%

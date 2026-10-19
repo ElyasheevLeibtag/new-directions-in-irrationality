@@ -1,0 +1,32 @@
+{
+  "all_five_polynomial_substitutions_exact": true,
+  "forward_harmonic_exceptional_indices": [
+    0,
+    1
+  ],
+  "dual_exceptional_index": 0,
+  "lower_and_infinite_boundaries_checked": true,
+  "degrees_n_k": {
+    "forward": [
+      433,
+      114
+    ],
+    "dual_scalar": [
+      331,
+      107
+    ],
+    "dual_row_0": [
+      89,
+      35
+    ],
+    "dual_row_1": [
+      88,
+      35
+    ],
+    "dual_row_2": [
+      88,
+      35
+    ]
+  },
+  "elapsed_seconds": 2.36
+}

@@ -1,0 +1,71 @@
+{
+  "archive": "zeta3_zeta4_linear_independence_notebooks.zip",
+  "source_files": [
+    {
+      "source": "00_start_here.ipynb",
+      "sha256": "7b2108fff5a9dfd73a554834666775b5b338c4e1b9d7e38cdcda7a323d28118b"
+    },
+    {
+      "source": "01_theorem_A_matrices.ipynb",
+      "sha256": "2af3226df8e0fcfc9ed428f9fef0e9378a05a599409f279dc59d4514860b8132"
+    },
+    {
+      "source": "02_theorem_A_sums_and_minors.ipynb",
+      "sha256": "eee2f19ff68692cb11ba6d375cc4918e2e18cca0c73bd507076ca2007e64a5cb"
+    },
+    {
+      "source": "03_telescoping_certificates.ipynb",
+      "sha256": "e08b01e59328e47eba3ff67ad574a79c0df5e57526cf6e5d49f27d48b50ab894"
+    },
+    {
+      "source": "04_prime_counts_and_density.ipynb",
+      "sha256": "e6323ce20bddfc3f6dea9338ff63a4648561efcef12da6f92eeb0886f1bc4659"
+    },
+    {
+      "source": "05_rates_and_linear_independence.ipynb",
+      "sha256": "c2e25dd9599a6b5d938bb2da6987413efd405d5805530560c0733d3a07d3a4ac"
+    },
+    {
+      "source": "certificates.py",
+      "sha256": "1d00add6e28fa76e2c019bccd2c663ed98ad5e313f27df9569deab00c077a978"
+    },
+    {
+      "source": "common.py",
+      "sha256": "0b3769a2f8d7d56aa6c25190dfce6739bd911c835c28d95e9122c26d007b0be3"
+    },
+    {
+      "source": "data/dual_companion.json",
+      "sha256": "dcb26d91d8dba1db14a80f0f191bdd370ebfca03ecf92022f41c35208f22809b"
+    },
+    {
+      "source": "data/dual_matrices_zeta3_4.json",
+      "sha256": "1c54a883d09b97f75e2a2e98631a05c81bdda15d9c1ac5937eb6861900cd9686"
+    },
+    {
+      "source": "data/input_sha256.json",
+      "sha256": "18da4acb7d531f631840a50376d6334347d420735506df2fea65d62c25eef6b7"
+    },
+    {
+      "source": "data/matrices_for_zeta3_4.json",
+      "sha256": "e29ceedcd808c151529ffbc69bd9e657ba6fd355373718adb274117678c0789c"
+    },
+    {
+      "source": "density.py",
+      "sha256": "e2f38101138b2610aba43da6c1ce5dcba5d97ada781b91dc28d84b548d669b3b"
+    },
+    {
+      "source": "readouts.py",
+      "sha256": "8701b091ba1db15593c7cc3f8e37266fa54c54dae7b9f75563f01b4965f44d66"
+    },
+    {
+      "source": "run_notebooks.py",
+      "sha256": "659ad473e12720ff46c42f0a4cd913e933bde7a99476e76889a79f83d321a627"
+    }
+  ],
+  "adaptations": [
+    "Reorganized six source notebooks into three independently runnable notebooks.",
+    "Matched current paper notation, numbered statements, normalizations and final conservative bounds.",
+    "Retained exact helper algorithms and matrix data; regenerated certificates and outputs."
+  ],
+  "no_lean_written_or_executed": true
+}

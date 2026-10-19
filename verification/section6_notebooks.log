@@ -1,0 +1,27 @@
+Running zeta2/03_zeta2_rates_and_measure.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "zeta2/03_zeta2_rates_and_measure.ipynb", "status": "passed", "seconds": 1.5, "code_cells": 7}
+Running zeta2/02_zeta2_prime_arithmetic.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "zeta2/02_zeta2_prime_arithmetic.ipynb", "status": "passed", "seconds": 14.12, "code_cells": 6}
+Running zeta2/01_zeta2_cmf_and_closed_forms.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "zeta2/01_zeta2_cmf_and_closed_forms.ipynb", "status": "passed", "seconds": 1.72, "code_cells": 8}
+Running pure_zeta3/02_pure_zeta3_divisor_and_measure.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "pure_zeta3/02_pure_zeta3_divisor_and_measure.ipynb", "status": "passed", "seconds": 9.15, "code_cells": 7}
+Running pure_zeta3/01_pure_zeta3_approximants_and_rates.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "pure_zeta3/01_pure_zeta3_approximants_and_rates.ipynb", "status": "passed", "seconds": 9.36, "code_cells": 7}
+Running joint/03_rates_and_conclusion.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "joint/03_rates_and_conclusion.ipynb", "status": "passed", "seconds": 6.18, "code_cells": 9}
+Running joint/02_recurrence_and_divisor.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "joint/02_recurrence_and_divisor.ipynb", "status": "passed", "seconds": 5.72, "code_cells": 15}
+Running joint/01_matrices_sums_and_minors.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "joint/01_matrices_sums_and_minors.ipynb", "status": "passed", "seconds": 30.17, "code_cells": 15}
+Running 00_guide.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+{"notebook": "00_guide.ipynb", "status": "passed", "seconds": 0.67, "code_cells": 2}

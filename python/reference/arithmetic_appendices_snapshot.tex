@@ -1,0 +1,115 @@
+\subsection{The block decomposition for \texorpdfstring{$\zeta(2)$}{zeta(2)}}
+\label{app:z2-blocks}
+
+Conservation permits the four-block path of
+Section~\ref{subsec:z23}. Its last block takes a finite
+difference of order $11n$, leaving a polynomial part of degree at most
+$13n-1$. The resulting binomial sums and their harmonic terms are given
+in the supplementary notebook.
+
+For $C_n=\prod_{u=9,10,11}\binom{un}{8n}$, put
+\[
+\begin{aligned}
+ \rho(x,y)={}&\lfloor11x\rfloor-\lfloor y\rfloor-\lfloor11x-y\rfloor
+             -3\lfloor8x\rfloor\\
+ &+\sum_{u=9,10,11}
+   \bigl(\lfloor ux+y\rfloor-\lfloor(u-8)x+y\rfloor\bigr),
+ \qquad \phi(x)=\min_{0\le y<1}\rho(x,y).
+\end{aligned}
+\]
+Legendre's formula and the divided-difference bounds give
+\[
+ \frac{C_nd_{12n}d_{13n}}{\mathcal D_n^{\mathrm{car}}}
+ (p_n,q_n)\in\mathbb Z^2,\qquad
+ \mathcal D_n^{\mathrm{car}}
+ =\prod_{\sqrt{50n}<p\le13n}p^{\phi(n/p)}.
+\]
+Let $\mathcal D_n^{\mathrm{sh}}$ be the product of the primes
+$p>\sqrt{50n}$ in the six open intervals
+\[
+ \left(\frac{13n}{2},8n\right),\quad
+ \left(\frac{13n}{3},\frac{9n}{2}\right),\quad
+ \left(\frac{13n}{4},\frac{10n}{3}\right),\quad
+ \left(\frac{13n}{5},\frac{8n}{3}\right),\quad
+ \left(\frac{13n}{6},\frac{9n}{4}\right),\quad
+ \left(\frac{13n}{12},\frac{9n}{8}\right).
+\]
+For each such prime, the normalized sum reduces to
+$\sum_{x\in\mathbb F_p}P(x)$ with $\deg P<p-1$, hence vanishes.
+Thus, with $\mathcal D_n=\mathcal D_n^{\mathrm{car}}
+\mathcal D_n^{\mathrm{sh}}$, the same integrality statement holds
+after division by $\mathcal D_n$.
+
+The prime number theorem gives
+\[
+ \lim_{n\to\infty}\frac1n
+ \log\frac{d_{12n}d_{13n}}{\mathcal D_n}
+ =25-\gamma-\frac{233}{120}<10.929906,\qquad
+ \gamma=\int_{1/13}^{\infty}\frac{\phi(x)}{x^2}\,dx.
+\]
+The one-periodic profile $\phi$ has $94$ cells on $[0,1)$;
+exact summation over $2000$ periods with a bounded tail gives
+$\gamma>12.1284279747910$.
+The shell calculations and integral bounds are reproduced in
+the supraliminal material
+combines them with the spectral bounds to obtain Lemma~\ref{lem:z2-growth}.
+The supplied formalization and full written proof are at
+\url{https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices}.
+
+\subsection{The arithmetic of the pure
+\texorpdfstring{$\zeta(3)$}{zeta(3)} approximations}
+\label{app:zeta3-measure}
+
+Write
+\[
+ F_n(t)=\frac{\prod_{u=0}^{2}(t-(10+u)n)_{10n}}
+ {(t+n)_{16n+1}(t+2n)_{14n+1}}
+ =\sum_{j=n}^{17n}\left(\frac{a_j}{(t+j)^2}+\frac{b_j}{t+j}\right),
+\]
+and set
+\[
+ Q_n=\sum_ja_j,\qquad
+ P_{3,n}=\sum_j\left(a_jH^{(3)}_{j+2n}
+                       +\frac12b_jH^{(2)}_{j+2n}\right),\qquad
+ C'_n=\frac{(15n)!^2}{(10n)!^3}.
+\]
+Gamma reflection and comparison of Laurent coefficients give
+$C'_na_{2n+k}=(-1)^nB_{n,k}$ and
+$C'_nb_{2n+k}=-(-1)^nB'_{n,k}$, including the simple-pole tails.
+Hence $C'_n(Q_n,P_{3,n})=(-1)^n(\mathbf q_n,\mathbf p_{3,n})$,
+so $P_{3,n}/Q_n=p_{3,n}/q_n$ for every $n\ge0$.
+The error estimate of Lemma~\ref{lem:z34-selected-error} therefore applies.
+
+The coefficient bounds $C'_na_j\in\mathbb Z$ and
+$d_{16n}C'_nb_j\in\mathbb Z$ give
+$6C'_nd_{19n}^3(Q_n,P_{3,n})\in\mathbb Z^2$.
+For $p>29$, $p^2>30n$ and $p\nmid n$, a stronger common divisor
+$\mathcal D'_n$ combines the factorial carry count with fourteen
+first-order shells and the two second-order windows
+\[
+ \{n/p\}\in
+ \left(\frac1{10},\frac2{19}\right)
+ \cup\left(\frac{11}{12},\frac{15}{16}\right).
+\]
+The carry and shell counts are evaluated on the $270$ cells of the
+Farey partition of order $29$, with periodic lifts.
+The first-order terms cancel over $\mathbb F_p$; a trace identity
+gives the additional factor in the two windows.
+The resulting divisor satisfies, for $n\ge1$,
+\[
+ \frac{6C'_nd_{19n}^3}{\mathcal D'_n}(Q_n,P_{3,n})\in\mathbb Z^2,
+ \qquad
+ \liminf_{n\to\infty}\frac{\log\mathcal D'_n}{n}
+ >30.458547243805.
+\]
+Together with
+$\limsup n^{-1}\log|C'_nQ_n|<65.451536565866$, this gives
+\[
+ h<65.451536565866+57-30.458547243805<91.992990,
+\]
+as used in Theorem~\ref{thm:z23-measures}.
+
+The sum identity and spectral calculations are in
+the supplementary material the carry profiles, shell certificates, and density bounds are in
+the supplementary material.
+

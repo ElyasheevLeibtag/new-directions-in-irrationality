@@ -1,0 +1,9 @@
+{
+  "normal_form_determinant_at_I_seed": "-216423567360000000000",
+  "normal_form_unique_generically": true,
+  "axis_determinants_at_I_seed": {
+    "MA": "26004684800000000/69069",
+    "MB": "1/1472000000",
+    "MG": "-41875/299"
+  }
+}

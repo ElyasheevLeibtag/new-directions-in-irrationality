@@ -1,0 +1,518 @@
+[
+  {
+    "original_member": "cmf_python_companion_v2/00_guide.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "01ed65bf84018aaf168b3b992da08dea2ffaa215473e67bb4ba1ffbd0343bf0a",
+    "delivered_sha256": "1d0d2149460368449b9b42f50411ca24f306b6bdba1834ac38ee5e9c37233757"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/NOTATION_AND_SCOPE.md",
+    "status": "modified_or_regenerated",
+    "original_sha256": "6572656dee415536208e7e541c362d0e402436a21aba68927d7f2497c8e0d8d2",
+    "delivered_sha256": "8b8c6ce9195f1e61c0ca4e69067d312d0764647860305260499132f67bfb2370"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/PAPER_REFERENCES.md",
+    "status": "modified_or_regenerated",
+    "original_sha256": "89e02868e7c58b75b3b0332805d8b0d48d4685195247ce9c1fe7d25b8c548ed9",
+    "delivered_sha256": "95677ebe506c174ae170dfdfa862742b92decb710b2c1e75f1226071f5ec2aec"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/README.md",
+    "status": "modified_or_regenerated",
+    "original_sha256": "765c6e63cb63951144f861f8b7e59d32282f78951d0e1e14f11d5cdaf926c4fa",
+    "delivered_sha256": "900e8b28492afc751387bb148c3b6e6d5a04314e574703bfe405553a2029da35"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/REVIEW_CHANGES.md",
+    "status": "omitted",
+    "original_sha256": "22be889f312e5d6747da40163bafe4f9795c42527e15d0ad77481558998ce84b",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/VERIFICATION.md",
+    "status": "modified_or_regenerated",
+    "original_sha256": "3845fdf37d7a9eb1a7002c353059b0d0480c6139f3998f62655fd37a12b0a151",
+    "delivered_sha256": "7a09e27365ce82b5355faa140225b2f1048213400569265fec07f46a47ace697"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/final_bounds.py",
+    "status": "unchanged",
+    "original_sha256": "f276c9a60e52ffb8431989c62395699672829afdb226a7aa2af4b9589d7edca6",
+    "delivered_sha256": "f276c9a60e52ffb8431989c62395699672829afdb226a7aa2af4b9589d7edca6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/01_matrices_sums_and_minors.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "d47eb2cc607a57bec9a3207c1ee0924ae1d0ca3e1b74e4e7db44b10a8391d11b",
+    "delivered_sha256": "55c687ae0745b1a4098ce72ea42709308d5649f909b812ca5a92451c33c514a3"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/02_recurrence_and_divisor.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "002e544d60bc71243706ec206209b5425f77d0c3cfc6744ec14e95619d152ef4",
+    "delivered_sha256": "874f5b3b62e17ae9bd89c4764ff0b1ce5f4e0498e5a911844b2fc4a07e10d8d6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/03_rates_and_conclusion.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "8998dfbbc695ced4c3013537efe8f38ea2e9fde169600feb8772e0fc118bbf34",
+    "delivered_sha256": "1d3e457cf39b0d02a77155dfa70fae215ec6c545581cac4f8136f2a8f3015c41"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/PROVENANCE.json",
+    "status": "unchanged",
+    "original_sha256": "5039d60d396b362c5e0a9674cd54a921ad19ebd4d1e7b39cb0ef1a80334a4a9d",
+    "delivered_sha256": "5039d60d396b362c5e0a9674cd54a921ad19ebd4d1e7b39cb0ef1a80334a4a9d"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/certificates.py",
+    "status": "unchanged",
+    "original_sha256": "1d00add6e28fa76e2c019bccd2c663ed98ad5e313f27df9569deab00c077a978",
+    "delivered_sha256": "1d00add6e28fa76e2c019bccd2c663ed98ad5e313f27df9569deab00c077a978"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/common.py",
+    "status": "unchanged",
+    "original_sha256": "0b3769a2f8d7d56aa6c25190dfce6739bd911c835c28d95e9122c26d007b0be3",
+    "delivered_sha256": "0b3769a2f8d7d56aa6c25190dfce6739bd911c835c28d95e9122c26d007b0be3"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/data/dual_companion.json",
+    "status": "unchanged",
+    "original_sha256": "dcb26d91d8dba1db14a80f0f191bdd370ebfca03ecf92022f41c35208f22809b",
+    "delivered_sha256": "dcb26d91d8dba1db14a80f0f191bdd370ebfca03ecf92022f41c35208f22809b"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/data/dual_matrices_zeta3_4.json",
+    "status": "unchanged",
+    "original_sha256": "1c54a883d09b97f75e2a2e98631a05c81bdda15d9c1ac5937eb6861900cd9686",
+    "delivered_sha256": "1c54a883d09b97f75e2a2e98631a05c81bdda15d9c1ac5937eb6861900cd9686"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/data/input_sha256.json",
+    "status": "unchanged",
+    "original_sha256": "18da4acb7d531f631840a50376d6334347d420735506df2fea65d62c25eef6b7",
+    "delivered_sha256": "18da4acb7d531f631840a50376d6334347d420735506df2fea65d62c25eef6b7"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/data/matrices_for_zeta3_4.json",
+    "status": "unchanged",
+    "original_sha256": "e29ceedcd808c151529ffbc69bd9e657ba6fd355373718adb274117678c0789c",
+    "delivered_sha256": "e29ceedcd808c151529ffbc69bd9e657ba6fd355373718adb274117678c0789c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/data/python_source_provenance.json",
+    "status": "unchanged",
+    "original_sha256": "a9dd5cb2c0576b9cfc9536e3aa07f17b2d27920077d6dd7d3bdb470fdf5e8fc6",
+    "delivered_sha256": "a9dd5cb2c0576b9cfc9536e3aa07f17b2d27920077d6dd7d3bdb470fdf5e8fc6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/density.py",
+    "status": "unchanged",
+    "original_sha256": "71a698a8ba845a69caa88650ccc6739a9892b386a573f81acff31b9cc9b9df4e",
+    "delivered_sha256": "71a698a8ba845a69caa88650ccc6739a9892b386a573f81acff31b9cc9b9df4e"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/readouts.py",
+    "status": "unchanged",
+    "original_sha256": "2edbc25c307dcf8d5350611604d601960fb5543bcfdce1eadf56a65cc3e30288",
+    "delivered_sha256": "2edbc25c307dcf8d5350611604d601960fb5543bcfdce1eadf56a65cc3e30288"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/density_cells.csv",
+    "status": "unchanged",
+    "original_sha256": "e13f3f823c8a1120705cfd239626236291e5ad9c5fcdcf43c2aa12aca125d3b0",
+    "delivered_sha256": "e13f3f823c8a1120705cfd239626236291e5ad9c5fcdcf43c2aa12aca125d3b0"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/density_certificate.json",
+    "status": "unchanged",
+    "original_sha256": "02ea18ea6686a21326c13615132cc534ca810884fbf485bfabc2bc8e24037ca8",
+    "delivered_sha256": "02ea18ea6686a21326c13615132cc534ca810884fbf485bfabc2bc8e24037ca8"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/density_finite_primes.csv",
+    "status": "unchanged",
+    "original_sha256": "3308c7c8c82700dbe776edc2f6d2e521c199be5f3162bb738048ce5ec19588af",
+    "delivered_sha256": "3308c7c8c82700dbe776edc2f6d2e521c199be5f3162bb738048ce5ec19588af"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/execution_report.json",
+    "status": "omitted",
+    "original_sha256": "d299c374005efb201a8b888a963dc72ced38fbd1d02997cbe406d5ff28054719",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/joint_paper_bounds.json",
+    "status": "unchanged",
+    "original_sha256": "3800b46e690603bf2ac8f5ecdac051b5e381515871bb76a4c440c4db8d1d0786",
+    "delivered_sha256": "3800b46e690603bf2ac8f5ecdac051b5e381515871bb76a4c440c4db8d1d0786"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/joint/results/telescoping_certificate.json",
+    "status": "modified_or_regenerated",
+    "original_sha256": "7cee07d7e23c5ebfed5953cf6e52ab33c322b7bcdbbf2881d9803dbd6ec1a2c0",
+    "delivered_sha256": "906cfabe42c61adc2159cda3cdd6d57dee9530a4a2ec08435bc04816fbda242b"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/manifest_sha256.json",
+    "status": "omitted",
+    "original_sha256": "33756d34642f1f14091fd81ebc7742bd49e4c2e53101277ddaee89a5ca5c70e9",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/paper/compact_arithmetic_appendices.tex",
+    "status": "omitted",
+    "original_sha256": "24065d0269fc7c308fa202ab8c1d4a2d8561555ee718b2a62a130b92a2927f93",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/paper_references.py",
+    "status": "modified_or_regenerated",
+    "original_sha256": "0481e8de5cad8316c096a81b9ab966a4843632d374b7425e7499914a2a8fd7f5",
+    "delivered_sha256": "3feb4913f0a4e28dd36fa056f59f8a573d67e7bbd509552b20112e2e6b50d335"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/01_pure_zeta3_approximants_and_rates.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "61f104f3f2b8b5e75f16f44952a59e25ae567d16945e1c220d10408551a1ed88",
+    "delivered_sha256": "1769d1b51e8f0c167049a6a195c793ccf4108e0480a089336c5ec5cfa13e9675"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/02_pure_zeta3_divisor_and_measure.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "87fd6d532a6907cde5a919d247e6f3911b1f57bfdda6bd9df0c518f8c3ee1f5e",
+    "delivered_sha256": "918ec2baa3a95ac5c46098338bfa8693ef00755a5e80582e1dc8b6a4fe803e7e"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/PROVENANCE.json",
+    "status": "unchanged",
+    "original_sha256": "cf66c06dfcfb16f91c08c1718fb4e7a52ae234fa83076ba7a07a9ad4bec25e3c",
+    "delivered_sha256": "cf66c06dfcfb16f91c08c1718fb4e7a52ae234fa83076ba7a07a9ad4bec25e3c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/approximants.py",
+    "status": "unchanged",
+    "original_sha256": "2f28068dd3b9bed4a21e6221d857e64d89608f852b3537bfafe7eaf288013dbb",
+    "delivered_sha256": "2f28068dd3b9bed4a21e6221d857e64d89608f852b3537bfafe7eaf288013dbb"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/chambers.py",
+    "status": "unchanged",
+    "original_sha256": "ab8dbb6bbc7e43d44b3ed63f1a9e0723ee40b3896cbb5d4e9409d660e4c52f11",
+    "delivered_sha256": "ab8dbb6bbc7e43d44b3ed63f1a9e0723ee40b3896cbb5d4e9409d660e4c52f11"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/data/chamber_reference.json",
+    "status": "unchanged",
+    "original_sha256": "bbb7a307adb05270b57ca4684d7ee9851916fe5a53c04acd2c64799dd936136c",
+    "delivered_sha256": "bbb7a307adb05270b57ca4684d7ee9851916fe5a53c04acd2c64799dd936136c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/data/spectral_reference.json",
+    "status": "unchanged",
+    "original_sha256": "3a683aad5cb50e022827adf6bae55551206e4e3ae29627f64f168f4bd7c3a77c",
+    "delivered_sha256": "3a683aad5cb50e022827adf6bae55551206e4e3ae29627f64f168f4bd7c3a77c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/rates.py",
+    "status": "unchanged",
+    "original_sha256": "e83b32a0672b4df2d477761ef85e49babf82817188a282535237f680614814e3",
+    "delivered_sha256": "e83b32a0672b4df2d477761ef85e49babf82817188a282535237f680614814e3"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/pure_zeta3/same_sums.py",
+    "status": "unchanged",
+    "original_sha256": "097f1775c78edbf3b4f3da64bdd52bc96adec47e3ef4ae581ac1e25c6d8e97cf",
+    "delivered_sha256": "097f1775c78edbf3b4f3da64bdd52bc96adec47e3ef4ae581ac1e25c6d8e97cf"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/arithmetic_appendices_snapshot.tex",
+    "status": "modified_or_regenerated",
+    "original_sha256": "a5a15bb5ba2b87b4db4fbeedd970fa7c3b200b0f42fe7bd822425af3b881edc8",
+    "delivered_sha256": "c5603c7e5cde8ec6cffeefcc0a5c64f53de7d48974147627a7247ad57395783c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/full_paper_snapshot.tex",
+    "status": "modified_or_regenerated",
+    "original_sha256": "4f5bbd37e28c4e78fb1dcb84c6173af82ea75e7b4c0db5a7db9c6d663e9d2494",
+    "delivered_sha256": "5b8493bd9e81c9e07a3bc9257fc7e0540d69b17d8f01f1b76b3e861d8f6160e7"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/input_archives.json",
+    "status": "omitted",
+    "original_sha256": "5c10922dbdd6ac2b1616e115818854695f5d8394667e2a2b4c643d9fefcfe929",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/lean_read_only_audit.json",
+    "status": "omitted",
+    "original_sha256": "cbb38c047f169b35f44fbcf6ba62d8a0cf0edbbcb5997c3c7dc415666d02c0dd",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/lean_reference_index.md",
+    "status": "omitted",
+    "original_sha256": "d7f46d6d390e220341fd1f84fc85d446ceee1127590085cdbd2fb5770970918b",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/numbering_convention.txt",
+    "status": "modified_or_regenerated",
+    "original_sha256": "fce94c049bcac1fa20925f3b3dc1ed2dd912840cb9e29e575032b146563884fa",
+    "delivered_sha256": "eb2ed5f1e963484ca447e6df117a924345e0e5101820fcc1fb0e74f546d7adac"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/paper_labels.json",
+    "status": "modified_or_regenerated",
+    "original_sha256": "49faacbabb24037ac27694150e46ea9e8db9fa657ff688b31106f4242a3961e7",
+    "delivered_sha256": "32e75185a4687eef81d4de9c787e1c610c060b717e8920cf4b3189a076eb7549"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/paper_section_consistency.json",
+    "status": "omitted",
+    "original_sha256": "119eb440795bdf86cf7e1e0379be9e3641578f690eb154aa33b536e7c806dcaa",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/paper_snapshot_provenance.json",
+    "status": "modified_or_regenerated",
+    "original_sha256": "21783dbc79bc72e0cb7865f92bc6e5445fd24753e4a42fdb1811f1cc5ed271ca",
+    "delivered_sha256": "cd811b7b34c534f26017a46f1dccf6c212e77cab7a39866c164dbb6ef30c392e"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/reference/proof_section_snapshot.tex",
+    "status": "modified_or_regenerated",
+    "original_sha256": "81d166a678ca5f0b81cd076b37c512d4691b3d604f23f7de1cd264adabf7fbd0",
+    "delivered_sha256": "5b6005c9e9dccbf265b1d25a31d68ef771c98173b0c9d25d405dbacb24e53e1f"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/requirements.txt",
+    "status": "unchanged",
+    "original_sha256": "cfe0c8b0ae403515bb65579fe3bd6b877388771160ae9f2c02cc838039cfb4f6",
+    "delivered_sha256": "cfe0c8b0ae403515bb65579fe3bd6b877388771160ae9f2c02cc838039cfb4f6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/run_notebooks.py",
+    "status": "modified_or_regenerated",
+    "original_sha256": "8bab7ceebbb27ba704ad2669bce5374fee5afcc710cecd50c6ebd341ce1de857",
+    "delivered_sha256": "ba941115d8d8b1620f635bba0dde472247795f14455ef80184b128eab91539c6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/verification/execution_report.json",
+    "status": "modified_or_regenerated",
+    "original_sha256": "e0bc6b670e31681c7de7f22af4469df297588712cc8996fd7256accaa8b4c29f",
+    "delivered_sha256": "998922028cbd17522ac4ba99882ae8caeea2f26152af1339a8778cc629ac8bc7"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/verification/review_checks.json",
+    "status": "omitted",
+    "original_sha256": "7cd67eee318d7cbb90e094f864807556318d70270569d9550f0fd83f866e07db",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/verify_bundle.py",
+    "status": "modified_or_regenerated",
+    "original_sha256": "2808b72194a0882d54dbc07f13289944102933f06995baf5148851672bb9e38d",
+    "delivered_sha256": "93661302ae7d9267ef6a89af3f2a28eef94196d3705512ab359a4e2020063ed4"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/01_zeta2_cmf_and_closed_forms.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "dd764ef93282aa31eb3d28b39bdd81a288a7472686959887f3cad2ab1e2d8cab",
+    "delivered_sha256": "d4eb59791967e8dda8852e56dec202d1f8d6def31b69496172c5adf9e67a326a"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/02_zeta2_prime_arithmetic.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "010b507bd14b1ac28e08a657a7908ab9f02db4e2eed8352dc35f437e1e6d973b",
+    "delivered_sha256": "247b63ab0a19463b16738902e8d2fa15f85909d92582c54313a29a426e3f7b74"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/03_zeta2_rates_and_measure.ipynb",
+    "status": "modified_or_regenerated",
+    "original_sha256": "38f08b967ea3a775a7fe933385ea5cc8ed419668589ee43bc95218f885462887",
+    "delivered_sha256": "fdc8e2b6f969def8d9b5652043641702911b72c89c06d4bb2c8192a9ce3e7eaf"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/README.md",
+    "status": "modified_or_regenerated",
+    "original_sha256": "33e28831422019a4902ff63f9a0cf1a0249531949a4e7ccb2b1e1e74341afbf0",
+    "delivered_sha256": "ec25b52eb50098ae2b90bbdfdcfe5ef8cae46b49ac8888e28d93fc3564435d6c"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/SOURCE_MANIFEST.json",
+    "status": "unchanged",
+    "original_sha256": "19b682a2ef09f3b64e150ef3047767906de2e90840289ca1f66c48962e9b9031",
+    "delivered_sha256": "19b682a2ef09f3b64e150ef3047767906de2e90840289ca1f66c48962e9b9031"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/analytic/analytic_certificates.json",
+    "status": "unchanged",
+    "original_sha256": "780114fa354ffd623acb13be0e1eea15182436fc4bdf7ed5b6ee44fc5a57471a",
+    "delivered_sha256": "780114fa354ffd623acb13be0e1eea15182436fc4bdf7ed5b6ee44fc5a57471a"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/analytic/certify_analytic_rates.py",
+    "status": "unchanged",
+    "original_sha256": "e0527cbbc4e374421e51b31ea18d41ffccba2a148609689e893819d0498be019",
+    "delivered_sha256": "e0527cbbc4e374421e51b31ea18d41ffccba2a148609689e893819d0498be019"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/chamber_certificate.json",
+    "status": "unchanged",
+    "original_sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5",
+    "delivered_sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/chamber_certificate.py",
+    "status": "unchanged",
+    "original_sha256": "ad7979786a3d02ca3baacf895f7f0846bc9d56c76e145e02a1c7991c7e46c26a",
+    "delivered_sha256": "ad7979786a3d02ca3baacf895f7f0846bc9d56c76e145e02a1c7991c7e46c26a"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_fifth_shell.py",
+    "status": "unchanged",
+    "original_sha256": "5e0db84a6d5e24a7ab8c5b4c89c5ef15a8ff0eb221232a70a0b2f23aacbca577",
+    "delivered_sha256": "5e0db84a6d5e24a7ab8c5b4c89c5ef15a8ff0eb221232a70a0b2f23aacbca577"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_finite_formula.py",
+    "status": "unchanged",
+    "original_sha256": "c0f0624cd2f02c5e33461dd7ad71b25d3740d977bc559fad1f377f15490a8b07",
+    "delivered_sha256": "c0f0624cd2f02c5e33461dd7ad71b25d3740d977bc559fad1f377f15490a8b07"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_local_kernel.json",
+    "status": "modified_or_regenerated",
+    "original_sha256": "eda0e7cb14bed559d98cb0be86f8b7adb37d9f18bf531e1efa8448b563024ce2",
+    "delivered_sha256": "a5f6e5b1af8dccb56d5e4253ce484e1d83d12135e143bcb00f283a24449585b8"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_local_kernel.py",
+    "status": "unchanged",
+    "original_sha256": "0dac6da60abc74536bbde948c04ea1653142219524de4c41208bf93443811b2e",
+    "delivered_sha256": "0dac6da60abc74536bbde948c04ea1653142219524de4c41208bf93443811b2e"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_main_shell.py",
+    "status": "unchanged",
+    "original_sha256": "9ce92148c510f22c764cae4600258c5caae895c9bf321696a10a5f26909d39e9",
+    "delivered_sha256": "9ce92148c510f22c764cae4600258c5caae895c9bf321696a10a5f26909d39e9"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/check_shell_independent.py",
+    "status": "unchanged",
+    "original_sha256": "1f028c0c41f156c8a6f064c486791ece7b993e77686a51231e7e9587450a3dc5",
+    "delivered_sha256": "1f028c0c41f156c8a6f064c486791ece7b993e77686a51231e7e9587450a3dc5"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/core.py",
+    "status": "unchanged",
+    "original_sha256": "6bb4325acbd316508223351c60ca88a4c3a66424c9e5e8c1412c421e0052fdb3",
+    "delivered_sha256": "6bb4325acbd316508223351c60ca88a4c3a66424c9e5e8c1412c421e0052fdb3"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/fifth_shell_checks.json",
+    "status": "unchanged",
+    "original_sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5",
+    "delivered_sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/finite_formula_checks.json",
+    "status": "unchanged",
+    "original_sha256": "50485d79ad0d9593682599e833c7f583c3380d2e5262cd5c502f60c4a20ea098",
+    "delivered_sha256": "50485d79ad0d9593682599e833c7f583c3380d2e5262cd5c502f60c4a20ea098"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/independent_checks.json",
+    "status": "unchanged",
+    "original_sha256": "1545a1b4b6e97bea9abf9004a4b3c621d6159904edd29c4650c82b3c7c867f4e",
+    "delivered_sha256": "1545a1b4b6e97bea9abf9004a4b3c621d6159904edd29c4650c82b3c7c867f4e"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/main_shell_checks.json",
+    "status": "unchanged",
+    "original_sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d",
+    "delivered_sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/rate_certificate.json",
+    "status": "unchanged",
+    "original_sha256": "097d020ad0d1fd89d6d49191221035bd27b1338379729e66eb3cffe49b798c7b",
+    "delivered_sha256": "097d020ad0d1fd89d6d49191221035bd27b1338379729e66eb3cffe49b798c7b"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/certificates/rate_certificate.py",
+    "status": "unchanged",
+    "original_sha256": "fff5049e7130015bf2e1c5b6f05fffd1119cea0b86738d65e3ff4097a5e61c3d",
+    "delivered_sha256": "fff5049e7130015bf2e1c5b6f05fffd1119cea0b86738d65e3ff4097a5e61c3d"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/companion.py",
+    "status": "unchanged",
+    "original_sha256": "acd66af843a7f699495bb4518ae7b1deba14e26753a792740afbd1be8372fc62",
+    "delivered_sha256": "acd66af843a7f699495bb4518ae7b1deba14e26753a792740afbd1be8372fc62"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/dual_pairing.py",
+    "status": "unchanged",
+    "original_sha256": "7db78ba369b985d2aca96b8509a58afa115dbaa2b8ac0da4c82d2c72137bfdf6",
+    "delivered_sha256": "7db78ba369b985d2aca96b8509a58afa115dbaa2b8ac0da4c82d2c72137bfdf6"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/execution_report.json",
+    "status": "omitted",
+    "original_sha256": "bd5778a80b45bc23091d628d8604e90ccc3a263a60e178af33e53fb05a83108c",
+    "delivered_sha256": null
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/certify_analytic_rates.log",
+    "status": "modified_or_regenerated",
+    "original_sha256": "5c2895179fdd19e9aa8f53929260b9c69d779e41d9817e60b8d91150397a5266",
+    "delivered_sha256": "52cd8ee606c85eaa6cd4f2dc3c61b54ffae49a64252b28580a2b56ac08a5bbf2"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/chamber_certificate.log",
+    "status": "unchanged",
+    "original_sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5",
+    "delivered_sha256": "1ed62b7c7151f30faa6e6ba2503936a279e1553f14ebdd3ec7961c786d214fc5"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/check_fifth_shell.log",
+    "status": "unchanged",
+    "original_sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5",
+    "delivered_sha256": "b08bf35c2e535162ead79117796ac7bec551f07f906a45dba253d0bc9d9e66c5"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/check_finite_formula.log",
+    "status": "modified_or_regenerated",
+    "original_sha256": "828aac5af7663bf9c72f6fbe59033d3c52520ba514ec2231a5a776047b0a161e",
+    "delivered_sha256": "c14bba83eb02ecec0b38a7c0fd3af3abb2705ffc5572dc7203247ded2f5cb616"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/check_local_kernel.log",
+    "status": "modified_or_regenerated",
+    "original_sha256": "c98363bf775c86b36fe53f7537e7288dff195d60e025ed3953cd2a10ffe4ff6f",
+    "delivered_sha256": "36040428c5a98d47396f752c1c35bfbc154a217786860310230be0a1c8d6a5df"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/check_main_shell.log",
+    "status": "unchanged",
+    "original_sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d",
+    "delivered_sha256": "b636dbd0e317384615808c02b9353f1fc266b17ea1c56bcb956bd14c120a638d"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/check_shell_independent.log",
+    "status": "unchanged",
+    "original_sha256": "49a92c075b3824435903fbfd902a76a1acae3fea3e69aa3faf2024142adb7735",
+    "delivered_sha256": "49a92c075b3824435903fbfd902a76a1acae3fea3e69aa3faf2024142adb7735"
+  },
+  {
+    "original_member": "cmf_python_companion_v2/zeta2/generated/rate_certificate.log",
+    "status": "unchanged",
+    "original_sha256": "45d7bb76f04f76367bb6792ffcb1e9b22aa4f0e49291401e90f6f05231728afe",
+    "delivered_sha256": "45d7bb76f04f76367bb6792ffcb1e9b22aa4f0e49291401e90f6f05231728afe"
+  }
+]

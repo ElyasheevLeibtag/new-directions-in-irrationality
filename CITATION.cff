@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the supplementary material and the associated paper. A DOI will be added when the release is published."
+type: software
+title: "New Directions in Irrationality: Supplementary Material"
+version: "1.0.0-rc2"
+authors:
+  - family-names: Leibtag
+    given-names: Elyasheev
+  - family-names: Barkan
+    given-names: Hila
+  - family-names: Kalisch
+    given-names: Rotem
+  - family-names: Weinbaum
+    given-names: Shachar
+  - family-names: Shalyt
+    given-names: Michael
+  - family-names: Kaminer
+    given-names: Ido
+keywords:
+  - conservative matrix fields
+  - irrationality measures
+  - zeta values
+  - reproducible computation
+abstract: "Python notebooks, exact algebraic checks, arithmetic and spectral certificates supporting New Directions in Irrationality. See COVERAGE.md for the mathematical inputs and verification scope. Three pinned Lean source snapshots are included, with explicit prime-number-theorem assumptions and no independent build claimed."
+repository-code: "https://github.com/ElyasheevLeibtag/new-directions-in-irrationality"
+url: "https://github.com/ElyasheevLeibtag/new-directions-in-irrationality"

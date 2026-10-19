@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "python_syntax_files": 34,
+  "valid_notebooks": 9,
+  "notebook_code_unchanged_from_supplied_companion": true,
+  "local_document_links_resolve": true,
+  "named_manuscript_labels_resolve": true,
+  "manuscript_reference_assets_unchanged": true,
+  "manuscript_patch_dry_run_passed": true,
+  "optimization_guards_reject_disabled_assertions": true,
+  "note": "No complete manuscript compilation, new dependency installation or Lean build was performed."
+}

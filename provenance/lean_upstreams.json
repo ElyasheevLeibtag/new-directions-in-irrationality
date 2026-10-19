@@ -1,0 +1,41 @@
+[
+  {
+    "repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "branch": "main",
+    "commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "tree": "21520c1fa347e650ec1393d9afc970e70ff78f15",
+    "committed": "2026-10-13T19:40:07Z",
+    "lean_files": 70,
+    "delivered_files": 73,
+    "project_directory": "lean/meijerg_zeta3_zeta4/lean",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc4",
+    "mathlib_commit": "f69ff8554f52f2cb9caa43e8732904b28d26bc9c",
+    "independent_build": "not performed"
+  },
+  {
+    "repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "branch": "master",
+    "commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "tree": "4662bc307ae5ab51c105f2ca26d32bb5638788fa",
+    "committed": "2026-10-13T08:59:32Z",
+    "lean_files": 45,
+    "delivered_files": 48,
+    "project_directory": "lean/zeta2_four_trajectory_matrices",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc4",
+    "mathlib_commit": "1f414401f69059aa7eead47b53ee40bd38455eeb",
+    "independent_build": "not performed"
+  },
+  {
+    "repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "branch": "master",
+    "commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "tree": "5b9905d0578502813e0493b40b9ffed4ef42abde",
+    "committed": "2026-10-13T08:51:30Z",
+    "lean_files": 141,
+    "delivered_files": 144,
+    "project_directory": "lean/zetas_irr",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc4",
+    "mathlib_commit": "850e7374944e42c0fb3cdb550d9b2ca409a51695",
+    "independent_build": "not performed"
+  }
+]

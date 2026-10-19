@@ -1,0 +1,90 @@
+Numbering convention in the supplied manuscript/preamble.sty.
+The main source additionally aliases theorem and lemma to the thm counter.
+Printed numbers remain derived until a compiled .aux is supplied.
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\newtheorem{mthm}{Theorem}
+\theoremstyle{plain}
+  \newtheorem*{cor*}{Corollary}
+  \newtheorem*{conj*}{Conjecture}
+  \newtheorem*{thm*}{Theorem}
+  \newtheorem*{lem*}{Lemma}
+  \newtheorem*{klem*}{Key Lemma}
+  \newtheorem*{claim*}{Claim}
+  \newtheorem*{mclaim*}{Main Claim}
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+\theoremstyle{plain}
+  
+  \newtheorem{thmx}{Theorem}
+  \renewcommand{\thethmx}{\Alph{thmx}}
+  \providecommand{\thmxautorefname}{Theorem}
+
+  \newtheorem{thm}{Theorem}[section]
+  \providecommand{\thmautorefname}{Theorem}
+  
+  \newaliascnt{conj}{thm}
+  \newtheorem{conj}[conj]{Conjecture}
+  \aliascntresetthe{conj}
+  \providecommand{\conjautorefname}{Conjecture}
+\newaliascnt{remark}{thm}
+\newtheorem{remark}[remark]{Remark}
+\aliascntresetthe{remark}
+  
+  \newaliascnt{qu}{thm}
+  \newtheorem{qu}[qu]{Question}
+  \aliascntresetthe{qu}
+  \providecommand{\quautorefname}{Question}
+  
+  \newaliascnt{lem}{thm}
+  \newtheorem{lem}[lem]{Lemma}
+  \aliascntresetthe{lem}
+  \providecommand{\lemautorefname}{Lemma}
+  
+  \newaliascnt{klem}{thm}
+  \newtheorem{klem}[klem]{Key Lemma}
+  \aliascntresetthe{klem}
+  \providecommand{\klemautorefname}{Key Lemma}
+
+  \newaliascnt{cor}{thm}
+  \newtheorem{cor}[cor]{Corollary}
+  \aliascntresetthe{cor}
+  \providecommand{\corautorefname}{Corollary}
+
+  \newaliascnt{prop}{thm}  
+  \newtheorem{prop}[prop]{Proposition}
+  \aliascntresetthe{prop}
+  \providecommand{\propautorefname}{Proposition}
+
+\theoremstyle{definition}
+  \newaliascnt{defn}{thm}
+  \newtheorem{defn}[defn]{Definition}
+  \aliascntresetthe{defn}
+  \providecommand{\defnautorefname}{Definition}
+  
+  \newtheorem*{defcont}{Definition \continuation}
+  \newcommand{\continuation}{??}
+  \newenvironment{continuedef}[1]
+    {\renewcommand{\continuation}{\ref{#1}}\defcont[cont.]}
+    {\enddefcont}
+  
+    \newaliascnt{nnot}{thm}
+  \newtheorem{nnot}[nnot]{Notation}
+  \aliascntresetthe{nnot}  \providecommand{\nnotautorefname}{Notation}
+  
+  \newaliascnt{exmpl}{thm}
+  \newtheorem{exmpl}[exmpl]{Example}
+  \aliascntresetthe{exmpl}
+  \providecommand{\exmplautorefname}{Example}
+  
+\theoremstyle{remark}
+  \newaliascnt{rem}{thm}
+  \newtheorem{rem}[rem]{Remark}
+  \aliascntresetthe{rem}
+  \providecommand{\remautorefname}{Remark}
+  
+  \theoremstyle{remark}
+  \newaliascnt{con}{thm}
+  \newtheorem{con}[con]{Construction}

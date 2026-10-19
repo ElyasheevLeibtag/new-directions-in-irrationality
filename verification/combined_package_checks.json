@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "status": "passed",
+  "upstream_files_match_git_blobs": 265,
+  "lean_source_files": 256,
+  "valid_notebooks": 9,
+  "notebook_code_and_outputs_unchanged_from_tested_rc1": true,
+  "mathematical_python_modules_unchanged": true,
+  "additional_checks_and_outputs_unchanged": true,
+  "manuscript_snapshot_unchanged": true,
+  "local_markdown_links_resolve": true,
+  "python_syntax_valid": true,
+  "lean_driver_plan_mode_passed": true,
+  "independent_lean_build_performed": false
+}

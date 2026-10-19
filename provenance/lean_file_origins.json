@@ -1,0 +1,1857 @@
+{
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineIntegrality.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineIntegrality.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "d9f2df662e345647729d7a90f0862e328e48082f",
+    "sha256": "34b94acf143a814f332fa57882e5a10c6b9add532dff8e35a6405626735161cb"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineIntegrality_Aux.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineIntegrality_Aux.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "185089024e80a2795afd92e114f94fadec302e62",
+    "sha256": "a129ff8c1f1268f9eedde0439c7bb861bffdd2c10e353834a3e4d5d3d851b985"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineProfile.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineProfile.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "3c8276ebe2297960fd833853e8abcca30df8dcdc",
+    "sha256": "925138acd4e130836ea9bb6fb81f206a6c824de3224b202e4c2376aebd9e5238"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineProfile_Cells.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineProfile_Cells.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "b05fe036e7772cfa23bf2f4932336333ec4565cb",
+    "sha256": "02d8614970d902b347b4de61f1a171a2cbb288ec4ec22d804ffb46d6cb249a0d"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineProfile_Jets.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineProfile_Jets.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "38922a1c773379bbad0e83e77243d71e774280ae",
+    "sha256": "28f59cf1a7f7560184bbc3d0a5ec58d3d3734959760c4de187c015531e88ffc1"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineProfile_Perm.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineProfile_Perm.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "3c66363b3e54a566c44b9037a4a43ad325a53335",
+    "sha256": "0709c057c3ca73cc3db28e5bce396024a8cc8d6589449b7728d6408a14e93408"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/BaselineProfile_Upper.lean": {
+    "upstream_path": "lean/Meijer5255/BaselineProfile_Upper.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "b68829972d5f4016e4852a95ac25ee152b624d5e",
+    "sha256": "454923fe2df4b505a2ed31aa902bf51bfeaee947a87537d639359c517681e62b"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/Blueprint_5255.lean": {
+    "upstream_path": "lean/Meijer5255/Blueprint_5255.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "b693640dbcaa4f0c208d9dcb811912db23195f22",
+    "sha256": "e2d38e8be5c16b01206bb16bf6bbaaaa544e32d1f6eb34b5b9bf0f5fb6b3ce3d"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CarryFacts.lean": {
+    "upstream_path": "lean/Meijer5255/CarryFacts.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "edb971de318b0d96b6c78eeca6c04ec085f4e0aa",
+    "sha256": "98c1f82c49df4ff26df350d36036b0bde43398d6d6a63e8a0292bfb0a8208753"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CarryFacts_Cells.lean": {
+    "upstream_path": "lean/Meijer5255/CarryFacts_Cells.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "31f03d9244efbb474a442e61e7edd1a7ae4e5cde",
+    "sha256": "716ffa25c0e5434c8dcaabad02e8d1a592c33c6a6454ea9499ee62deca842882"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CmfReadout.lean": {
+    "upstream_path": "lean/Meijer5255/CmfReadout.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "45e32d5a509b5a66a5fc9a563bd8163bbb8dd75d",
+    "sha256": "7fd831d6c3795bdc246ba5fe2e51a4cc4a36abac146e782261e33b6e351e527a"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CmfReadout_Aux.lean": {
+    "upstream_path": "lean/Meijer5255/CmfReadout_Aux.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "cad3caf743bb804b16cdca4cb5b5ef47edac9b4a",
+    "sha256": "1669a08af33e6d089af55506d2d794775981943c1d8952498ecf3cdc4bbe38cb"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CmfReadout_PF.lean": {
+    "upstream_path": "lean/Meijer5255/CmfReadout_PF.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "a7942b63f53ca89e8cfe8dbc1470a733e1f0765d",
+    "sha256": "146e9d54d5c02a7b36441c572c645b617d9f82ec613ffb541a5d49d56a0045a2"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/CmfReadout_Path.lean": {
+    "upstream_path": "lean/Meijer5255/CmfReadout_Path.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "e2b4fda44e55f630d48a23b982444289d5b5c079",
+    "sha256": "98f1f1f52ffcefde770d8130d385c3baddeabb07cf5724b13fa8bbbc5015f177"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/GnewDvd.lean": {
+    "upstream_path": "lean/Meijer5255/GnewDvd.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "c8b32edd4d494b8d9f94e33f62ce1b1c1d211f0c",
+    "sha256": "9a6fd48f7989af0013a6d4c90452dfc75f87824e84a82763e9d3d2b18778104e"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/LinformError.lean": {
+    "upstream_path": "lean/Meijer5255/LinformError.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "0f6712cb604c8dd1a5d722f7e564f3ba498b2229",
+    "sha256": "3539fe489e3e81911a3e102f9988da07ff2306fd0794923467ed53badb615ea7"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/LogGnewGe.lean": {
+    "upstream_path": "lean/Meijer5255/LogGnewGe.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "8c94692d4566618210eb66cf534dc675be179179",
+    "sha256": "4681f0ca84e33729eaaf2561018a9cb1078d3e35a977f644d3ed4c7a05a0d213"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/LogGnewGe_Aux.lean": {
+    "upstream_path": "lean/Meijer5255/LogGnewGe_Aux.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "75521818fe207f2a3a5e256674645d4aea0a13c1",
+    "sha256": "17780eb10fb9c48adf1d2dd41cc5f0de9e0e10c4e58c7505c1fc125b94142750"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/LogGnewGe_Cert.lean": {
+    "upstream_path": "lean/Meijer5255/LogGnewGe_Cert.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "84229d4d1a919c9f2f1c00194d0b93c3cf2cce9f",
+    "sha256": "c60db4e74c0f8db27037653b94bf748a7588748862392e7ae7b66260f34c6b94"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/LogNormalizationLe.lean": {
+    "upstream_path": "lean/Meijer5255/LogNormalizationLe.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "6aa456dcbedaf0d50110ca4dc49e4fd3e6c32650",
+    "sha256": "5d9ce2c7f62b2affed90728333cb5ad3d27ac8e687e43b0048b2f66ad4d38c22"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/PNT.lean": {
+    "upstream_path": "lean/Meijer5255/PNT.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "184628bb6d7337d7fcdcef1eed69ac82f69dd60e",
+    "sha256": "befd457d946b9484fcf1edf4ec1f080ceed06cec51fdd0547b0001f3ecfcec7f"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "55a4c6c6972772f1ec537d2343da94466a83be1f",
+    "sha256": "d5d6b7e88f45c99e4ad49fc353233cd4b4f13f7b58a523971a6e931d97da970e"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_Bridge.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_Bridge.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "1bfd1f2ed8218225f3f306cf783063f6416398f7",
+    "sha256": "41a225105eec4c09ebf5af17121726ada4c4f8e2c29d2fa6f2b32762c550a617"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_basic.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_basic.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "7d1c190cca57e177dd390e45b3ff58231cddfc8a",
+    "sha256": "0b0cb816cddbdc7349a8d13bcbb5670c6272c09616a19718fe540779f789ee7a"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_det.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_det.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "eb0276edbf0704499941a6ff639646fa0080fe4b",
+    "sha256": "0cb1bf8f292e4a22f471c11231528cc9c895a1247410ea250a41870b40b8b43d"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_kernel.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_kernel.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "437d8b60bc8eaa3d9e8ff89eed9ec926409be6d0",
+    "sha256": "1c95dce3f662fcad63d761c5dd1d3c99f5a2798067eca9500612feec21993501"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_main.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_main.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "a2d7b68b0c256a3ae8516ae8e76822825f6618ad",
+    "sha256": "1f3fe867c7ad6afdfa20d2c830815c0c76937941dda727f3983f180ac110349c"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_pairing.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_pairing.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "97824edfd255b566823ff1d1f59dd69fb9d68d7b",
+    "sha256": "976fe2b4b84ed6df4f69063cd55d036e0f792dde394f09b245c60f16c40ddefc"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_path.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_path.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "8824d6784109543f32efed58a26b636951ce23d4",
+    "sha256": "8d4c00a76dc0a89ecdb8f966901227454fbec0e2d10ca4c6d44d305bd8273356"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_CMF_transport.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_CMF_transport.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "a0d83b7ca8d3425066ebc7c8b6d5063b11f80cfa",
+    "sha256": "c1ccc8510c374acf4bb8f3893cfcf1c93b5f5af61e767448980acb5a392224aa"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_Sbound.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_Sbound.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "853227f6a42f76801d5fb911a49830e89c658689",
+    "sha256": "645ebd1fba1b32a4e592d3378df07a5559e28d6bca252669abc119fc8167ff83"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_bridge.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_bridge.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "c6d71315a51c52209c82f74ec9d8427e9cf921ac",
+    "sha256": "631b0fe54ff5dacc4d4c55eacc164f567285f008ed09b5f8072d876d9a1ef914"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert0.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert0.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "af1b6c592ac4ede8d5cde7aa08f337c4df4de31c",
+    "sha256": "6849f6ebc36d654d9cabe7227d6ba71bb233d9cdad2f11f9d532a2de07f270ac"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert1.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert1.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "08d143ca8d823a175240d3cb930791d4ff8b7284",
+    "sha256": "f306bfddebedd5803fc59d357bdf9ecb6e7d47412830dcabdc0cf4f13da15bc2"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert2.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert2.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "15bace8ab49aeb570f0801e4d61ac5bcec65713a",
+    "sha256": "e6e1bbb3fd98f3020e17b1f834ba4c00a92706fe2e8cf1d0d9da4eb7f0e7166c"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert3.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert3.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "be22a273b996f3dff781e0ca24b8be172a087113",
+    "sha256": "396da321c9bc618c8b3d27cc610b1f0b91f5a4502f287f26d3d1d1174d4a9ddd"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert4.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert4.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "18fecf648f4ff3d1ba4458ebfb78402064c1206e",
+    "sha256": "e00be54fc6e73f0b003d2f49412c13cb2abfc75791310cb490e08f96fefe50c3"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cert5.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cert5.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "dfa56593d1732d2a0db5df3e907cadd7f207af7c",
+    "sha256": "615027866e3dff454a169e4e0b2d4243e4bb5c9a55238a7753b796e35025b4b8"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_cone.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_cone.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "970c20bfe40fd69bee20513fae10b8f50f982f9a",
+    "sha256": "bb7a8cf8586e524d67f213361a64c205cdb5c51424c471dc34cf585cf82903cd"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_fast.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_fast.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "74a099baae113404b9fe7ee72fb9ea33d98c0c8e",
+    "sha256": "122043bcff66e8e63a79ca98adb50ff7bf8fbee37620e0a4420bee9d2ed6cd83"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_limit.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_limit.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "84cb08f702c1282ad61ec9753f2b05c47610166c",
+    "sha256": "facafacdc00fe44d738af69c8dea0664c8ee9008539ec760a7999befb009f17d"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_GW_poly.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_GW_poly.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "26f326f26df2d2d68935d49eb168e53c35cc1174",
+    "sha256": "2e60000af0d367ba3286e4625b84309dada0d934ec99c4d96339faeb72c0afd9"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_Mfun_sub_Mfun_pred.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_Mfun_sub_Mfun_pred.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "ddf090aebec46b2bf59e31adc6f6b07c827a722f",
+    "sha256": "d3a266dd459da32bd5fdf27ccff0c62ccc20cbb9d89b683eae1ced46beef00de"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_PF.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_PF.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "cb3533f1bb78c02cc05a2e6fd106a44b8636b237",
+    "sha256": "ff272492a1b882b9b13f42a001172e0c69249691e511861a3862be208ff10949"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_Star.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_Star.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "7dcbadc5facb803a441cda1ac2af43c5fd092ec8",
+    "sha256": "3997a4917c66e89d6bb2121d6235dc9924cd1fb6d771e799c41a37b82e57ad0c"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_ZetasAux.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_ZetasAux.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "abee4f8dd42f415636af71b12ac50cba219f00ad",
+    "sha256": "44de88c56aacc0e66755ddc28665debbeee9a65e84b1d995f139a0d9478ef6ec"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_coeffMat_zero.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_coeffMat_zero.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "42cd081a37124e3c7ffe6e6889a3f7e799b55077",
+    "sha256": "df24d13f8168f3651858941fb281938982f0384f9dd0dacea3bf3a9773fea5d2"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_cross_product_readout.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_cross_product_readout.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "22085018107d52ca2b76aa5a725fd4d2c8a1d7ad",
+    "sha256": "324d2962aaaa807a2cbf9912a3cd026a5849a708e6dc25025509492705ed6592"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_defs.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_defs.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "daa14129fde8df4c33b268c3b5962c36a4010d3f",
+    "sha256": "4681bb7abc811efb7587f2b1f90280c393b823e1e96bd57b7c0edebc9c4dc336"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_derivSum_eq_realize_Lfun.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_derivSum_eq_realize_Lfun.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "0f7e0173e9faaee61dfe5d6ca24b40a8390d9ea3",
+    "sha256": "4a1176ec32235a5036200ffd7be9b78b72c7ed63768090cd3b2d5751190ac80f"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_det_V_eq.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_det_V_eq.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "b04a747ca62d6fb52aca6471211cc34a85434ffb",
+    "sha256": "6570b51ce156e78b443f2e334ae893703a4a09e704deb28db8d79b701c22e876"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_growth_estimates.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_growth_estimates.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "1cdbabfe11b126e9fce5f4e4db44d6bc4c263736",
+    "sha256": "374489bc71924193640e8fbed79c53cf33bc80558bdcfae9ae95b4c369d82ec9"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/QGrowth_pairing_identity.lean": {
+    "upstream_path": "lean/Meijer5255/QGrowth_pairing_identity.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "0f9820db81ba6acae7bd825f4d79f61a4cd4fbf1",
+    "sha256": "a81661c58fe93086d4944be173778cd7475c1cad89ebe1a79dfd7b48977575de"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/SecondOrderShell.lean": {
+    "upstream_path": "lean/Meijer5255/SecondOrderShell.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "b363f17d8b58f2f0c8801540033990b3ae2718bb",
+    "sha256": "f3866c62d5f8bac1372c3009ed37d6ec7456eea103046ef978a17aabf6684e82"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/ShellFirstOrder.lean": {
+    "upstream_path": "lean/Meijer5255/ShellFirstOrder.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "32c5130110559deb16bf758e2932c978433511cc",
+    "sha256": "81d733bcdeb8714f09e513ee8cb3b154738300c70c5a4984de1bd35657253219"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/ShellFirstOrder_Cert.lean": {
+    "upstream_path": "lean/Meijer5255/ShellFirstOrder_Cert.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "788e6e8dfbd2d133aa752306a9a6c3184cae1a81",
+    "sha256": "df672c8132eb290d3f3061dad9b906574bc9c5418ca1bc79496e95957ff01d6c"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/ShellFirstOrder_Core.lean": {
+    "upstream_path": "lean/Meijer5255/ShellFirstOrder_Core.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "d823ce9a01f7d25cd0a7dd3403819f757dee596e",
+    "sha256": "3f6999ec0933e55a03d41ae83d131697f26ceb8555cf4e9b1e53be891d6e7d58"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/ShellFirstOrder_Gen.lean": {
+    "upstream_path": "lean/Meijer5255/ShellFirstOrder_Gen.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "f9d785fb51b69fefd44fccf38802d61184436b0b",
+    "sha256": "cb52ed3b225944bb13b60fc7704dff984a63ea1452c2a732e3f9cd20e30650d3"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/TraceLemma.lean": {
+    "upstream_path": "lean/Meijer5255/TraceLemma.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "33b6e9451862a715f103eb928bf907089883fad1",
+    "sha256": "8dd97d8ac3fc8523a515563c14bcf8d61d7a7ef7df69b1be884e6658d4fee42d"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/TraceLemma_Cls.lean": {
+    "upstream_path": "lean/Meijer5255/TraceLemma_Cls.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "001a31b8ec4299130d7de48a97b36e97ac7a06de",
+    "sha256": "d64f582403986cd65e16754020686717ecb279ae557425de5158f5fc90bbcf7a"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/TraceLemma_Loc.lean": {
+    "upstream_path": "lean/Meijer5255/TraceLemma_Loc.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "51cd957d25d77e2acd5d7b44ed45ae9df2be0d74",
+    "sha256": "9be2549344c5fc9ff775c2ea46088d406219d9c6afe4ee60df5c56e603e2c7e7"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/TraceLemma_Res.lean": {
+    "upstream_path": "lean/Meijer5255/TraceLemma_Res.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "3c0a55b58414d3d9f41597328aeb3b300bf143ac",
+    "sha256": "30de2d3ec81f0fd1ebb38c71a29f4fe65b7fac931cc2a56f769c5d91da62e7ab"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/TraceLemma_Val.lean": {
+    "upstream_path": "lean/Meijer5255/TraceLemma_Val.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "4e9dce0e1c4439e9937b32b9d633bcf258119744",
+    "sha256": "68797b1c724a01f5c78fddbe0752e3a1b24472ee3f7e7ca72455003fe0a75bbc"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowReadout.lean": {
+    "upstream_path": "lean/Meijer5255/WindowReadout.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "6f1549e797d535970f17bd529bd8f600bd5be228",
+    "sha256": "dcdd927e6646fb882d4da7cbe068d5142213561f3dce3046b5b3cd7e8c3a15eb"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowReadout_Bounds.lean": {
+    "upstream_path": "lean/Meijer5255/WindowReadout_Bounds.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "fa345c22043a320b3c47141f3f241829e3f46e08",
+    "sha256": "dd28cbc95749a130a9d4155c76cd6b526ff53cbb3ca6ef14eaff8b8dae842e73"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowReadout_Residue.lean": {
+    "upstream_path": "lean/Meijer5255/WindowReadout_Residue.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "3881f3f3d38e1a500619ba694115e90b867a218d",
+    "sha256": "05194cc66dba333ea971da4dda28ae90ad64641097019fffec4a9644b60ea64a"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowRootData.lean": {
+    "upstream_path": "lean/Meijer5255/WindowRootData.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "ee27becbaa22e32d580f96d515a865373979f4b2",
+    "sha256": "7e64f8e9bbe6f719b31dd2f9d9aad1aee042b728fa099c4d8a00ac32da008de6"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowRootData_Aux.lean": {
+    "upstream_path": "lean/Meijer5255/WindowRootData_Aux.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "4771ae21198d6dcbc4965e86254af950d477844f",
+    "sha256": "5f991f2c3c86d5077a1d9ebfcd90f9ed54b3d3b857d2c7565305a37f71c31b61"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/WindowRootData_Cert.lean": {
+    "upstream_path": "lean/Meijer5255/WindowRootData_Cert.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "0668d7f28cceeadd5cd637fbf835197125a43830",
+    "sha256": "6cdb4be81128641d0cfe19e50a32cb93bfd17274c7c5469a4830c65f1b3ac6a9"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/Meijer5255/definitions.lean": {
+    "upstream_path": "lean/Meijer5255/definitions.lean",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "a9029710aaa167cf8c6d6c5ca0fb5ada70a1f3c0",
+    "sha256": "987887317eccd59c5a83c73fc35d3193fe2eea96e547078c5c1f89d8358fc90b"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/lake-manifest.json": {
+    "upstream_path": "lean/lake-manifest.json",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "989c8043eaa30b61ab7db2e79d385d899a07171e",
+    "sha256": "fbb2c304c47abb3018bfa053050e9a92962fc549e9bc1be9507f45b0fac1bbf5"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/lakefile.toml": {
+    "upstream_path": "lean/lakefile.toml",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "0c5c56568c574cee3e51d1e3aa34cff805b816d0",
+    "sha256": "bcc403126224d5b90c4ab4613e918f1c9bcb9f50894edf1da03f1bf430ee41b1"
+  },
+  "lean/meijerg_zeta3_zeta4/lean/lean-toolchain": {
+    "upstream_path": "lean/lean-toolchain",
+    "upstream_commit": "639a790897ecbd9fec2e7d337e58c5be6e6aa1f1",
+    "upstream_repository": "https://github.com/RamanujanMachine/meijerg_zeta3_zeta4",
+    "git_blob_sha1": "9532ebf33701f2ff0a999f12b21fb7a675f24e6e",
+    "sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/barnes_identities.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/barnes_identities.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "6cfe09adf7e0341fe5adb967d001ff565c193646",
+    "sha256": "a412ca5cf4282d5256effd4f6e42cc57b8fba01b9cead7d6a5525ae17dba516a"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/barnes_step_aux.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/barnes_step_aux.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "934d6f82f165ca5ac0e020443c47430f77063497",
+    "sha256": "28a9b464004bc1f4fcd296a813acf7e6e1f60bd270bcf289f3f44a3cb2ab2c6d"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/barnes_step_aux2.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/barnes_step_aux2.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "20b045e65c78852ddf1194e8055c04857c3af3a0",
+    "sha256": "e9b52233736f34771eb89beaedcde964cbde3287e5cf140dcc6b4a099c1b7147"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/blueprint_bounded_gap.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/blueprint_bounded_gap.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "fcfc5080549c45de90fb2c09add6f57142959382",
+    "sha256": "94f8ed2383ab3fb9175df11dc66e8761adbd6296dabf7182f67de58638302971"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/blueprint_limit_spectrum.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/blueprint_limit_spectrum.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "443f02035ce3dfa90eb90855aea29e4619502ab1",
+    "sha256": "044f67ed8b08b748236d359a435e7317da29271cdc7e64779352b1a41a56d1fc"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "f768cf4ed3c4bb34557f64cffcdcd4ed11d5bb8a",
+    "sha256": "43d3103597b27481212fa3ec1fa147de326fdf3179df8b58f631aa3f33428f52"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound_gamma.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound_gamma.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "f7f657d1a4e5157e011d6740b66455c772cc287c",
+    "sha256": "f76dcdec07337568fba92296f958d3c67d8e4343e44a3808ea2bc17c79d25d4e"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound_shift.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/error_coarse_bound_shift.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "7332e406948279f7d79edcb96746678ad67e13a0",
+    "sha256": "b424251212a6658cdde75b3b4ab3d19a08616888b06041663339683a33854ac0"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/error_integral.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/error_integral.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "4d1fc5bcbb4c314f774cd7f298c8d929492e3982",
+    "sha256": "7d627219f39694fefcf0661c6b0f8a65aa8ecf72fa7bed09cc5494431605dc6b"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/readout_rates.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/readout_rates.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "2307155d629b5ac06ec36feccaeb2bc808bebd2e",
+    "sha256": "b221a70b6fd3dc7f32c2f38998913be196fcc3a0ee1ad0dc826badb06dd0aad8"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "23124ef3de3377a7e5e8b6e6016c2dacf85b8e08",
+    "sha256": "7aef3d10c7c35591a49d8e4bbe030e1de28757bd375ab582c12ffdb0241ad300"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone2.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone2.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "5fc39f09f02f65f850777a002551dd52e95ef116",
+    "sha256": "7b90d85df23e3d2e50ccb65841d244e23ff7194def34dee0d432d745a90dcdd9"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone3.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Analytic/readout_rates_cone3.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "ea4b55e736e207eb2953cd803feedd1184196be8",
+    "sha256": "362e858978444e460d3cd873eb7956b675b31194c3c221c61962eb872bcf61c4"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "cf7fbe38b782b4e217a2b1e4926d9e08b5f893f3",
+    "sha256": "36de1e0b7f2080414fff9057fc80bf842f1b70d61785a614c72d5e344359916b"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_chamber.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_chamber.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "538fabb1de3037f3a34731148381f36f04a76730",
+    "sha256": "17049b4a27baf961887bb4e95448083ed4899ebfab2608c3611938127d48ceda"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_jval.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_jval.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "c0466dcd0a78a5d8763a8d13b4e99791d672195a",
+    "sha256": "8bc572c52f1afaa086bfd9adeb4c9fb02295fcb3b7ce7b7a043c8a4edf560ea6"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "722665a1850301693098b571a792fa406e3c8874",
+    "sha256": "7d6b8178dcdb55618ad22e97162dbaceb2d921bdab2b50e1725d4f32c484224b"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel2.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel2.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "784d8c81d21b4a6bd98a0ea1a9cad03a79abd6c3",
+    "sha256": "35e87a8febce0f92429ee34dee82342461cfed497d38a881e648c39f25fb649b"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel3.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_kernel3.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "f7d7ea92c63b7ad0ae3aa98be4a69c28d01bca66",
+    "sha256": "1b2549cf91312babbc959dab59794cb5d89339b39691ad2aec10ea8acbffc41e"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_sprime.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_sprime.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "332e251dcffdaf718ae298762fef4116b66ddbe6",
+    "sha256": "dab32d3280a23b76dbb8c1db8c0cf7e0d060cd4863ca547bba840dbe98bd157d"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_sprime2.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticNormalization/arithmetic_normalization_sprime2.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "1a7e69cb3d212145adf9a462ef8fb35452ec1f10",
+    "sha256": "168f610283492d8a02729b8af6c5e717e2c0833aa37ffe85037fe2767a1f7386"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/arith_rate.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/arith_rate.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "b8af34cb2b3bab3005706f3a5101542674204b29",
+    "sha256": "3905ad64f054eaa6114c26d2932bcfee1ffc8c0a7eabc09d71000a31180067a4"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/arith_rate_cells.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/arith_rate_cells.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "278aef39f01057457587d543844ff4d0fac9806a",
+    "sha256": "af3442cd7bbf44b13bb1d33548946cdb93ebb6518d4296183cf4b2aef817eaf7"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_bounds.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_bounds.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "7f1d87ee3b2aea1128ba8f34c04c6f673949499f",
+    "sha256": "3bfb6504ae2beada9d5eb363d32585fd93342205402e140ff9796f50d96b5b1a"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells1.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells1.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "a4f43a2a7d6370dffcc271b5d69830f0b58bb892",
+    "sha256": "819cbe71a8819e5e8acb470b2e6612728d9988590cfe9d335ea979df28a7f0db"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells2.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells2.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "871022831d6d2b39e7de18b14df67c5a80ade049",
+    "sha256": "9a9f6657c10a41c667d82da733d8901e0c69b91129d11eab702d60977d6a0f65"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells3.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells3.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "e52e298d21c8ea4dbad8593e8957862cd2ef7fb0",
+    "sha256": "25425f5409a854d81fe1e30048684135dfab0d503e57fb42d7ca2e8a17b58f0f"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells4.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells4.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "61fa4b19b5625bcd5e111f5d7dfdc3b6919f44e4",
+    "sha256": "66cfe79b5d3e6ab846d02f425087f5584d59f71ff87120cca479f88d841a42df"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells5.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells5.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "41cf7a0187e8eab9cc352eddc6d807b02b4cfe00",
+    "sha256": "f9bc1c50b610a4082c0efd57c7acb8b41233d8c53071bd37234d227dd8e955f1"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells6.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells6.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "ac4bf881a93359c2ac2ef081c0a91f2b823d6203",
+    "sha256": "29d991798fee673ec63e87f4e594cf0b8c1492b9b5b0db464c5b115562ca3ceb"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells7.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells7.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "36e1bbab97c203bbfb08118ae9cbe7e80456ce29",
+    "sha256": "d41506cab05de5851a5efef7d5ad7463fbbf64102355d18a45e27465b43080e9"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells8.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_cells8.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "444a701c0e428a7d36300421f5fd5b7986418a50",
+    "sha256": "61e3c5b73d280ee2e75d03bc998a77fc08e3adee193f80af5342599b9dac5f62"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_core.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_core.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "bc65f6f83d0c8607b5ebf9a5e2bdfa838c9018c2",
+    "sha256": "c5ac74e70629d4fe4f0bface29068254122823898dc83a42a89daf3090947423"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_int.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_int.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "29eaa1c37f7776f7f674fa788bdfcd8fab822a27",
+    "sha256": "2bdbf00ea87500ff313689cca29ed0d7c3ee1ecdbbcbd419afec20c7c5e042ad"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sum.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sum.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "533e9ce4da909a008a3fb018bbee7873a9461a48",
+    "sha256": "7886045549b2170b68604e7605c36d0a33d026c9fd32f34d67f2b86545224afd"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sumA.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sumA.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "142dbc25eedc5acf6f98904d01db37838038d1cc",
+    "sha256": "59ac47f26ca8bd64b1b5e112bc7c65cf2d075c3d32568ada7687dbd3dcc86370"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sumB.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_sumB.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "ebbb88ab79bfff733b6c74a184bd99049beb83aa",
+    "sha256": "8db4a4f29a8d6e7217f68538c8d57a0f378b6bccf5c3813ee312a519b9f9b5d9"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_table.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/ArithmeticRate/blueprint_gamma_table.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "e9f76f5ee23560b3f63a477508e5e0291e0cfa0e",
+    "sha256": "419838867c582cbb35707201c2dfd326b3a96dfb4083ed75572b263b6c3c0cf6"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Blueprint/blueprint.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Blueprint/blueprint.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "818c1179f42f3d2398e9d44db28b48ae3745dda6",
+    "sha256": "76b3d39486a03b54e465aa694010dd590f7fd604ba9f09f3f08f282a4bd48a7d"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/Blueprint/defs.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/Blueprint/defs.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "83f5638e3af73795d780fb51538ba920da5293e3",
+    "sha256": "7881c7ef96d874b5d1d018cbcddc6e93e259fcfb04dc04fe205971a18a317dde"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/FiniteReadout/blueprint_first_three.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/FiniteReadout/blueprint_first_three.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "0da70e6a53ded308ff73e6ba48056e0998202c00",
+    "sha256": "92f3ed367666dc0828d3283ecbec491f71219dd461596a0e96a14b247e68d5bf"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/FiniteReadout/blueprint_next_two.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/FiniteReadout/blueprint_next_two.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "1f847e1fcd8394b3208b4c53bf386eb6b9243098",
+    "sha256": "007b0ca49180d1d1653a0aa7d338b962f866e9124d83f1689436abf86f34672d"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/IrrationalityMeasure/blueprint_irr_criterion.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/IrrationalityMeasure/blueprint_irr_criterion.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "fe53bba34f91ef1e6f7107f7e8677d9136c2e9c3",
+    "sha256": "fa3615617f148e7c22a25ed2d0c1c54db0c6cdc1aa7c7697470e0c2681e5380f"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices/MainTheorem.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices/MainTheorem.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "edfd9cd781f942a97e53251a83e636644b87f713",
+    "sha256": "cfaa2da3085a64328aba8c168390efd10a56dd0fa82dc8c72a0c27ea7fe269b3"
+  },
+  "lean/zeta2_four_trajectory_matrices/Zeta2FourTrajectoryMatrices.lean": {
+    "upstream_path": "Zeta2FourTrajectoryMatrices.lean",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "05055d94aea78ee98edf6ede3bd0c537167f4f3e",
+    "sha256": "cf02e4619d4db4ba707c447f0c3f19f5af33bbcbe7bea98f4961aefe4bcf295e"
+  },
+  "lean/zeta2_four_trajectory_matrices/lake-manifest.json": {
+    "upstream_path": "lake-manifest.json",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "5bc679575b4fc05c45a0869fe582b48d643f579d",
+    "sha256": "02c04e6e9f3e742e0c69312423caaa4470657cc319a3488a8c431bc3106a58d2"
+  },
+  "lean/zeta2_four_trajectory_matrices/lakefile.toml": {
+    "upstream_path": "lakefile.toml",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "c16b794a0defcbea63211ee642a51b3609a3c307",
+    "sha256": "894cd8a68adf1e861966d5eded15c69498c7e03ec1ddf4627d270a5e959014a1"
+  },
+  "lean/zeta2_four_trajectory_matrices/lean-toolchain": {
+    "upstream_path": "lean-toolchain",
+    "upstream_commit": "a0e8ac417cddc6ffa88e43cfd68d2b58ea339517",
+    "upstream_repository": "https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices",
+    "git_blob_sha1": "9532ebf33701f2ff0a999f12b21fb7a675f24e6e",
+    "sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7"
+  },
+  "lean/zetas_irr/ZetasIrr/Basic.lean": {
+    "upstream_path": "ZetasIrr/Basic.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2e7c11a358b7dcd9a6ace03fde297f170ff760dc",
+    "sha256": "9f6fbe0f5f32b0b48a9d5db270c57adafe9c3ff7f9cf8e197868fd670930c8f1"
+  },
+  "lean/zetas_irr/ZetasIrr.lean": {
+    "upstream_path": "ZetasIrr.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "42d42ed4eec81c5b83b9b9344d072a97891df130",
+    "sha256": "3e3da6b8aa836db986437c6be8566801e5bce8b2931c780acd27d50b8fb98c43"
+  },
+  "lean/zetas_irr/blueprint.lean": {
+    "upstream_path": "blueprint.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2ed13a964c6578a7b16c26b5d6e75d2e8fbb3be7",
+    "sha256": "1803e09a42c6d894371ca4e67f8e3e19db0d8aaa524d75121bb8c818f2803c9f"
+  },
+  "lean/zetas_irr/blueprints/CMF_basic.lean": {
+    "upstream_path": "blueprints/CMF_basic.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "8774ef9150456f547e1b0eebd24be80ac41f47e5",
+    "sha256": "1bd39b8f2c8deda83f94973770ba2e95b055da7b35978ea80f2f4d34afdfd166"
+  },
+  "lean/zetas_irr/blueprints/CMF_det.lean": {
+    "upstream_path": "blueprints/CMF_det.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "45b1021b6509166b571ade557a20b5c6b03c2689",
+    "sha256": "c1f88c511b9271fb94ff39db16a72edd8811ff986df7d297099043ba41922344"
+  },
+  "lean/zetas_irr/blueprints/CMF_kernel.lean": {
+    "upstream_path": "blueprints/CMF_kernel.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "47003a711f64c151ea281fa6e971ac8c2974284a",
+    "sha256": "72627c34203b134f64d6b1f835a6a04bafb002933cc5d40b3dc034d22071064b"
+  },
+  "lean/zetas_irr/blueprints/CMF_main.lean": {
+    "upstream_path": "blueprints/CMF_main.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "257044d139fe7a56cdcb9b84ceba40077c900966",
+    "sha256": "a8a8b9acb34a9f216c0023c5778231a2eea6fc38fd9c6279f0c8273341a1926e"
+  },
+  "lean/zetas_irr/blueprints/CMF_pairing.lean": {
+    "upstream_path": "blueprints/CMF_pairing.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "63c29566fbae404493babfdbaede1d3b629dda68",
+    "sha256": "91550211eb11b47cbc7e569a6b7e139568a145826b4941785cd23b37d40b8da1"
+  },
+  "lean/zetas_irr/blueprints/CMF_path.lean": {
+    "upstream_path": "blueprints/CMF_path.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a438a5d5501662414af1ce15d4c7cc0c5dffbba5",
+    "sha256": "7c95fc9fdf3daccbe6434ca4d7d4454c67958791bb3f802dc946f2724a27f795"
+  },
+  "lean/zetas_irr/blueprints/CMF_transport.lean": {
+    "upstream_path": "blueprints/CMF_transport.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "94c084fdc31d719c1e4527b6d198d373f7e19169",
+    "sha256": "533526a0901ef898eeba118720ab324c2b4616c0f0f5ead2b9222e417bd31a60"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert.lean": {
+    "upstream_path": "blueprints/Chamber_cert.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "340f406ff3b29c422a66206b5faa95d9eaa042e1",
+    "sha256": "35b76dd6ad2b4eb3b99577376d5198b7370b3bc29a149b9f938ff98ef9180036"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert0.lean": {
+    "upstream_path": "blueprints/Chamber_cert0.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "cbb857f2d56a67614bca4a8110f7f810a3e9d8d0",
+    "sha256": "3bc596b799d13d28628a37056ba603b973c46f93b785c6e08aaf6cd548fa7d96"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert1.lean": {
+    "upstream_path": "blueprints/Chamber_cert1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f1353d27513dbf1c6df48ea28689601e2815677f",
+    "sha256": "4817625a44c316a63add45952edf70163277aedfdf3b25cc77274fda8a9b1eb3"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert10.lean": {
+    "upstream_path": "blueprints/Chamber_cert10.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "6a88a7a490485d3c3fcd1dddfb4cd3528f4e044c",
+    "sha256": "d0df35d8e219a5027895e526c25a90d03d0461c5b44a26cc3dba6359e47519c2"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert11.lean": {
+    "upstream_path": "blueprints/Chamber_cert11.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a9d3c8c27f42e4445c5497342c3cfb54be169e4e",
+    "sha256": "6b01e599d344fca3abff5a0a63e0e8f6d35e49de3f00e103488961109813901c"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert12.lean": {
+    "upstream_path": "blueprints/Chamber_cert12.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "b6a5de9ae638641b2f379c1f8eaeb4f6c4ea8405",
+    "sha256": "050ee9fe441adf731097aab149ff8dc1d368dfd84b24a387290693e36702603e"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert13.lean": {
+    "upstream_path": "blueprints/Chamber_cert13.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "1ce57223d1ea7c7c569ad5ef1591c3d05b3a8cf8",
+    "sha256": "12c300fff100f41fc83f974887e3bf275d7e34771635640da7a63eadd43f0054"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert14.lean": {
+    "upstream_path": "blueprints/Chamber_cert14.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c3b5c7ed95f82207ec64b6fd9e797ed6b8ddfd34",
+    "sha256": "801158ce7bfde490b3fdbdba944f6a3e08f5b157095253975481bf7bc3dd4a31"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert15.lean": {
+    "upstream_path": "blueprints/Chamber_cert15.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "fa510d2f395c41a339ff8411b118b9cf547e61f4",
+    "sha256": "9311678876adeb0dee680bbea99dc97b53c5636f5e9f52cd269eaaef2be3b0ff"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert16.lean": {
+    "upstream_path": "blueprints/Chamber_cert16.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "7a285a59f540423f5480f15e80f724251f7d61d2",
+    "sha256": "3b80273489f561763854500cfd5015639a9da4c4185924013fb36f388f6876d9"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert17.lean": {
+    "upstream_path": "blueprints/Chamber_cert17.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e69ebad3ddf45ad6cb34fd3a9edb0e52774d8231",
+    "sha256": "4f1ea0bcd45ffc486216d0822b0e749abf5acd24bfecd6dbe6b3fea5313c3810"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert18.lean": {
+    "upstream_path": "blueprints/Chamber_cert18.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "acd0ca0e23af25039a5e40d7530913118150eb3c",
+    "sha256": "d1b860fa9fc02ca7c02b96ee2d8987adc0e539149278cc23f4daa149885042f8"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert19.lean": {
+    "upstream_path": "blueprints/Chamber_cert19.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ba0469eb06d146a0b392a67bea7b6edc8460b931",
+    "sha256": "57ecbffc731e94fe87e6675224a18fdacc9ae4f1a5998b0b3e49bc53673f73b0"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert2.lean": {
+    "upstream_path": "blueprints/Chamber_cert2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "913d780496cfd2d93ece8cc61811dc5881bece7a",
+    "sha256": "c0daba79a0823060b8343d49869242a7312201a036812baf715b7fc05b18d439"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert20.lean": {
+    "upstream_path": "blueprints/Chamber_cert20.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "4e01a26bb7f379e96d08530b3885b636c0127d0c",
+    "sha256": "a225bef614d6678ba1cf4207f4d6c0b4e7c413511a5dcd47ed6318476e12071f"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert21.lean": {
+    "upstream_path": "blueprints/Chamber_cert21.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "387e9140f317888c6f756e7cff8a0668f7b72e91",
+    "sha256": "b37cfd14baaddd8c962bf7c532ade9248a475ffd910cb5ef9cf05faf974c3869"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert22.lean": {
+    "upstream_path": "blueprints/Chamber_cert22.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "5e7f33d5868ee6d9191716c842d2733eb55fa51c",
+    "sha256": "39bc6f5eb23a68a1a06e0ec5c257fc4e50467950673105e49607d79e25af685c"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert23.lean": {
+    "upstream_path": "blueprints/Chamber_cert23.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2d2b44536c6aaff0778096f9fd3f64cb7fbc122f",
+    "sha256": "b722b3178390e771d8a50312b450c31fd656ebe6cc6fa7170321d76ab0d81530"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert24.lean": {
+    "upstream_path": "blueprints/Chamber_cert24.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "01441021f06f7c8900ecfef6511e09094c2db3ea",
+    "sha256": "71a9766517b48a0f0e26b604c6b73e7b0306b5f313396cdefb6a76216b605056"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert25.lean": {
+    "upstream_path": "blueprints/Chamber_cert25.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "35e9f09e81ceb4192e346aa56670d001c8584463",
+    "sha256": "fda5a78c3d260f399093748854b4543c50f7b35cf6c13bbab8012aa0ad7b9bc3"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert26.lean": {
+    "upstream_path": "blueprints/Chamber_cert26.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "efabd22a5d36268ccd639465554ea6d225dba2e7",
+    "sha256": "77f831fccd055968caeb37b2586adb62bc1eecd3fc6d8cc73bbac55416d3fcaf"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert27.lean": {
+    "upstream_path": "blueprints/Chamber_cert27.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9c432ed8016f4856d42d17bebc90e7a34bb5ce95",
+    "sha256": "15a03127357decc246fc758f6fb0ca0f936afd1f2046b5e2c49a86fe4a5e3ef2"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert28.lean": {
+    "upstream_path": "blueprints/Chamber_cert28.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "61ee357ae8ac1609653e5d777651872bd0dc812b",
+    "sha256": "78c6ef10bb0cb7f521d10b79be5f196de21775023adcfb4dbcf80f189fec178d"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert29.lean": {
+    "upstream_path": "blueprints/Chamber_cert29.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "0409008c08aaca4d6fbe0d67b7c5885bd51349f9",
+    "sha256": "7bc3e6fecf509adfe20d9f89995bd7093d85f3d3ce7c533dbcb4a3f1481c3006"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert3.lean": {
+    "upstream_path": "blueprints/Chamber_cert3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "812a85d3f0639191db388182a85f4397c460919c",
+    "sha256": "d3386cb88a2ab62f124b4987bcf737955b6ba9c57749881e18fe946d3a6b3721"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert4.lean": {
+    "upstream_path": "blueprints/Chamber_cert4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3326cc32b2e7c9750b0bf5f88b46bc006a91b7dd",
+    "sha256": "8ea9c31543bae3074e764bdca774e3d8ad831ab18b28d9df4ab5474a39db45a3"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert5.lean": {
+    "upstream_path": "blueprints/Chamber_cert5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9315a6c9b3dc4ee34200fa5e49bba404d74b602a",
+    "sha256": "2fdf8348b10f11f4d4cbc7a7afd8bb43c0f59990ecbd36ccdba7a46fb9c8dd01"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert6.lean": {
+    "upstream_path": "blueprints/Chamber_cert6.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "90739a4381be8d12214224e28a7dc7e680905394",
+    "sha256": "d656dc8f84323feb591ed7c311aaed03cb1d61da0a0113c573293937f9822e3d"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert7.lean": {
+    "upstream_path": "blueprints/Chamber_cert7.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e74143a771e46c11ae9c73cad362c0b57a69d2e9",
+    "sha256": "71802e98c15b99843c5a8877572f9093de8d860df5ce51da678d484426275067"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert8.lean": {
+    "upstream_path": "blueprints/Chamber_cert8.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e8d634962bd331a1a3125bd868971b5a5d968b6b",
+    "sha256": "25855647e18eb91e4895e845e9a29613472a1e4020f9ac87fd2c2d8ac2e81ac5"
+  },
+  "lean/zetas_irr/blueprints/Chamber_cert9.lean": {
+    "upstream_path": "blueprints/Chamber_cert9.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9b59d0c033dcf4f27a799c78092aacdbda1bc9ed",
+    "sha256": "6ac6276de380b78b8daeef859160855045beb99c938ded3b6fbfcd1ae68fb7e0"
+  },
+  "lean/zetas_irr/blueprints/Chamber_certAll.lean": {
+    "upstream_path": "blueprints/Chamber_certAll.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "0b7bc2aa162ad12bbb76391e9d6301b28d29bb50",
+    "sha256": "b4f3144d19bd29c332dabbf76c5d56ba0af5e67aa78d764eeb5a294c5ef06d0b"
+  },
+  "lean/zetas_irr/blueprints/Chamber_dsl.lean": {
+    "upstream_path": "blueprints/Chamber_dsl.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ac36a738b827fc787dda67e4d27ada82dec7911b",
+    "sha256": "7d7ef5513dac44ceb5d166ed92c4ef4e72c6caed03bb186c71e461a360d5e0fa"
+  },
+  "lean/zetas_irr/blueprints/Chamber_main.lean": {
+    "upstream_path": "blueprints/Chamber_main.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "cdae60ba22616288e3f3816e01e059e237bdbf95",
+    "sha256": "6bf0c007fbc21abb41b288d3164d390556ab4bfe4aa70ee0cd9065fcfe0b0af7"
+  },
+  "lean/zetas_irr/blueprints/Chamber_reduce.lean": {
+    "upstream_path": "blueprints/Chamber_reduce.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d978bdf2d903209652507f3a2b28de092619ed61",
+    "sha256": "469e802602246b61141ba02f99677376c514e751188e5967ac7c85065aad41b9"
+  },
+  "lean/zetas_irr/blueprints/Delta_mul_Rmat_integral.lean": {
+    "upstream_path": "blueprints/Delta_mul_Rmat_integral.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "29bba92db3d8fce673a28739b6c6e7decd3781b9",
+    "sha256": "f04f742b763fe4c920e15e065235e7090e55e1330b2f9404f3c11f23f10d2504"
+  },
+  "lean/zetas_irr/blueprints/E34_le.lean": {
+    "upstream_path": "blueprints/E34_le.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "39714ad66c78f8098aca27ff099d46b2457cf561",
+    "sha256": "5f22ea5485b97f0cbabe78d164280da98b59209938aec5f27c0b4e6b0bd9f0d0"
+  },
+  "lean/zetas_irr/blueprints/GW_Sbound.lean": {
+    "upstream_path": "blueprints/GW_Sbound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "90cf5b121df7460be6540b8969d8bd367201e1e7",
+    "sha256": "5ee3cb159b49244970f4f80ff2631991664871b669b598bf731bcafb5bb392b8"
+  },
+  "lean/zetas_irr/blueprints/GW_bridge.lean": {
+    "upstream_path": "blueprints/GW_bridge.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f2f5da5e64c3a2a1122453901306987fd4fe6605",
+    "sha256": "7a280ca671a1dad32944ebd6bd9eedb6472117ef691e0225e01b5201b86c7743"
+  },
+  "lean/zetas_irr/blueprints/GW_cert0.lean": {
+    "upstream_path": "blueprints/GW_cert0.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "412a808c4b9d39f967b1d9267cacba7aa2b14f19",
+    "sha256": "9eebab07bd60dd5bbc91caeaea064179e4c1d429e829b963a2646dbd951b0618"
+  },
+  "lean/zetas_irr/blueprints/GW_cert1.lean": {
+    "upstream_path": "blueprints/GW_cert1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d6d6a3289ac6ef82a3ab824dc66001a98fa46ac8",
+    "sha256": "a128c913debe5e88dfd357cf99a020d8f4d2ae9b28e215a1ba84d8b752994ab3"
+  },
+  "lean/zetas_irr/blueprints/GW_cert2.lean": {
+    "upstream_path": "blueprints/GW_cert2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "8a939bbcc632b34f39fcd8bf2c6f38ea25c6cc71",
+    "sha256": "db919838de79a7258a3b73013574342b80ef1bcd999aba67f8b711cb970ea0dc"
+  },
+  "lean/zetas_irr/blueprints/GW_cert3.lean": {
+    "upstream_path": "blueprints/GW_cert3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2e39d0852708094c79a5245d0145c40ef5e2943d",
+    "sha256": "539291cf43e594589fd1f358dbc2fdec8e5d1353d89964c44f8d293fe13b34b6"
+  },
+  "lean/zetas_irr/blueprints/GW_cert4.lean": {
+    "upstream_path": "blueprints/GW_cert4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ca18050dfcacac07ad85241842ebce512b2466e4",
+    "sha256": "830795ad025c8a693f2629cbc13ff02c1a114de2f29556f2c4c3bbddf59f8949"
+  },
+  "lean/zetas_irr/blueprints/GW_cert5.lean": {
+    "upstream_path": "blueprints/GW_cert5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c9f39f744ef9d394f885d934cd7c58b202de0d9d",
+    "sha256": "0d0611527c1b5e93b01ab2e64cd58959ea9845bf90f06a74200f4bd5ec41cef5"
+  },
+  "lean/zetas_irr/blueprints/GW_cone.lean": {
+    "upstream_path": "blueprints/GW_cone.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3cb296e5320e5bade940bbd52950f7e50e9c0004",
+    "sha256": "499ddd91f2f94af592ac45d273a29b0d1027efb28f2a1ef932ae75d4db72f3f0"
+  },
+  "lean/zetas_irr/blueprints/GW_fast.lean": {
+    "upstream_path": "blueprints/GW_fast.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "49d448d6035bd57ed6a576347b62e64b368cf749",
+    "sha256": "a7e2b1cdd9cf9c0cce34ee78dd231a8b5d4150e44a46e5eb94a621cff9d2b860"
+  },
+  "lean/zetas_irr/blueprints/GW_limit.lean": {
+    "upstream_path": "blueprints/GW_limit.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3ff1aca23939ddb3f52c5bf08e480c415b600360",
+    "sha256": "75ee2ce864b6c00c82af94fdeb0c6f65ffb66259ad5f084ede30608502c4db62"
+  },
+  "lean/zetas_irr/blueprints/GW_poly.lean": {
+    "upstream_path": "blueprints/GW_poly.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "1876b965c5b57f7a203795b548d1839a02c24982",
+    "sha256": "df433fc9af7b5debfabb75a090425d35a2a080c6d1564764626ef54e43c04813"
+  },
+  "lean/zetas_irr/blueprints/Mfun_sub_Mfun_pred.lean": {
+    "upstream_path": "blueprints/Mfun_sub_Mfun_pred.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f137234bbc9962c51950b55f109a926ec58e00f7",
+    "sha256": "f8e2b04b64261cb53563314c31915a98a24658a4267ee6ab25d1158e930495cc"
+  },
+  "lean/zetas_irr/blueprints/S_eq.lean": {
+    "upstream_path": "blueprints/S_eq.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9a8ed3e273b1c68d7ec93cb637afe6812e785e1a",
+    "sha256": "6fbd472ad066a358329319ba2062094cde88ae8711fdd34471e9af5f8212dd4e"
+  },
+  "lean/zetas_irr/blueprints/ZetasAux.lean": {
+    "upstream_path": "blueprints/ZetasAux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "02b0b74e3940d14bbd0f69aafeb1a1a885595524",
+    "sha256": "e1979f7c98bae63aeebf978dcbb576bd2e665923caa96348bac88b4cbaaad616"
+  },
+  "lean/zetas_irr/blueprints/coeffMat_zero.lean": {
+    "upstream_path": "blueprints/coeffMat_zero.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "eb40af3896d5237ae3bcd1db950d05b220664b79",
+    "sha256": "b9c2713e7c6bc84120ef927754fbe8893b94943dc8db57bd5acbc75143af3034"
+  },
+  "lean/zetas_irr/blueprints/cross_product_readout.lean": {
+    "upstream_path": "blueprints/cross_product_readout.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "50df3218d874dc6568249d1f828acea6ed219199",
+    "sha256": "4328e1c3f31261d7938e9122009d103e6029261168e3e4b0d8ce6758eee746e2"
+  },
+  "lean/zetas_irr/blueprints/derivSum_eq_realize_Lfun.lean": {
+    "upstream_path": "blueprints/derivSum_eq_realize_Lfun.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "63036eed8abc667a23f0d8b04cbab3fc767acfc6",
+    "sha256": "1c8d6d6ed8b0b9c76b52c799f3d5e705d29c63749af74ca529a56d984a2f3011"
+  },
+  "lean/zetas_irr/blueprints/det_V_eq.lean": {
+    "upstream_path": "blueprints/det_V_eq.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "4a127f83180373e81021c34449e158c46e5a7a2f",
+    "sha256": "d1c3e13de99435748c8109d4feca4962160fcc9b6de0c8917a4a3c7c3639c94b"
+  },
+  "lean/zetas_irr/blueprints/growth_estimates.lean": {
+    "upstream_path": "blueprints/growth_estimates.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d3cfd6d35ac5ca1b40f51c0c3beb69bd63d89234",
+    "sha256": "0598c5f7045ab34c0643cf7df0f2b151a414ce3f50cdcedb2fa26eb95e35dc43"
+  },
+  "lean/zetas_irr/blueprints/log_Delta_le.lean": {
+    "upstream_path": "blueprints/log_Delta_le.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "af0fb3cf06dfc3b46786466f55b0fff80a2a2bb5",
+    "sha256": "7d7e3a854a4918ead1f6523ed4d85beb78256d766398856837b40c7974d87e10"
+  },
+  "lean/zetas_irr/blueprints/pairing_identity.lean": {
+    "upstream_path": "blueprints/pairing_identity.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d9f24efadf3c0f53f938c059cad4525003e18eae",
+    "sha256": "1c848624efc16ea687ad532ce35f94bb79faeb3c2cb2e206b8b6a49b9a222c96"
+  },
+  "lean/zetas_irr/blueprints/readout_error_bound.lean": {
+    "upstream_path": "blueprints/readout_error_bound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2ed5c17fbe993b22cdc3c2f4786a8c6655ca7c9c",
+    "sha256": "be949c4f41aef6e5c92c9ee31cde4a705f55c4b377fe4a7e5db885432bc7170c"
+  },
+  "lean/zetas_irr/blueprints/valuation_bound.lean": {
+    "upstream_path": "blueprints/valuation_bound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c1e63e536ef6ea3a7ef28057083905089c2a2f45",
+    "sha256": "e438d310b34946666bae75fb29350341b17de6e353b49ce3579b147764348c97"
+  },
+  "lean/zetas_irr/defs.lean": {
+    "upstream_path": "defs.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "1f7ed33a661fd6cf80bef291c3a395a6067771f6",
+    "sha256": "a778735eb790ecd1cfdaca309bc36b0771069ec803c699a7dd1741041ab6c751"
+  },
+  "lean/zetas_irr/lake-manifest.json": {
+    "upstream_path": "lake-manifest.json",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "bc136b1ba906ad067e30b740b2a93128f45382a4",
+    "sha256": "4671dfe885ebf2389db7eca34a6251f47705a8ae99563217a11037a561ce99a1"
+  },
+  "lean/zetas_irr/lakefile.toml": {
+    "upstream_path": "lakefile.toml",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "454952ae992eb0a906631413175b0addd6c24cbb",
+    "sha256": "724c6c64baf93d45e3c5f86433d51facb31d2a70c9d09414b1a2d137ce0aa97e"
+  },
+  "lean/zetas_irr/lean-toolchain": {
+    "upstream_path": "lean-toolchain",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9532ebf33701f2ff0a999f12b21fb7a675f24e6e",
+    "sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/Blueprint_pfq54.lean": {
+    "upstream_path": "pfq54_formalization_handoff/Blueprint_pfq54.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "118eae9d6dd6c594d574cc52893b5ec6ff6aaa5f",
+    "sha256": "66d7b759e7eb43980997a3ce15cecc7349521bd37efe7ab106644a8735b42219"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/G_dvd_Z.lean": {
+    "upstream_path": "pfq54_formalization_handoff/G_dvd_Z.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ebfc2f4e16f65b95872cfb9e6f7102b8cb26ff54",
+    "sha256": "2945f1ebe6f69b1103fa3a582afdb9ecb65eabb4ed94e2bb810e5de495a04c7a"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/Pfq54_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/Pfq54_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "481cd95b0d61892aefaea26f334219a402f04d7d",
+    "sha256": "df7ed5eb285522ef97219ad7aab7412109a16f382a1ea8b483d7a92331a0e986"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/Pfq54_defs.lean": {
+    "upstream_path": "pfq54_formalization_handoff/Pfq54_defs.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a5b9da77568ba6a53afd9aa24bb1056acb9e65ae",
+    "sha256": "72c92262a1d022b0f89bab84cb8cfe5f1599382cbc8cdcb9f1c533047089f395"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/Z_integral.lean": {
+    "upstream_path": "pfq54_formalization_handoff/Z_integral.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d2c0eb80b4003369a610fa643db558c7bb97aec4",
+    "sha256": "11006876aeaac6a2a5eda3d3aadc07cbc5059160f0f187b0e8df4da2a15e62c2"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ab25097818ad2e6a1b204435f8423a039c712f5e",
+    "sha256": "1df4389c0a46580a23a513e77a177520d05c23310f0625b106f789919706f81c"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert0.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert0.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "4383fe3bc77b920afe2b5dd1b676aac0d663fa4f",
+    "sha256": "6e0814f4360ae5dd7a56ce6a2e980390a0267fc7074ebc7ae6a3df253b73d479"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert1.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "76b91901d9f20b29e2208b639bf4c548ced90313",
+    "sha256": "b1876c5d2c69c6e0c4a3d8438470d7463fc35678153dea41a0ac488599ae2773"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e6b43b7e4725f8f82f7f48fa33415fcd0d103e1d",
+    "sha256": "1d58643ad632e7174e10ed2697e317a8586a0d08741556518321a96cc732a6df"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "cda7e3c51bf600ee2bed5bf2d58c888ccbad5a7c",
+    "sha256": "fda8d5541e02feac1399e0d909403d6326960e4fa87ec0f5d896689a48bd8862"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert4.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "48886c68a96000d84fdb029085caa319dc84d260",
+    "sha256": "a7e021de869de1cc160a414c6cdb6286430a0006cafd27ca79028f6bb4acc753"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert5.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "6bb1f57322b2f1285a094e96a4039fc417f8efb7",
+    "sha256": "d92849f7c81230edeb7fbc66def6c935dfc71edfb7d85054f9352c8f689a31cd"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert6.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert6.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "2c368593766210b2786f7811297e3d71d1afa278",
+    "sha256": "b7b2b8f1ac227c0a9a5d107fb421f3f366cf38eebf67cb7f9eb6eb6e73e11197"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_cert7.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_cert7.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "7f258f303321d67de79c5caecbc1dcfddd345110",
+    "sha256": "96d578201b2f8093934b4925a64bea69586fedddbbe98dc08460e93b7faf4cef"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_fast.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_fast.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3e94a4c640cf81c4eed56ef44ce69341d39eb98b",
+    "sha256": "7932534071f3d06728da96d6a2ee1c48b250163595a54c05beec10a7a48beb63"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_link.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_link.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f467ae62f7ea535933173f3dfdb335b478f17d8b",
+    "sha256": "b707c717840e68eb6fa5993683e5c4ec98b9ae68bcc27a0e31514e07296bb8dc"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_poly.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_poly.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "0d1ab05a68c18e09485d4e0b186997b869051243",
+    "sha256": "05c79e09e40cb0c4cf2e5cdc4f0c1ae19549ee55a9404514bc98b55b52ef35b0"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/cas_spec.lean": {
+    "upstream_path": "pfq54_formalization_handoff/cas_spec.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ac55ffe2e169e4d6e0abd90428006e9679551de4",
+    "sha256": "ca764ce9093ef64eeaa2db091ac6345a34824899c24cb981628d048b730c42da"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/dl_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/dl_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "363c4fb156d8aea09082ea68c7a9dc7d684aed50",
+    "sha256": "8ba0b40b34457f458bf0baeb2594e2ba40adcfff4eb49e7652b540fa6a4b83a5"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/dual_mode_transfer.lean": {
+    "upstream_path": "pfq54_formalization_handoff/dual_mode_transfer.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a752f4df0e62c43acffd1e82017bd4fa633484c2",
+    "sha256": "c3115e3ceed12e9a3112bdebfc1366d4b76cba61bf2d4db1eedbcd22a048351b"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/error_bound.lean": {
+    "upstream_path": "pfq54_formalization_handoff/error_bound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "15e088cf2e5b2d46121ad1c2ad9e5859f6fcccd0",
+    "sha256": "706c3396e360aafe233c548713bb248c1041584b00d13773b96694b900380d5a"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/gdual.lean": {
+    "upstream_path": "pfq54_formalization_handoff/gdual.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "8925e35563835b782a54f71da7a868b35350bfad",
+    "sha256": "330a4f7478161f5994e2ac1e59eccbbbbd2c58b7275ef0d0cf7879e6f9884878"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/hyp_readout.lean": {
+    "upstream_path": "pfq54_formalization_handoff/hyp_readout.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "803252156151d4b5f6abd53ac1132543e7c59b5f",
+    "sha256": "7c24c30fa128c5ed0c35ef8df9f32587acfd1e38c44f6bc87b3dcefa37f10864"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/jet_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/jet_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "5697f0b82974156da9d36b876a5dd871d80e07c5",
+    "sha256": "fd37d28348adef8b15ad5e8470be45e21b2b10b1797b197d8d7f1d672ff40078"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux1.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "75845a4cb3a867f838588a5f6f63e152d446b31a",
+    "sha256": "a0c417600f1714472503dd132c0b9620626de5a064540f6806963d40195af8ab"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f8269e628d0f27c6477f5b04b5820f1c9a477292",
+    "sha256": "971a824147249fc1cb08f6e0726a30cb9adae6eca43a6def4e001164074e014e"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "4463fef11260c56847257a645465259be0281146",
+    "sha256": "202c7ec62f7a1dc445ccf707427b4428f2563e7848e4bab3c21a9f2f64f33a38"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux4.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "0e7c519c700f8c7e1633ca84987f1de0bd095b70",
+    "sha256": "c5cf13f8d3eafa822d3fc60070d96bd8cc4dddaa01713d1fbaf233f847ffd9a6"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux5.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "44db9a089b7c9c6b7c72ae0c68b25556b04bb9b2",
+    "sha256": "ff5550237f571eabae11670ddd578122719931c025ba62dbe0311bfc15566998"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/lev_aux6.lean": {
+    "upstream_path": "pfq54_formalization_handoff/lev_aux6.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a7319db5a517c99505069c6731b48b27bf547dea",
+    "sha256": "5a457ffdbed234870eaf6ee0d9be24c272ed1882c285c9da8bf2dfd42bb1dac0"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_G_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_G_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "bbc086234d63fe8853d1ccf9daf2ca59b40552a5",
+    "sha256": "662dea60b4b997a027cdc6a3cba67c8931f41325999b0e1ed300ba0220158a4f"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_G_aux2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_G_aux2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ad760336e73c7bea29f64f17ff94b7fedf9e5a41",
+    "sha256": "7be7127abff8088450af33ad208a7aea744d1adfa20af770cbd1ec6977955af2"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_G_aux3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_G_aux3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "47c704122651db3c3e9ca8c0f9987f0de983a2d7",
+    "sha256": "03644817b8b39dd6ac58a45a5a76458dc4c51e3e41364f380f88bf6cb3645f22"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_G_ge.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_G_ge.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f087f627b5eb2c279cef98523dd7858f06d72263",
+    "sha256": "e74c4f601973237271224a95a4da846910b8ee38566bdd2e17fe54353f0218f5"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_Z0_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_Z0_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d4354279e73af6b12f352c4159c6230f054f3adf",
+    "sha256": "9601be23425ddf68fe54808c9eefbc29a40bfe2046e0934c8afd73df1a3adfab"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/log_Z0_le.lean": {
+    "upstream_path": "pfq54_formalization_handoff/log_Z0_le.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e890d56a19b6d406dc5434764c76d9b47c0a8069",
+    "sha256": "57e5ee46dd626cd7a927d92c3d1e5f6faa9cbc934ce85bb4ce309ae9d744e781"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mc_aux1.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mc_aux1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "77afe481adaec26094db959d696092d1a1d4a9b5",
+    "sha256": "75aaab4905ff56e40d4e2ce611fc6fe1ba4166809d890b2737a43475f4ac956e"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mc_aux2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mc_aux2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c6ba282a5a08b6ef435deb6fbd368e979c131e33",
+    "sha256": "bdee41e5ee00eab63c7557fda88cc38105ac8a7d93a1edd956c754f11fdb7550"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mc_aux3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mc_aux3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c6fa1a45b7748cc07f11f111985ebac8ce2b047f",
+    "sha256": "032d247d0b92142862c78b69c00b1323cc60f204a602c8e0377534ddd5391673"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/meijerG_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/meijerG_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "86459f9951967cc578b3f24d258fe2192b214020",
+    "sha256": "bfd881a666ee6367d715d61a59198f03e92965b9b34eb14d5264ed1698445d47"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/meijerG_decay.lean": {
+    "upstream_path": "pfq54_formalization_handoff/meijerG_decay.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f5c4840392100f2354c051c5050d0a36a093d0d6",
+    "sha256": "b3a1e98a814bbf05feb4d5f0136555cd93ae6461bcb78899d8530396be61b496"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/meijerG_initial.lean": {
+    "upstream_path": "pfq54_formalization_handoff/meijerG_initial.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "d61974d1a829215bb102b52ace9d4663d0b21fac",
+    "sha256": "f64a98d4263b9edae13df228cf1c3fd50636beff255190f108fad90af1e0fb5a"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux1.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux1.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "7d662fa22f80fdb50e80b2d5ba40b737b5b65286",
+    "sha256": "c4fd49adbf358c22c75ee577d7445a7f4184e8f64710b685dc7cae4acb7313ee"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "9b45223253601496f375469066e294cfdd1c6cfd",
+    "sha256": "2bfe6daf6921ba8c33a60b3826c664ff047c0a05677be3869639b81e6758b9f1"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3fda30dbfbe9ed665cc65658e4dfc9432c35af0f",
+    "sha256": "a3ae850731e0142ab65a026e6a38e52d47ff81464ab4fc8b6fad0db9fa9dc575"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux4.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e8a3a12c6e68e5e9f3f5c23166b1517aefc9ce46",
+    "sha256": "ede1913c5e515a384499b6dd59fe0a7522d8dedaef822a3ed7c849afd1a09e80"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux5.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a50ba5ac199056b6ac1a8bd6bf113705e9b9e160",
+    "sha256": "02b20d80cddc548b06467b13dd0e4b72018b48fddaae6a9543145eab9e294d71"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux6.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux6.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "a7c344f964386293c38eb6d4840d9d3823786d26",
+    "sha256": "eb60e1140042fede88daa817fca16ea31688cabc02a18bd2a4c2da02425170c5"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux7.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux7.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3e611eecbb155ba3b736414a86be9fed6f59d214",
+    "sha256": "4144f3f4c2f2f61ac1ef22b60d5b0607a5ee1448607749ddb7b362789192e6b9"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mg_aux8.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mg_aux8.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "b8e09b0a214fb02d40ffbae991ae49765bf0efab",
+    "sha256": "22b387e0826f2884aa8077962b21defc245bd2c4769c851817261c934c2a8a8b"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/mi_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/mi_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "214d2653b53f45f793b71029da251218151a602a",
+    "sha256": "d4d90d165b89a49ebf21fb220ea183c356621a85ecab1411a5e5a660e67ad986"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/modal_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/modal_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f731bc5a44c35d35e369c97881d1dd3a6c66e891",
+    "sha256": "e355ac564461d972f3351c0c23cf11da97a39467b46d8b4fd2911c4a94744604"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/modal_basis.lean": {
+    "upstream_path": "pfq54_formalization_handoff/modal_basis.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "49caf08ef29ab06bb4adc9a3b38ddef1d9724516",
+    "sha256": "38e6f862d07287d833acdc02cf2a5031abc7724ac679834d4eab8e5f3acd5604"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/nonvanishing.lean": {
+    "upstream_path": "pfq54_formalization_handoff/nonvanishing.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "91469d8eac74ecff8dfae1fbccc83525617e8254",
+    "sha256": "dcc9a0437380cb54de55beb1e65916e224a01bc837e3b199062d781c7e0f2e00"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/pairing_bound.lean": {
+    "upstream_path": "pfq54_formalization_handoff/pairing_bound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "3c0e79b80961a11d1a5b95e72425d5e68616895a",
+    "sha256": "0ab54c8f84eb79c21bd1de15b7b0aea93620bea445fdf9f07ebea06499ce36e7"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/permutation_lemma.lean": {
+    "upstream_path": "pfq54_formalization_handoff/permutation_lemma.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "739aa84107dee42f05e88679d0e9f9b144ff6326",
+    "sha256": "4c5f7a367ebf605a67c3131b89f6e1f28c0216aa7178e7e08ccaf9d531db2192"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/pf_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/pf_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "6e7c6200d99c56e1ddeec8d55375393dae27c72b",
+    "sha256": "62fe117d824ba02642df669923b99c0435a7770f443f849c1d5f5c4ecc67a3df"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/profile_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/profile_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "e3c4569a0d7dd5ac86ea917b2e803ab711d68c7d",
+    "sha256": "2c246974db16e24c83aa982369af1a05b083ad98edbe6df3ef609ce717d628ab"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "81a3f6e405c2d83a3b3b84feafe7fb056f975327",
+    "sha256": "116117ad083a60508fe28ac5f44fc59a194cea598eb5ab05f21f6d5f5a0ea487"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_aux2.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_aux2.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "f6be45c92feb0bd7a64d5d3d4b4ba538d3937dfe",
+    "sha256": "35b3f8d5a0b51f4361d60d608aebf6b2fb3782802de27d3f00e2ec48f8efaf5a"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_aux3.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_aux3.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "aebb1698b593c0ec42cd1704948c63028b84b2e0",
+    "sha256": "3ac8536e27c9c734edd44407affbf770f5f5d0810c7fdf54e6d6472cb897d42d"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_aux4.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_aux4.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "6a3a195dceee69c08b124e1134a2eaf4cbf62af7",
+    "sha256": "f5767e751bb60c1b9c22c41194d92e1a7cc3d8a4de96e3e8236e7e37417ca654"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_aux5.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_aux5.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "062085cb5d36844efb89634651805314567a476a",
+    "sha256": "cb7e7472fc15a31db5ef940785833dfe3f46a6f9c2ec0bd63c1016ebeaaefac9"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/residue_block.lean": {
+    "upstream_path": "pfq54_formalization_handoff/residue_block.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ad8c9d70a75c4bf13e6193cdbfe0707b199fd6a5",
+    "sha256": "53702db17103ea10a8fce4dacab8e640cf00ff2451b8c55edb61c9f5659e19cd"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/spectral_certificate.lean": {
+    "upstream_path": "pfq54_formalization_handoff/spectral_certificate.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c8e1110b9e35a7565db818b90f8751d1e52fb18f",
+    "sha256": "228063255e7529ca2d21c3bc9b5ebdf8ecfc508f2fb220661ed3c903b0bebd9a"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/star_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/star_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "ae45ef7bac9fd371887b68dcba0edac581692edc",
+    "sha256": "57fba6e7b36eb3ead82a73fab36998bad35dc6b15677352e2736e5c452bc7168"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/stirling_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/stirling_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "094c885d88f8331585f4d37677a45485b7b11cf2",
+    "sha256": "1d1ca1e069b9e4224a76d920da127a4f36a90090133f53b47646a5e0201501f7"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/upper_range_bound.lean": {
+    "upstream_path": "pfq54_formalization_handoff/upper_range_bound.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "834f393b4c1683322d2d0e2884cb99f96b76e94e",
+    "sha256": "b12bf31f47b680c7f628d6ce33342733c118aeb670999ddf5e467c3263158566"
+  },
+  "lean/zetas_irr/pfq54_formalization_handoff/uv_aux.lean": {
+    "upstream_path": "pfq54_formalization_handoff/uv_aux.lean",
+    "upstream_commit": "d9d52233b15383206bc426ba86dadd66f6737b16",
+    "upstream_repository": "https://github.com/RamanujanMachine/zetas_irr",
+    "git_blob_sha1": "c93e05b163161ab6c369aae1aae0b34bb344acd5",
+    "sha256": "6d6ef0f7968ac9037efbb77a1dba14a2aa0e0f419c3142c99fff7861ca345939"
+  }
+}

@@ -1,0 +1,157 @@
+--- a/main.tex
++++ b/main.tex
+@@ -206,7 +206,7 @@
+ Section~\ref{sec:other_implications} extends the use of CMFs to additional domains, proving the irrationality of the harmonic-weighted Gregory series.
+ Section~\ref{sec:outlook} discusses promising next steps in light of the broader context and current status of the field.
+ 
+-The appendix contains extra results, proof details, and supplementary code of symbolic computation packages developed to work with CMFs.
++The appendices contain additional results and proof details. Supporting code and computational certificates are provided in the supplementary material.
+ 
+ \section{Preliminaries}
+ \label{sec:preliminaries}
+@@ -1982,7 +1982,11 @@
+ \item the errors cannot vanish at three consecutive indices
+   (Lemma~\ref{lem:z34-nonvanishing}).
+ \end{enumerate}
+-The approximation exponent (Definition~\ref{def:delta}) is $\delta=\frac gh-1>0.015$. Hence $\alpha$ is irrational, and $\mu(\alpha)\le1+\frac1\delta<66.3$ (Remark~\ref{rem:mu-from-delta}).
++The approximation exponent (Definition~\ref{def:delta}) satisfies $\delta\ge\frac gh-1>0$. Using the nonvanishing statement above and the irrationality-measure criterion gives
++\[
++ \mu(\alpha)\le\frac{g}{g-h}
++ <\frac{112.8075}{112.8075-111.105}<66.3.
++\]
+ \end{proof}
+ 
+ 
+@@ -2137,9 +2141,9 @@
+ 
+ \begin{proof}
+ The sequence $C_nq_n$ grows at rate less than $38.168733$, and $d_{12n}d_{13n}$ contributes $25$.
+-By the prime number theorem, $\mathcal D^{\mathrm{car}}_n$ has growth rate $\gamma=\int_{1/13}^\infty\phi(x)\,x^{-2}\,dx>12.128427$ and $\mathcal D^{\mathrm{sh}}_n$ has growth rate $\frac{233}{120}$, the total length of the six shells divided by $n$ (Appendix~\ref{app:z2-blocks}). Hence
+-\[
+-  h<38.168733+25-\Bigl(12.128427+\frac{233}{120}\Bigr)<49.098639 .
++By the prime number theorem, $\mathcal D^{\mathrm{car}}_n$ has growth rate $\gamma=\int_{1/13}^\infty\phi(x)\,x^{-2}\,dx>12.1284279747910$ and $\mathcal D^{\mathrm{sh}}_n$ has growth rate $\frac{233}{120}$, the total length of the six shells divided by $n$ (Appendix~\ref{app:z2-blocks}). Hence
++\[
++  h<38.168733+25-\Bigl(12.1284279747910+\frac{233}{120}\Bigr)<49.098639 .
+ \]
+ \end{proof}
+ % ---------------------------------------------------------------------
+@@ -2150,8 +2154,8 @@
+ \emph{The case $\zeta(2)$.} Consider the approximations $r_n=p_n/q_n$,
+ with the integer representatives
+ \[
+-  \widetilde q_n=\frac{C_nd_{12n}d_{13n}q_n}{G_nH_n},\qquad
+-  \widetilde p_n=\frac{C_nd_{12n}d_{13n}p_n}{D^{\mathrm{car}}_nD^{\mathrm{sh}}_n}.
++  \widetilde q_n=\frac{C_nd_{12n}d_{13n}q_n}{\mathcal D_n},\qquad
++  \widetilde p_n=\frac{C_nd_{12n}d_{13n}p_n}{\mathcal D_n}.
+ \]
+ The four claims hold:
+ \begin{enumerate}
+@@ -2164,9 +2168,9 @@
+ \item The errors can not vanish since $\zeta(2)$ is irrational.
+ \end{enumerate}
+ The approximation exponent (Definition~\ref{def:delta}) is
+-$\delta=\frac gh-1>0.2757$, and therefore
+-\[
+-  \mu\bigl(\zeta(2)\bigr)\le1+\frac1\delta=\frac{g}{g-h}
++$\delta\ge\frac gh-1>0.2757$, and therefore
++\[
++  \mu\bigl(\zeta(2)\bigr)\le1+\frac1\delta\le\frac{g}{g-h}
+   <\frac{62.636575}{13.537936}<4.62675 .
+ \]
+ 
+@@ -2184,13 +2188,13 @@
+ \item the rate of convergence is $g>112.8075$
+   (Lemma~\ref{lem:z34-selected-error}).
+ \item the representatives are integers, and they grow at rate
+-  $h<53.287584+30\log\frac32+57-30.458547<91.992990$
++  $h<65.451536565866+57-30.458547243805<91.992990$
+   (Appendix~\ref{app:zeta3-measure}).
+ \item The errors can not vanish since $\zeta(3)$ is irrational.
+ \end{enumerate}
+-The approximation exponent is $\delta=\frac gh-1>0.2262$, and therefore
+-\[
+-  \mu\bigl(\zeta(3)\bigr)\le1+\frac1\delta=\frac{g}{g-h}
++The approximation exponent is $\delta\ge\frac gh-1>0.2262$, and therefore
++\[
++  \mu\bigl(\zeta(3)\bigr)\le1+\frac1\delta\le\frac{g}{g-h}
+   <\frac{112.8075}{20.81451}<5.4197 .
+ \qedhere
+ \]
+@@ -3270,8 +3274,7 @@
+ are not the published Zeilberger--Zudilin irrationality-measure bound.
+ 
+ The shift matrices and exact checks of the polynomial identities
+-and initial-state formula are provided in the supplementary
+-Git repository notebooks.
++and initial-state formula are provided in the supplementary material.
+ 
+ \subsubsection{Comparison at equal accuracy}
+ \label{app:equal-accuracy-plots}
+@@ -3521,9 +3524,7 @@
+ T(n)=\operatorname{diag}(1,n+1,(n+1)^2),\qquad
+ Q_\infty=\lim_{n\to\infty}T(n)Q(n)T(n+1)^{-1}.
+ \]
+-The exact matrix computations in
+-\texttt{verify\_5f4\_meijerg\_recessive.py}
+-show that $Q_\infty$ has three simple, nonzero characteristic roots:
++The exact matrix computations provided in the supplementary material show that $Q_\infty$ has three simple, nonzero characteristic roots:
+ \[
+ \lambda_{1,2}\approx(2.803\pm6.487i)\cdot10^{25},
+ \qquad \lambda_3\approx7.203\cdot10^{-24}.
+@@ -3578,7 +3579,7 @@
+ \[
+ g=\log\left|\frac{\lambda_1}{\lambda_3}\right|.
+ \]
+-Exact root isolation and interval arithmetic are scalculated in the supplementary material, it is shown that 
++Exact root isolation and interval arithmetic, documented in the supplementary material, give
+ \[
+ 112.80753<g<112.80754.
+ \]
+@@ -3714,9 +3715,7 @@
+ T(n)=\operatorname{diag}(1,n+1,(n+1)^2),\qquad
+ Q_\infty=\lim_{n\to\infty}(n+1)^{13}T(n)Q(n)T(n+1)^{-1}.
+ \]
+-The exact matrix computations in
+-\texttt{verify\_4f3\_meijerg\_coboundary.py}
+-show that $Q_\infty$ has three simple, nonzero characteristic roots:
++The exact matrix computations provided in the supplementary material show that $Q_\infty$ has three simple, nonzero characteristic roots:
+ \[
+ \lambda_{1,2}\approx-1.287\pm2.207i,\qquad
+ \lambda_3\approx-1.602\cdot10^{-27}.
+@@ -3769,12 +3768,11 @@
+ \[
+ g=\log\left|\frac{\lambda_1}{\lambda_3}\right|.
+ \]
+-Exact root isolation and interval arithmetic in
+-\texttt{verify\_4f3\_meijerg\_coboundary.py} give
++Exact root isolation and interval arithmetic, documented in the supplementary material, give
+ \[
+ 62.636575<g<62.636576.
+ \]
+-Therefore $g>62.63657$, and the preceding estimate is precisely
++Therefore $g>62.636575$, and the preceding estimate is precisely
+ \[
+ \left|\zeta(2)-\frac{p_n}{q_n}\right|
+ \leq e^{-(g-o(1))n}.
+@@ -3836,9 +3834,7 @@
+ The one-periodic profile $\phi$ has $94$ cells on $[0,1)$;
+ exact summation over $2000$ periods with a bounded tail gives
+ $\gamma>12.1284279747910$.
+-The shell calculations and integral bounds are reproduced in
+-the supraliminal material
+-combines them with the spectral bounds to obtain Lemma~\ref{lem:z2-growth}.
++The shell calculations, integral bounds, and their combination with the spectral estimates used in Lemma~\ref{lem:z2-growth} are provided in the supplementary material.
+ The supplied formalization and full written proof are at
+ \url{https://github.com/RamanujanMachine/zeta2_four_trajectory_matrices}.
+ 
+@@ -3895,9 +3891,7 @@
+ \]
+ as used in Theorem~\ref{thm:z23-measures}.
+ 
+-The sum identity and spectral calculations are in
+-the supplementary material the carry profiles, shell certificates, and density bounds are in
+-the supplementary material.
++The sum identity, spectral calculations, carry profiles, shell certificates, and density bounds for the pure $\zeta(3)$ approximations are provided in the supplementary material.
+ 
+ \section{Exact Calculations for Harmonic-Weighted Gregory Series Irrationality Proof}
+ \label{app:gregory-series}

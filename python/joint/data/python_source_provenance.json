@@ -1,0 +1,10 @@
+{
+  "description": "SHA256 of supplied upstream Python files before explanatory cleanup. See input_sha256.json for matrix provenance.",
+  "source_archive": "zeta3_zeta4_linear_independence_notebooks.zip",
+  "upstream_sha256": {
+    "common.py": "0b3769a2f8d7d56aa6c25190dfce6739bd911c835c28d95e9122c26d007b0be3",
+    "readouts.py": "8701b091ba1db15593c7cc3f8e37266fa54c54dae7b9f75563f01b4965f44d66",
+    "certificates.py": "1d00add6e28fa76e2c019bccd2c663ed98ad5e313f27df9569deab00c077a978",
+    "density.py": "e2f38101138b2610aba43da6c1ce5dcba5d97ada781b91dc28d84b548d669b3b"
+  }
+}

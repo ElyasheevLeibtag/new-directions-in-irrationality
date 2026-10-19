@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "paper_labels": [
+    "eq:hh-T",
+    "eq:hh-detT",
+    "eq:hh-Tinf",
+    "eq:hh-cyclic",
+    "lem:hh-roots",
+    "prop:hh-gap"
+  ],
+  "trajectory_determinant_identity": true,
+  "limiting_matrix_identity": true,
+  "characteristic_polynomial_identity": true,
+  "discriminant": "-19683*z*(z - 1)*(32*z - 81)**2/256",
+  "cyclic_determinant": "-8192*z**5*(32*z - 81)/14348907",
+  "root_bound_polynomial_identities": true,
+  "small_root_residual_degree": 9,
+  "small_root_residual_coefficients": [
+    "4096/387420489",
+    "32768/1162261467",
+    "593920/10460353203",
+    "18022400/282429536481",
+    "-14522624/10460353203",
+    "-10511488/1162261467",
+    "-6036992/387420489",
+    "-11008/531441",
+    "1040/19683",
+    "-16472/19683"
+  ],
+  "middle_root_expansion_coefficients": [
+    "154019907/4000000000000",
+    "-44461719470989/1000000000000000000",
+    "10125017113323/2000000000000",
+    "-23382687/4000000"
+  ],
+  "threshold_M": 7165,
+  "positive_margin_arb": "[8.91211023327954623206190017383506614967228795922581101163938417039113362668e-5 +/- 7.17e-80]",
+  "positive_margin_lower_rational": "89/1000000",
+  "scope": "Exact algebra and a rigorous threshold enclosure, conditional on the manuscript's analytic and arithmetic arguments; no experimental figure data are generated."
+}

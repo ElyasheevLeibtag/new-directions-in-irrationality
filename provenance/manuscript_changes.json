@@ -1,0 +1,92 @@
+[
+  {
+    "before": "The appendix contains extra results, proof details, and supplementary code of symbolic computation packages developed to work with CMFs.",
+    "after": "The appendices contain additional results and proof details. Supporting code and computational certificates are provided in the supplementary material.",
+    "occurrences": 1
+  },
+  {
+    "before": "Exact root isolation and interval arithmetic are scalculated in the supplementary material, it is shown that ",
+    "after": "Exact root isolation and interval arithmetic, documented in the supplementary material, give",
+    "occurrences": 1
+  },
+  {
+    "before": "The shell calculations and integral bounds are reproduced in\nthe supraliminal material\ncombines them with the spectral bounds to obtain Lemma~\\ref{lem:z2-growth}.",
+    "after": "The shell calculations, integral bounds, and their combination with the spectral estimates used in Lemma~\\ref{lem:z2-growth} are provided in the supplementary material.",
+    "occurrences": 1
+  },
+  {
+    "before": "The sum identity and spectral calculations are in\nthe supplementary material the carry profiles, shell certificates, and density bounds are in\nthe supplementary material.",
+    "after": "The sum identity, spectral calculations, carry profiles, shell certificates, and density bounds for the pure $\\zeta(3)$ approximations are provided in the supplementary material.",
+    "occurrences": 1
+  },
+  {
+    "before": "The exact matrix computations in\n\\texttt{verify\\_5f4\\_meijerg\\_recessive.py}\nshow",
+    "after": "The exact matrix computations provided in the supplementary material show",
+    "occurrences": 1
+  },
+  {
+    "before": "The exact matrix computations in\n\\texttt{verify\\_4f3\\_meijerg\\_coboundary.py}\nshow",
+    "after": "The exact matrix computations provided in the supplementary material show",
+    "occurrences": 1
+  },
+  {
+    "before": "Exact root isolation and interval arithmetic in\n\\texttt{verify\\_4f3\\_meijerg\\_coboundary.py} give",
+    "after": "Exact root isolation and interval arithmetic, documented in the supplementary material, give",
+    "occurrences": 1
+  },
+  {
+    "before": "and initial-state formula are provided in the supplementary\nGit repository notebooks.",
+    "after": "and initial-state formula are provided in the supplementary material.",
+    "occurrences": 1
+  },
+  {
+    "before": "Therefore $g>62.63657$,",
+    "after": "Therefore $g>62.636575$,",
+    "occurrences": 1
+  },
+  {
+    "before": "\\frac{C_nd_{12n}d_{13n}q_n}{G_nH_n}",
+    "after": "\\frac{C_nd_{12n}d_{13n}q_n}{\\mathcal D_n}",
+    "occurrences": 1
+  },
+  {
+    "before": "\\frac{C_nd_{12n}d_{13n}p_n}{D^{\\mathrm{car}}_nD^{\\mathrm{sh}}_n}",
+    "after": "\\frac{C_nd_{12n}d_{13n}p_n}{\\mathcal D_n}",
+    "occurrences": 1
+  },
+  {
+    "before": "\\gamma=\\int_{1/13}^\\infty\\phi(x)\\,x^{-2}\\,dx>12.128427$",
+    "after": "\\gamma=\\int_{1/13}^\\infty\\phi(x)\\,x^{-2}\\,dx>12.1284279747910$",
+    "occurrences": 1
+  },
+  {
+    "before": "h<38.168733+25-\\Bigl(12.128427+\\frac{233}{120}\\Bigr)<49.098639",
+    "after": "h<38.168733+25-\\Bigl(12.1284279747910+\\frac{233}{120}\\Bigr)<49.098639",
+    "occurrences": 1
+  },
+  {
+    "before": "h<53.287584+30\\log\\frac32+57-30.458547<91.992990",
+    "after": "h<65.451536565866+57-30.458547243805<91.992990",
+    "occurrences": 1
+  },
+  {
+    "before": "The approximation exponent (Definition~\\ref{def:delta}) is $\\delta=\\frac gh-1>0.015$. Hence $\\alpha$ is irrational, and $\\mu(\\alpha)\\le1+\\frac1\\delta<66.3$ (Remark~\\ref{rem:mu-from-delta}).",
+    "after": "The approximation exponent (Definition~\\ref{def:delta}) satisfies $\\delta\\ge\\frac gh-1>0$. Using the nonvanishing statement above and the irrationality-measure criterion gives\n\\[\n \\mu(\\alpha)\\le\\frac{g}{g-h}\n <\\frac{112.8075}{112.8075-111.105}<66.3.\n\\]",
+    "occurrences": 1
+  },
+  {
+    "before": "$\\delta=\\frac gh-1>0.2757$",
+    "after": "$\\delta\\ge\\frac gh-1>0.2757$",
+    "occurrences": 1
+  },
+  {
+    "before": "$\\delta=\\frac gh-1>0.2262$",
+    "after": "$\\delta\\ge\\frac gh-1>0.2262$",
+    "occurrences": 1
+  },
+  {
+    "before": "\\le1+\\frac1\\delta=\\frac{g}{g-h}",
+    "after": "\\le1+\\frac1\\delta\\le\\frac{g}{g-h}",
+    "occurrences": 2
+  }
+]
